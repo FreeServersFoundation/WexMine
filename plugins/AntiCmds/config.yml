@@ -1,21 +1,7 @@
+# Зачем оно существует?
 cmds-list:
 - anticmds
-- plugins
-- pl
-- bukkit:plugins
-- bukkit:pl
-- help
-- bukkit:help
-- bukkit:?
-- minecraft:?
-- minecraft:help
-- version
-- ver
 - icanhasbukkit
-- bukkit:ver
-- bukkit:version
-- about
-- bukkit:about
 - me
 - minecraft:me
 - say
@@ -33,5 +19,4 @@ cmds-list:
 - bukkit:op
 - minecraft:stop
 - bukkit:deop
-error-text: §cI'm sorry, but you do not have permission to perform this command. Please
-  contact the server administrators if you believe that this is a mistake.
+error-text: §cК сожалению, вы не можете выполнять эту команду.

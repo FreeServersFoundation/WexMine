@@ -90,12 +90,12 @@ npc:
     placeholder-update-frequency-ticks: 6000
   commands:
     error-messages:
-      maximum-times-used: You have reached the maximum number of uses ({0}).
-      missing-item: Missing {1} {0}
-      no-permission: You don't have permission to do that.
-      not-enough-money: You need at least ${0}.
-      on-cooldown: Please wait {0} more seconds.
-      on-global-cooldown: Please wait {0} more seconds.
+      maximum-times-used: Вы достигли максимального числа использований ({0}).
+      missing-item: Отсутствует {1} {0}
+      no-permission: У вас нет прав на это.
+      not-enough-money: Вам нужно как минимум ${0}.
+      on-cooldown: Пожалуйста, подождите ещё {0} секунд.
+      on-global-cooldown: Пожалуйста, подождите ещё {0} секунд.
   teleport-delay: -1
   player-scoreboard-teams:
     enable: true

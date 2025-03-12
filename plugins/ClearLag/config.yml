@@ -14,7 +14,7 @@ config-version: 20
 # -- 'language' Clearlag supports multiple languages (https://github.com/bob7l/Clearlag-Languages) translated by the community
 # -- 'use-internal-tps' Should Clearlag use Spigot's /tps? (Updated by minutes, much slower, but more accurate!)
 settings:
-  language: English
+  language: Russian
   auto-update: true
   enable-api: true
   use-internal-tps: true
@@ -293,8 +293,11 @@ spawn-limiter:
 # -- 'trigger-broadcast-message' specifies which message should be broadcasted when tps-trigger runs
 # -- 'recover-broadcast-message' specifies which message should be broadcasted when TPS recovers
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
+
+# Хорошая функция ClearLagg, очень полезна в некоторых случаях.
+
 tps-meter:
-  enabled: false
+  enabled: true
   trigger-broadcast-message: '&6[Очистка] &aСервер перегружен!'
   recover-broadcast-message: '&6[Очистка] &aСервер больше не перегружен!'
   broadcast-enabled: false
@@ -354,7 +357,8 @@ item-merger:
 # -- 'item-filter' What ground-items should NOT be removed during removal
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
-  enabled: true
+  # Minecraft с этим и так прекрасно справляется.
+  enabled: false
   broadcast-message: '&eWexMine &f» &eУдалено&f +RemoveAmount сущностей!'
   broadcast-removal: true
   autoremoval-interval: 460
@@ -415,10 +419,13 @@ command-remove:
 
 #Very very old, but still works. Just specifies a global entity limit. I'd recommend 'custom-trigger-removal' instead
 # -- 'max' max entities allowed before the entity removal is activated
+
+# Временное решение, в будущем по советам автора будет использован 'custom-trigger-removal'
+
 limit:
-  enabled: false
-  max: 1000
-  check-interval: 60
+  enabled: true
+  max: 5000
+  check-interval: 120
   broadcast-message: '&eWexMine&f » &eЛимит&f достигнут! удалено +RemoveAmount &ecущностей!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
@@ -428,7 +435,7 @@ limit:
   experience-orb: true
   painting: false
   projectile: true
-  item: true
+  item: false
   itemframe: false
   minecart: true
   primed-tnt: true
