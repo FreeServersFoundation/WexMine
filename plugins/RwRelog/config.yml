@@ -1,0 +1,9 @@
+pvp-time: 30
+bar-color: RED
+timer-update-period: 20
+item-cooldowns:
+  ENDER_PEARL: 15
+  CHORUS_FRUIT: 5
+  GOLDEN_APPLE: 5
+  'GOLDEN_APPLE:1': 10
+valid-kick-reasons: []

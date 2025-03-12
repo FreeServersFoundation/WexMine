@@ -1,0 +1,175 @@
+menu_title: '                &e&lМеню'
+open_command: menu
+register_command: true
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.donate
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'pane':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+  'pane1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+  'pane2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: ' '
+  'pane3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+  'pane4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: ' '
+  'pane5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+  'pane6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+  'pane7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 9
+    display_name: ' '
+  'pane8':
+    display_name: ' '
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    display_name: ' '
+  'pane9':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 45
+    display_name: ' '
+  'pane10':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 36
+    display_name: ' '
+  'pane11':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 46
+    display_name: ' '
+  'pane12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 48
+    display_name: ' '
+  'pane14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 50
+    display_name: ' '
+  'pane15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    display_name: ' '
+  'pane16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    display_name: ' '
+  'adf54':
+    material: paper
+    slot: 13
+    display_name: '&e&lТитулы'
+    lore:
+    - ' '
+    - '&fТитулы'
+    - '&fВсе &eбесплатные титулы&f на сервере'
+    left_click_commands:
+    - '[player] tituls'
+    - '[close]'
+    right_click_commands:
+    - '[player] tituls'
+    - '[close]' 
+  'ad2f54':
+    material: EMERALD
+    slot: 21
+    display_name: '&e&lДонаты'
+    lore:
+    - ' '
+    - '&fДонаты'
+    - '&fВесь список &eдонат-услуг&f на сервере'
+    left_click_commands:
+    - '[player] donate'
+    - '[close]'
+    right_click_commands:
+    - '[player] donate'
+    - '[close]' 
+  'ad22f54':
+    material: chest_minecart
+    slot: 22
+    display_name: '&e&lБесплатный донат'
+    lore:
+    - ' '
+    - '&fБесплатный донат'
+    - '&fВесь &eбесплатный донат&f на сервере'
+    left_click_commands:
+    - '[player] free'
+    - '[close]'
+    right_click_commands:
+    - '[player] free'
+    - '[close]' 
+  'adf22254':
+    material: diamond_axe
+    slot: 23
+    display_name: '&e&lКонтракты'
+    lore:
+    - ' '
+    - '&fКонтракты'
+    - '&fЗа &eубийство&f игрока вы получаете монеты'
+    left_click_commands:
+    - '[player] contracts'
+    - '[close]'
+    right_click_commands:
+    - '[player] contracts'
+    - '[close]' 
+  'a2122':
+    material: command_block
+    slot: 30
+    display_name: '&e&lВарпы'
+    lore:
+    - ' '
+    - '&fВарпы'
+    - '&fВесь список &eварпов&f на сервере'
+    left_click_commands:
+    - '[player] warps'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps'
+    - '[close]' 
+  'a21122':
+    material: book
+    slot: 31
+    display_name: '&eДонат-магазин &a(ОТКРЫТ)'
+    lore:
+    - ' '
+    - '&fДонат-магазин'
+    - '&fВсе &eдонатные-ресурсы&f и прочее'
+    left_click_commands:
+    - '[player] shop'
+    - '[close]'
+    right_click_commands:
+    - '[player] shop'
+    - '[close]' 
+  'a2221122':
+    material: chest
+    slot: 32
+    display_name: '&e&lКиты'
+    lore:
+    - ' '
+    - '&fКиты'
+    - '&fВсе &eкиты&f на сервере'
+    left_click_commands:
+    - '[player] kits'
+    - '[close]'
+    right_click_commands:
+    - '[player] kits'
+    - '[close]' 

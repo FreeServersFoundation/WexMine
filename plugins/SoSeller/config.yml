@@ -1,0 +1,83 @@
+# Настройка языка сообщений (en, ru)
+lang: ru
+
+# Проверка плагина на наличие обновлений
+check_update: true
+
+# Настройка цены авто-скупки
+auto-sell:
+  cost: 1000 # Установите на 0 что-бы сделать бесплатным
+  message: true
+
+  # Валюты:
+  # Vault
+  # PlayerPoints
+  # CoinsEngine:название валюты (1.20+)
+  # Items - Кол-во проданных предметов
+  value: Vault
+
+# Буст для всех игроков поверх собственных
+global_boost: 1.0
+
+# Настройка цен за бусты
+boosts:
+  # Буст - Цена улучшение в рублях до следующей цены
+  # Пример: x1, x1.1, x1.2 ... x1.9 - 5000 рублей
+  #         x2, x2.1, x2.2 ... x2.9 - 10000 рублей
+
+  2:
+    price: 5000
+    value: Vault
+  3:
+    price: 10000
+    value: Vault
+  4:
+    price: 20000
+    value: Vault
+
+# Настройка звуков при опридилённых действиях
+sounds:
+  # none - что-бы отключить
+  # onSellItems: <айди звука>;<частота>:<громкость>
+  onSellItems: ENTITY_VILLAGER_YES;1;1 # При продаже всех предметов
+  onAutoSellItems: ENTITY_EXPERIENCE_ORB_PICKUP;1;1 # При авто-скупке предметов
+  onBuyAnything: ENTITY_VILLAGER_YES;1;1 # При покупках чего-либо
+  onSwapGui: ENTITY_ARROW_HIT_PLAYER;1;1 # При переходе в другие меню скупщика
+  onNotEnoughVault: ENTITY_VILLAGER_NO;1;1 # При недостатке валюты для покупки чего-либо
+  onSwapAutoSell: ENTITY_ARROW_SHOOT;1;1 # При переключении авто-скупки
+
+# Настройка цен для продажи предметов
+sell_items:
+  # <материал>:<цена за 1 шт>
+
+  SUGAR_CANE: 5
+  CACTUS: 8
+  BAMBOO: 2
+  CHORUS_FLOWER: 12
+  COCOA_BEANS: 5
+  NETHER_WART: 9
+  KELP: 2
+
+  COAL: 4
+  IRON_INGOT: 8
+  GOLD_INGOT: 14
+  LAPIS_LAZULI: 9
+  DIAMOND: 50
+  EMERALD: 90
+  NETHERITE_SCRAP: 140
+
+  DIRT: 1
+  COBBLESTONE: 2
+  REDSTONE: 5
+  NETHER_BRICKS: 6
+  BLACKSTONE: 3
+  PURPUR_BLOCK: 7
+  END_STONE: 4
+
+  BONE: 4
+  SHULKER_SHELL: 50
+  HONEY_BOTTLE: 25
+  GUNPOWDER: 6
+  GLOWSTONE_DUST: 8
+  ROTTEN_FLESH: 3
+  BLAZE_ROD: 7

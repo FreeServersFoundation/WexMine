@@ -1,0 +1,143 @@
+menu_title: '              &e&lПрефиксы'
+open_command: dadminprefix
+register_command: true
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.dadmin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+size: 54
+items:
+  'pane':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+  'pane1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+  'pane2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: ' '
+  'pane3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+  'pane4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: ' '
+  'pane5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+  'pane6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+  'pane7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 9
+    display_name: ' '
+  'pane8':
+    display_name: ' '
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    display_name: ' '
+  'pane9':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 45
+    display_name: ' '
+  'pane10':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 36
+    display_name: ' '
+  'pane11':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 46
+    display_name: ' '
+  'pane12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 48
+    display_name: ' '
+  'pane14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 50
+    display_name: ' '
+  'pane15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    display_name: ' '
+  'pane16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    display_name: ' '
+  '12312adf54':
+    material: paper
+    slot: 24
+    display_name: '&cскоро'
+    lore:
+    - ' '
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '12312312312adf54':
+    material: paper
+    slot: 20
+    display_name: '&x&F&F&4&9&1&B🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ для выбора префикса'
+    - ' '
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&4&9&1&B🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ &f"'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&4&9&1&B🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ &f"'
+    - '[close]'
+  '2adf54':
+    material: paper
+    slot: 21
+    display_name: '&x&F&F&5&2&D&E&l🔥 &x&F&F&4&F&D&C&lᴅ&x&F&F&4&E&D&B&l.&x&F&F&4&C&D&A&lᴀ&x&F&F&4&B&D&8&lᴅ&x&F&F&4&9&D&7&lᴍ&x&F&F&4&8&D&6&lɪ&x&F&F&4&6&D&5&lɴ'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ для выбора префикса'
+    - ' '
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&5&2&D&E&l🔥 &x&F&F&4&F&D&C&lᴅ&x&F&F&4&E&D&B&l.&x&F&F&4&C&D&A&lᴀ&x&F&F&4&B&D&8&lᴅ&x&F&F&4&9&D&7&lᴍ&x&F&F&4&8&D&6&lɪ&x&F&F&4&6&D&5&lɴ &f"'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&5&2&D&E&l🔥 &x&F&F&4&F&D&C&lᴅ&x&F&F&4&E&D&B&l.&x&F&F&4&C&D&A&lᴀ&x&F&F&4&B&D&8&lᴅ&x&F&F&4&9&D&7&lᴍ&x&F&F&4&8&D&6&lɪ&x&F&F&4&6&D&5&lɴ &f"'
+    - '[close]'
+  '32adf54':
+    material: paper
+    slot: 22
+    display_name: '&x&0&0&F&F&3&B&l🔥 &x&1&C&F&F&3&D&lᴅ&x&2&9&F&F&3&E&l.&x&3&7&F&F&3&F&lᴀ&x&4&5&F&F&4&1&lᴅ&x&5&3&F&F&4&2&lᴍ&x&6&0&F&F&4&3&lɪ&x&6&E&F&F&4&4&lɴ'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ для выбора префикса'
+    - ' '
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&0&0&F&F&3&B&l🔥 &x&1&C&F&F&3&D&lᴅ&x&2&9&F&F&3&E&l.&x&3&7&F&F&3&F&lᴀ&x&4&5&F&F&4&1&lᴅ&x&5&3&F&F&4&2&lᴍ&x&6&0&F&F&4&3&lɪ&x&6&E&F&F&4&4&lɴ &f"'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&0&0&F&F&3&B&l🔥 &x&1&C&F&F&3&D&lᴅ&x&2&9&F&F&3&E&l.&x&3&7&F&F&3&F&lᴀ&x&4&5&F&F&4&1&lᴅ&x&5&3&F&F&4&2&lᴍ&x&6&0&F&F&4&3&lɪ&x&6&E&F&F&4&4&lɴ &f"'
+    - '[close]'
+  '2322adf54':
+    material: paper
+    slot: 23
+    display_name: '&x&F&F&F&8&0&0&l🔥 &x&F&8&F&A&0&F&lᴅ&x&F&4&F&A&1&7&l.&x&F&0&F&B&1&F&lᴀ&x&E&D&F&C&2&6&lᴅ&x&E&9&F&D&2&E&lᴍ&x&E&5&F&D&3&6&lɪ&x&E&2&F&E&3&D&lɴ'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ для выбора префикса'
+    - ' '
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&F&8&0&0&l🔥 &x&F&8&F&A&0&F&lᴅ&x&F&4&F&A&1&7&l.&x&F&0&F&B&1&F&lᴀ&x&E&D&F&C&2&6&lᴅ&x&E&9&F&D&2&E&lᴍ&x&E&5&F&D&3&6&lɪ&x&E&2&F&E&3&D&lɴ &f"'
+    - '[close]'
+    right_click_commands:
+    - '[console] lp user %player_name% meta setprefix "&x&F&F&F&8&0&0&l🔥 &x&F&8&F&A&0&F&lᴅ&x&F&4&F&A&1&7&l.&x&F&0&F&B&1&F&lᴀ&x&E&D&F&C&2&6&lᴅ&x&E&9&F&D&2&E&lᴍ&x&E&5&F&D&3&6&lɪ&x&E&2&F&E&3&D&lɴ &f"'
+    - '[close]'

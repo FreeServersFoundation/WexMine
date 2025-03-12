@@ -1,0 +1,7 @@
+# plugin by crashteamik (discord)
+# made by love ;)
+world: "rtp"
+teleportMessage: "&x&F&F&B&0&0&0&lР&x&F&1&F&F&0&0&lТ&x&F&F&D&9&0&0&lП&f &7»&f Вы были &x&F&F&B&0&0&0телепортированы&f!"
+noPlayersMessage: "&x&F&F&B&0&0&0&lР&x&F&1&F&F&0&0&lТ&x&F&F&D&9&0&0&lП&f &7»&f В данном &x&F&F&B&0&0&0мире&f не были &x&F&F&B&0&0&0найдены&f игроки!"
+farDistance: 5000
+nearDistance: 100

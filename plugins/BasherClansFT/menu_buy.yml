@@ -1,0 +1,31 @@
+name: '&8▶&m          ◀&6 &0Покупка &8▶&m           ◀'
+size: 9
+buy_item:
+  name: '&aПодтвердить'
+  lore:
+    - ''
+  material: lime_stained_glass_pane
+  amount: 1
+  slot: 1
+cancel_item:
+  name: '&cОтмена'
+  lore:
+    - ''
+  material: red_stained_glass_pane
+  amount: 1
+  slot: 7
+decor:
+  1:
+    name: ''
+    lore:
+      - ''
+    material: BLUE_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+      - 0
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 8

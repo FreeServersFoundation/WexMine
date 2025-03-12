@@ -1,0 +1,56 @@
+# Вы можете использовать hex коды, например, #FFFFFF или #ffffff.
+
+# \u00BB это » (двойная стрелка вправо), ANSI и UTF-8 интерпретируют это по-разному... иногда может отображаться как ?
+prefix: "&cWexAC &7»"
+
+alerts-enabled: "%prefix% &fОповещения включены"
+alerts-disabled: "%prefix% &fОповещения отключены"
+client-brand-format: "%prefix% &f%player% присоединился, используя %brand%"
+console-specify-target: "%prefix% &cВы должны указать цель, используя консоль!"
+reloading: "%prefix% &7Перезагружается конфиг..."
+reloaded: "%prefix% &fКонфиг перезагружен."
+reload-failed: "%prefix% &cНе удалось перезагрузить конфиг."
+player-not-found: "%prefix% &cИгрок исключён или офлайн!"
+player-not-this-server: "%prefix% &cИгрок не на этом сервере!"
+spectate-return: "<click:run_command:/grim stopspectating><hover:show_text:\"/grim stopspectating\">\n%prefix% &fНажмите здесь, чтобы вернуться на предыдущее место\n</hover></click>"
+cannot-spectate-return: "%prefix% &cВы можете это сделать только после того, как начнёте наблюдение за игроком"
+cannot-run-on-self: "%prefix% &cВы не можете использовать эту команду на себе!"
+upload-log: "%prefix% &fОтладочный лог загружен: %url%"
+upload-log-start: "%prefix% &fЗагрузка лога... пожалуйста, подождите"
+upload-log-not-found: "%prefix% &cНе удалось найти этот лог"
+upload-log-upload-failure: "%prefix% &cЧто-то пошло не так при загрузке лога, смотрите консоль для подробностей"
+
+# Действительные плейсхолдеры:
+# %prefix%
+# %player%
+# %check_name%
+# %description%
+# %experimental%
+# %vl% - нарушения
+# %verbose% - дополнительная информация о проверке, например, смещения, не все проверки предоставляют такую информацию
+alerts-format: "%prefix% &f%player% &cпровалил &f%check_name% &f(x&c%vl%&f)"
+alerts-format-proxy: "%prefix% &f[&cproxy&f] &f%player% &bне прошёл &f%check_name%%experimental% &f(x&c%vl%&f) &7%verbose%"
+experimental-symbol: "*"
+
+profile:
+  - "&7======================"
+  - "%prefix% &bПрофиль игрока &f%player%"
+  - "&bПинг: &f%ping%"
+  - "&bВерсия: &f%version%"
+  - "&bКлиентский бренд: &f%brand%"
+  - "&bГоризонтальная чувствительность: &f%h_sensitivity%%"
+  - "&bВертикальная чувствительность: &f%v_sensitivity%%"
+  - "&bFastMath включен: &f%fast_math%"
+  - "&7======================"
+help:
+  - "&7======================"
+  - "&c/grim alerts &f- &7Включить/выключить оповещения"
+  - "&c/grim profile <player> &f- &7Посмотреть информацию о игроке"
+  - "&c/grim help &f- &7Показать это сообщение помощи"
+  - "&c/grim debug <player> &f- &7Вывод разработческой диагностики"
+  - "&c/grim perf &f- &7Режим разработчика, ms/предсказания"
+  - "&c/grim reload &f- &7Перезагружает конфиг"
+  - "&c/grim spectate <player> &f- &7Наблюдать за игроком"
+  - "&c/grim verbose &f- &7Показать все флаги, без буферов"
+  - "&c/grim log [0-255] &f- &7Загрузить отладочный лог флагов предсказания"
+  - "&7======================"

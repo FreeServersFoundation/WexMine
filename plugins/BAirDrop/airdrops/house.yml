@@ -1,0 +1,447 @@
+air-name: '&#FFFE00&lЗ&#FFF304&lА&#FEE708&lТ&#FEDC0C&lЕ&#FDD111&lР&#FDC515&lЯ&#FCBA19&lН&#FCAF1D&lН&#FCA421&lА&#FB9825&lЯ
+  &#FA822D&lХ&#FA7632&lИ&#F96B36&lЖ&#F9603A&lИ&#F8543E&lН&#F84942&lА'
+inv-name: '&#FFFE00&lЗ&#FFF304&lА&#FEE708&lТ&#FEDC0C&lЕ&#FDD111&lР&#FDC515&lЯ&#FCBA19&lН&#FCAF1D&lН&#FCA421&lА&#FB9825&lЯ
+  &#FA822D&lХ&#FA7632&lИ&#F96B36&lЖ&#F9603A&lИ&#F8543E&lН&#F84942&lА'
+chest-inventory-size: 54
+air-id: house
+air-spawn-world: rtp
+air-spawn-radius-min: -1500
+air-spawn-radius-max: 1500
+air-radius-protect: 100
+spawn-chance: 50
+timeToStart: 140
+use-pre-generated-locations: false
+search-before-start: 1
+stop-when-empty: false
+use-only-static-loc: false
+flatness-check: false
+use-static-loc: false
+static-location:
+  world: world
+  x: 79.0
+  y: 75.0
+  z: -759.0
+generator-settings: house
+air-holo-to-start:
+- '{inv-name}'
+- '&aTime until start: &f{time-to-start} sec'
+air-holo:
+- '{inv-name}'
+- '&fХранилище &#fb7474закрыто'
+- '&fОткроется через &#FFF800{time-to-open} &fсек.'
+- ''
+air-holo-open:
+- ''
+- '{inv-name}'
+- '&fХранилище &#c9fb90открыто'
+- ''
+air-holo-click-wait:
+- ''
+- '{inv-name}'
+- '&fХранилище &#fb7474закрыто'
+- ''
+holo-offsets:
+  x: 0.5
+  y: 2.3
+  z: 0.5
+openingTime: 5
+start-countdown-after-click: false
+time-stop-event-must-go: false
+time-stop-event: 2
+chest-material-locked: RED_SHULKER_BOX
+chest-material-unlocked: LIME_SHULKER_BOX
+min-online-players: 1
+random-slot: true
+signed-events:
+- alert-open-house
+- chest-closed
+- alert
+- alert-stop-house
+- create-shem
+- delete-shem
+- alert-start
+- open-60sec
+- open-30sec
+- open-3sec
+state:
+  airDropLocation:
+    ==: org.bukkit.Location
+    world: rtp
+    x: 314.0
+    y: 91.0
+    z: 1150.0
+    pitch: 0.0
+    yaw: 0.0
+  timeStop: 120
+  airDropStarted: false
+  effects: {}
+  wasOpened: false
+  timeToOpen: 300
+  version: 1
+  timeToStart: 1779
+  airDropLocked: true
+  activated: false
+inv:
+  inv42219:
+    '0':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EFF3D","text":"К"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EFF4D","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EFF5C","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EFF6C","text":"к"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8EFF7B","text":"а
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFF9A","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFFAA","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFFB9","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFFC9","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFFD8","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8FFFE8","text":"а"}],"text":""}'
+          enchants:
+            DIG_SPEED: 7
+            MENDING: 1
+            DURABILITY: 3
+    '1':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F3ED1C","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EBEF30","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4F044","text":"м
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D4F46C","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCF680","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C4F894","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BDF9A8","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B5FBBC","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            PROTECTION_FIRE: 4
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            OXYGEN: 3
+            DURABILITY: 10
+    '2':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ELYTRA
+    '3':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"Н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6EC15","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F1ED23","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EBEF30","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6F03D","text":"у"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E1F14B","text":"д"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DCF258","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D7F365","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D1F573","text":"к
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C7F78D","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C2F89B","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BDF9A8","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B7FBB5","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B2FCC3","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            PROTECTION_FIRE: 4
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 10
+    '5':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SUGAR_CANE
+        amount: 8
+    '7':
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            "},{"italic":false,"color":"white","text":" "},{"italic":false,"color":"green","text":"[★]
+            Шар зелени"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            "},{"italic":false,"color":"white","text":" "},{"italic":false,"color":"gray","text":"Когда
+            во второстепеной руке:"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            "},{"italic":false,"color":"white","text":" "},{"italic":false,"color":"white","text":"
+            "},{"italic":false,"color":"blue","text":"+20% Урон"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+10%
+            Скорость ходьбы"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-15%
+            Защиты"}],"text":""}'
+          - '{"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_MOVEMENT_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.015
+              name: generic.movement_speed
+              slot: OFF_HAND
+              uuid: 82be3188-6c38-4324-a80e-ec25f1c9520c
+              operation: 0
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: -0.2
+              name: ResourceKey[minecraft:attribute / minecraft:generic.armor]
+              slot: OFF_HAND
+              uuid: 7493c8fd-bb74-45d6-8636-72f44c2d17d6
+              operation: 1
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+              slot: OFF_HAND
+              uuid: c0e11f9e-a55c-46b7-9ec4-e77dd88dbcc0
+              operation: 0
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/3WQvU7CUBzF/xpMajVxMnFxc228/aDKYCJilDbcIlBaerfS3krLLRJoDSUu6uTkA/gSalhdfAHhMXwGF6sJiYvb/+N3TnIOD8DBTpcmCR0lLgvHsTsYC8sJ+PnL4n5xu7ibP/Ow2eqnjF2MroKQUQ4KhhtT2Dr51ZpLLQ98Tgxzt5CO14FL6CRJRzS/A6xwsGa5LKUwo5mOSKeH/I7OvExT891sIVbXouGBNrCybkVTtTj/V8tqLSv9YYuJaxeZI+s9Mmik3dhCNbnJaLUpenH7msRG6Jh+j9gkwjZGJGpMcHQp1U+9ad1uZyTSIxy3JcM8Y+TcCrGtMxxZfSxhGZueSExHccyy6ESObJhlyfnhKnop6KAjgA1Y1fw8SOHz/fHm4fX46+ljf1qbvW3nJe7+V6KQpqEPe6J06LlIVAVVChRBKSqeUHIDWfARlQPkecinLnwD1iNc/o8BAAA=
+          skull-owner: BetterTalismans
+    '8':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+            "},{"italic":false,"color":"white","text":" "},{"italic":false,"color":"aqua","text":"["},{"italic":false,"color":"aqua","text":"★"},{"italic":false,"color":"aqua","text":"]"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F35757","text":"
+            "},{"italic":false,"color":"aqua","text":"Ш"},{"italic":false,"color":"aqua","text":"а"},{"italic":false,"color":"aqua","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F35757","text":"
+            "},{"italic":false,"color":"aqua","text":"Ф"},{"italic":false,"color":"aqua","text":"л"},{"italic":false,"color":"aqua","text":"е"},{"italic":false,"color":"aqua","text":"ш"},{"italic":false,"color":"aqua","text":"а"}],"text":""}'
+          - '{"text":""}'
+          - '{"extra":[{"text":"  "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+            во второстпеной руке:"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+3
+            Урон"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"+15%
+            Скорость Атаки"}],"text":""}'
+          - '{"extra":[{"text":"   "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"-2
+            Максимальное здоровье"}],"text":""}'
+          - '{"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 3.0
+              name: generic.attack_damage
+              slot: OFF_HAND
+              uuid: 55c79930-0881-41b4-90d9-921cc44180b8
+              operation: 0
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: -4.0
+              name: generic.max_health
+              slot: OFF_HAND
+              uuid: 86fa2a83-1afc-4fef-a093-61b3ba129cf1
+              operation: 0
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.15
+              name: ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]
+              slot: OFF_HAND
+              uuid: b71ae9d8-02ac-4fee-9612-0b798d4065a8
+              operation: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          internal: H4sIAAAAAAAA/3WQsU6DUBSGT01NEE0cjIlLN1fMhQKVwUGtaSEFbEuh3A3obQteatOCSmcH38JXcNBF4+rk0L6BD+BDeGPSxMXtnPN//0n+nwfg4CAkWUZmWUDjeRpM5sJ6An51v3xbvqwelk887HSvckovZ9fDmBIOylaQEtg9+/U6ay8PPCOm7FtM5lvAZeQuy2eE3QFKHGy6Ac0JPJPCQLg/RoO+QaNCV9nudBG19WRa0yduEZ7rqp4yvXmqtgrtD6tkgadQv2qM8aSdh6mLWtUOJc2OGKW9G0vyFTPxby3Ppb7TlrB3IVv1kYw9nJgJjk2m49RUbKcnmk7EuJ7iL85ixsd+YqQ4GSl2vS3ZDb+wFpFoO+7Yig1t2EcnANuwoQ9YkHKl9AFfQePz8XXv6P17v8ZKrPxXopDn8QAOq6F6HEqiJog1oglyJCEhrCJNIIEsKURG4VCW4Qe1p73tjwEAAA==
+          skull-owner: BetterTalismans
+    '9':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_CARROT
+        amount: 64
+    '10':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TOTEM_OF_UNDYING
+    '11':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FIREWORK_ROCKET
+        amount: 32
+    '12':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ANCIENT_DEBRIS
+    '13':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WITHER_SKELETON_SKULL
+    '14':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 8
+    '15':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_GOLDEN_APPLE
+    '16':
+      '70':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 16
+    '17':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND
+        amount: 16
+    '20':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"М"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F2ED1E","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EAEF34","text":"ч
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D8F361","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D0F577","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C7F78D","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BEF9A4","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B6FBBA","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            DAMAGE_ALL: 6
+            DURABILITY: 3
+    '24':
+      '70':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 8
+    '25':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"Б"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F5EC17","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EFEE27","text":"т"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E9EF36","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E3F146","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DDF255","text":"к"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D7F364","text":"и
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CBF683","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C5F792","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFF9A2","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B9FAB1","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B3FCC1","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            DEPTH_STRIDER: 3
+            PROTECTION_FIRE: 4
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 10
+    '28':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"Н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F6EC15","text":"а"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F1ED23","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EBEF30","text":"р"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6F03D","text":"у"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E1F14B","text":"д"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DCF258","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D7F365","text":"и"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D1F573","text":"к
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C7F78D","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C2F89B","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BDF9A8","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B7FBB5","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B2FCC3","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            PROTECTION_FIRE: 4
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 10
+    '29':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLAZE_ROD
+        amount: 8
+    '30':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_GOLDEN_APPLE
+    '31':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SUGAR_CANE
+        amount: 8
+    '32':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 16
+    '34':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_GOLDEN_APPLE
+    '37':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FBEB08","text":"Ш"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F3ED1C","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EBEF30","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E4F044","text":"м
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D4F46C","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CCF680","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C4F894","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BDF9A8","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B5FBBC","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDD0","text":"а"}],"text":""}'
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            PROTECTION_FIRE: 4
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            OXYGEN: 3
+            DURABILITY: 10
+    '38':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 3
+    '40':
+      '70':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 8
+    '41':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 29
+    '42':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 8
+    '44':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#F3F600","text":"Т"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EDF714","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E6F729","text":"п"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E0F83D","text":"о"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DAF951","text":"р
+            "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CDFA7A","text":"А"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C6FA8F","text":"н"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#C0FBA3","text":"г"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BAFCB7","text":"е"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#B3FCCC","text":"л"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#ADFDE0","text":"а"}],"text":""}'
+          enchants:
+            DIG_SPEED: 7
+            MENDING: 1
+            DURABILITY: 3

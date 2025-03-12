@@ -1,0 +1,40 @@
+name: XCheck
+version: 1.0
+main: xatyykov.rg.xcheck.XCheck
+api-version: 1.16
+description: Плагин для проверки игроков на читы
+author: xatyykov
+
+commands:
+  check:
+    description: Вызвать игрока на проверку
+    usage: /check <игрок>
+    permission: xcheck.check
+  canydesk:
+    description: Вызвать игрока на проверку через AnyDesk
+    usage: /canydesk <игрок>
+    permission: xcheck.anydesk
+  cc:
+    description: Отправить сообщение в чат проверки
+    usage: /cc <сообщение>
+    aliases: [checkchat]
+
+permissions:
+  xcheck.check:
+    description: Разрешение на использование команды /check
+    default: op
+  xcheck.anydesk:
+    description: Разрешение на использование команды /canydesk
+    default: op
+  xcheck.admin:
+    description: Защищает администраторов от проверки
+    default: op
+  xcheck.bypass:
+    description: Позволяет обходить ограничения во время проверки
+    default: op
+  xcheck.notify:
+    description: Получать уведомления о выходе игроков с проверки
+    default: op
+  xcheck.spy:
+    description: Видеть сообщения в чате проверки
+    default: op

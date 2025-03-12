@@ -1,0 +1,23 @@
+# mc.wexmine.pw
+# dsc.gg/wexmines
+
+airdrop_world: "pvp"
+airdrops:
+  legend:
+    x: -15.533
+    y: 35
+    z: -21.531
+  rare:
+    x: -15.533
+    y: 35
+    z: -21.531
+  common:
+    x: -15.533
+    y: 35
+    z: -21.531
+
+messages:
+  airdrop_warning: "&x&F&F&E&E&0&0&lW&x&F&F&F&0&1&A&le&x&F&F&F&3&3&4&lx&x&F&F&F&5&4&E&lM&x&F&F&F&7&6&7&li&x&F&F&F&A&8&1&ln&x&F&F&F&C&9&B&le &f» Аирдроп заспавнится через &e3 минуты&f на &e/warp pvp"
+  airdrop_spawn: "&x&F&F&E&E&0&0&lW&x&F&F&F&0&1&A&le&x&F&F&F&3&3&4&lx&x&F&F&F&5&4&E&lM&x&F&F&F&7&6&7&li&x&F&F&F&A&8&1&ln&x&F&F&F&C&9&B&le &f» &fАирдроп &e{rarity}&f появился!"
+  airdrop_timer: "&x&F&F&E&E&0&0&lW&x&F&F&F&0&1&A&le&x&F&F&F&3&3&4&lx&x&F&F&F&5&4&E&lM&x&F&F&F&7&6&7&li&x&F&F&F&A&8&1&ln&x&F&F&F&C&9&B&le &f» &fОткрытие через &e{time}&f секунд"
+  airdrop_open: "&x&F&F&E&E&0&0&lW&x&F&F&F&0&1&A&le&x&F&F&F&3&3&4&lx&x&F&F&F&5&4&E&lM&x&F&F&F&7&6&7&li&x&F&F&F&A&8&1&ln&x&F&F&F&C&9&B&le &f» &fАирдроп &aоткрыт&f! Забирайте предметы"

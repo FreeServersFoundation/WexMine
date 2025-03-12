@@ -1,0 +1,107 @@
+MyAnimation1:
+  change-interval: 150
+  texts:
+  - "&#FFB000&lW&#FACA00&le&#F6E500&lx&#F1FF00&lM&#F6F200&li&#FAE600&ln&#FFD900&le"
+  - "&#FACA00&lW&#FFB000&le&#FACA00&lx&#F6E500&lM&#F1FF00&li&#F6F200&ln&#FAE600&le"
+  - "&#F6E500&lW&#FACA00&le&#FFB000&lx&#FACA00&lM&#F6E500&li&#F1FF00&ln&#F6F200&le"
+  - "&#F1FF00&lW&#F6E500&le&#FACA00&lx&#FFB000&lM&#FACA00&li&#F6E500&ln&#F1FF00&le"
+  - "&#F6F200&lW&#F1FF00&le&#F6E500&lx&#FACA00&lM&#FFB000&li&#FACA00&ln&#F6E500&le"
+  - "&#FAE600&lW&#F6F200&le&#F1FF00&lx&#F6E500&lM&#FACA00&li&#FFB000&ln&#FACA00&le"
+  - "&#FFD900&lW&#FAE600&le&#F6F200&lx&#F1FF00&lM&#F6E500&li&#FACA00&ln&#FFB000&le"
+  - "&#FAE600&lW&#FFD900&le&#FAE600&lx&#F6F200&lM&#F1FF00&li&#F6E500&ln&#FACA00&le"
+  - "&#F6F200&lW&#FAE600&le&#FFD900&lx&#FAE600&lM&#F6F200&li&#F1FF00&ln&#F6E500&le"
+  - "&#F1FF00&lW&#F6F200&le&#FAE600&lx&#FFD900&lM&#FAE600&li&#F6F200&ln&#F1FF00&le"
+  - "&#F6E500&lW&#F1FF00&le&#F6F200&lx&#FAE600&lM&#FFD900&li&#FAE600&ln&#F6F200&le"
+  - "&#FACA00&lW&#F6E500&le&#F1FF00&lx&#F6F200&lM&#FAE600&li&#FFD900&ln&#FAE600&le"
+ServerName:
+  change-interval: 150
+  texts:
+  - "&#FFB000&ld&#FDBB00&ls&#FBC700&lc&#F9D200&l.&#F7DD00&lg&#F5E800&lg&#F3F400&l/&#F1FF00&lw&#F3FA00&le&#F5F400&lx&#F7EF00&lm&#F9E900&li&#FBE400&ln&#FDDE00&le&#FFD900&ls"
+  - "&#FDBB00&ld&#FFB000&ls&#FDBB00&lc&#FBC700&l.&#F9D200&lg&#F7DD00&lg&#F5E800&l/&#F3F400&lw&#F1FF00&le&#F3FA00&lx&#F5F400&lm&#F7EF00&li&#F9E900&ln&#FBE400&le&#FDDE00&ls"
+  - "&#FBC700&ld&#FDBB00&ls&#FFB000&lc&#FDBB00&l.&#FBC700&lg&#F9D200&lg&#F7DD00&l/&#F5E800&lw&#F3F400&le&#F1FF00&lx&#F3FA00&lm&#F5F400&li&#F7EF00&ln&#F9E900&le&#FBE400&ls"
+  - "&#F9D200&ld&#FBC700&ls&#FDBB00&lc&#FFB000&l.&#FDBB00&lg&#FBC700&lg&#F9D200&l/&#F7DD00&lw&#F5E800&le&#F3F400&lx&#F1FF00&lm&#F3FA00&li&#F5F400&ln&#F7EF00&le&#F9E900&ls"
+  - "&#F7DD00&ld&#F9D200&ls&#FBC700&lc&#FDBB00&l.&#FFB000&lg&#FDBB00&lg&#FBC700&l/&#F9D200&lw&#F7DD00&le&#F5E800&lx&#F3F400&lm&#F1FF00&li&#F3FA00&ln&#F5F400&le&#F7EF00&ls"
+  - "&#F5E800&ld&#F7DD00&ls&#F9D200&lc&#FBC700&l.&#FDBB00&lg&#FFB000&lg&#FDBB00&l/&#FBC700&lw&#F9D200&le&#F7DD00&lx&#F5E800&lm&#F3F400&li&#F1FF00&ln&#F3FA00&le&#F5F400&ls"
+  - "&#F3F400&ld&#F5E800&ls&#F7DD00&lc&#F9D200&l.&#FBC700&lg&#FDBB00&lg&#FFB000&l/&#FDBB00&lw&#FBC700&le&#F9D200&lx&#F7DD00&lm&#F5E800&li&#F3F400&ln&#F1FF00&le&#F3FA00&ls"
+  - "&#F1FF00&ld&#F3F400&ls&#F5E800&lc&#F7DD00&l.&#F9D200&lg&#FBC700&lg&#FDBB00&l/&#FFB000&lw&#FDBB00&le&#FBC700&lx&#F9D200&lm&#F7DD00&li&#F5E800&ln&#F3F400&le&#F1FF00&ls"
+  - "&#F3FA00&ld&#F1FF00&ls&#F3F400&lc&#F5E800&l.&#F7DD00&lg&#F9D200&lg&#FBC700&l/&#FDBB00&lw&#FFB000&le&#FDBB00&lx&#FBC700&lm&#F9D200&li&#F7DD00&ln&#F5E800&le&#F3F400&ls"
+  - "&#F5F400&ld&#F3FA00&ls&#F1FF00&lc&#F3F400&l.&#F5E800&lg&#F7DD00&lg&#F9D200&l/&#FBC700&lw&#FDBB00&le&#FFB000&lx&#FDBB00&lm&#FBC700&li&#F9D200&ln&#F7DD00&le&#F5E800&ls"
+  - "&#F7EF00&ld&#F5F400&ls&#F3FA00&lc&#F1FF00&l.&#F3F400&lg&#F5E800&lg&#F7DD00&l/&#F9D200&lw&#FBC700&le&#FDBB00&lx&#FFB000&lm&#FDBB00&li&#FBC700&ln&#F9D200&le&#F7DD00&ls"
+  - "&#F9E900&ld&#F7EF00&ls&#F5F400&lc&#F3FA00&l.&#F1FF00&lg&#F3F400&lg&#F5E800&l/&#F7DD00&lw&#F9D200&le&#FBC700&lx&#FDBB00&lm&#FFB000&li&#FDBB00&ln&#FBC700&le&#F9D200&ls"
+  - "&#FBE400&ld&#F9E900&ls&#F7EF00&lc&#F5F400&l.&#F3FA00&lg&#F1FF00&lg&#F3F400&l/&#F5E800&lw&#F7DD00&le&#F9D200&lx&#FBC700&lm&#FDBB00&li&#FFB000&ln&#FDBB00&le&#FBC700&ls"
+  - "&#FDDE00&ld&#FBE400&ls&#F9E900&lc&#F7EF00&l.&#F5F400&lg&#F3FA00&lg&#F1FF00&l/&#F3F400&lw&#F5E800&le&#F7DD00&lx&#F9D200&lm&#FBC700&li&#FDBB00&ln&#FFB000&le&#FDBB00&ls"
+  - "&#FFD900&ld&#FDDE00&ls&#FBE400&lc&#F9E900&l.&#F7EF00&lg&#F5F400&lg&#F3FA00&l/&#F1FF00&lw&#F3F400&le&#F5E800&lx&#F7DD00&lm&#F9D200&li&#FBC700&ln&#FDBB00&le&#FFB000&ls"
+  - "&#FDDE00&ld&#FFD900&ls&#FDDE00&lc&#FBE400&l.&#F9E900&lg&#F7EF00&lg&#F5F400&l/&#F3FA00&lw&#F1FF00&le&#F3F400&lx&#F5E800&lm&#F7DD00&li&#F9D200&ln&#FBC700&le&#FDBB00&ls"
+  - "&#FBE400&ld&#FDDE00&ls&#FFD900&lc&#FDDE00&l.&#FBE400&lg&#F9E900&lg&#F7EF00&l/&#F5F400&lw&#F3FA00&le&#F1FF00&lx&#F3F400&lm&#F5E800&li&#F7DD00&ln&#F9D200&le&#FBC700&ls"
+  - "&#F9E900&ld&#FBE400&ls&#FDDE00&lc&#FFD900&l.&#FDDE00&lg&#FBE400&lg&#F9E900&l/&#F7EF00&lw&#F5F400&le&#F3FA00&lx&#F1FF00&lm&#F3F400&li&#F5E800&ln&#F7DD00&le&#F9D200&ls"
+  - "&#F7EF00&ld&#F9E900&ls&#FBE400&lc&#FDDE00&l.&#FFD900&lg&#FDDE00&lg&#FBE400&l/&#F9E900&lw&#F7EF00&le&#F5F400&lx&#F3FA00&lm&#F1FF00&li&#F3F400&ln&#F5E800&le&#F7DD00&ls"
+  - "&#F5F400&ld&#F7EF00&ls&#F9E900&lc&#FBE400&l.&#FDDE00&lg&#FFD900&lg&#FDDE00&l/&#FBE400&lw&#F9E900&le&#F7EF00&lx&#F5F400&lm&#F3FA00&li&#F1FF00&ln&#F3F400&le&#F5E800&ls"
+  - "&#F3FA00&ld&#F5F400&ls&#F7EF00&lc&#F9E900&l.&#FBE400&lg&#FDDE00&lg&#FFD900&l/&#FDDE00&lw&#FBE400&le&#F9E900&lx&#F7EF00&lm&#F5F400&li&#F3FA00&ln&#F1FF00&le&#F3F400&ls"
+  - "&#F1FF00&ld&#F3FA00&ls&#F5F400&lc&#F7EF00&l.&#F9E900&lg&#FBE400&lg&#FDDE00&l/&#FFD900&lw&#FDDE00&le&#FBE400&lx&#F9E900&lm&#F7EF00&li&#F5F400&ln&#F3FA00&le&#F1FF00&ls"
+  - "&#F3F400&ld&#F1FF00&ls&#F3FA00&lc&#F5F400&l.&#F7EF00&lg&#F9E900&lg&#FBE400&l/&#FDDE00&lw&#FFD900&le&#FDDE00&lx&#FBE400&lm&#F9E900&li&#F7EF00&ln&#F5F400&le&#F3FA00&ls"
+  - "&#F5E800&ld&#F3F400&ls&#F1FF00&lc&#F3FA00&l.&#F5F400&lg&#F7EF00&lg&#F9E900&l/&#FBE400&lw&#FDDE00&le&#FFD900&lx&#FDDE00&lm&#FBE400&li&#F9E900&ln&#F7EF00&le&#F5F400&ls"
+  - "&#F7DD00&ld&#F5E800&ls&#F3F400&lc&#F1FF00&l.&#F3FA00&lg&#F5F400&lg&#F7EF00&l/&#F9E900&lw&#FBE400&le&#FDDE00&lx&#FFD900&lm&#FDDE00&li&#FBE400&ln&#F9E900&le&#F7EF00&ls"
+  - "&#F9D200&ld&#F7DD00&ls&#F5E800&lc&#F3F400&l.&#F1FF00&lg&#F3FA00&lg&#F5F400&l/&#F7EF00&lw&#F9E900&le&#FBE400&lx&#FDDE00&lm&#FFD900&li&#FDDE00&ln&#FBE400&le&#F9E900&ls"
+  - "&#FBC700&ld&#F9D200&ls&#F7DD00&lc&#F5E800&l.&#F3F400&lg&#F1FF00&lg&#F3FA00&l/&#F5F400&lw&#F7EF00&le&#F9E900&lx&#FBE400&lm&#FDDE00&li&#FFD900&ln&#FDDE00&le&#FBE400&ls"
+  - "&#FDBB00&ld&#FBC700&ls&#F9D200&lc&#F7DD00&l.&#F5E800&lg&#F3F400&lg&#F1FF00&l/&#F3FA00&lw&#F5F400&le&#F7EF00&lx&#F9E900&lm&#FBE400&li&#FDDE00&ln&#FFD900&le&#FDDE00&ls"
+web:
+  change-interval: 150
+  texts:
+  - "&#FFB000&lW&#FCC000&le&#F9D000&lx&#F7DF00&lM&#F4EF00&li&#F1FF00&ln&#F5F600&le&#F8EC00&l.&#FCE300&lp&#FFD900&lw"
+  - "&#FCC000&lW&#FFB000&le&#FCC000&lx&#F9D000&lM&#F7DF00&li&#F4EF00&ln&#F1FF00&le&#F5F600&l.&#F8EC00&lp&#FCE300&lw"
+  - "&#F9D000&lW&#FCC000&le&#FFB000&lx&#FCC000&lM&#F9D000&li&#F7DF00&ln&#F4EF00&le&#F1FF00&l.&#F5F600&lp&#F8EC00&lw"
+  - "&#F7DF00&lW&#F9D000&le&#FCC000&lx&#FFB000&lM&#FCC000&li&#F9D000&ln&#F7DF00&le&#F4EF00&l.&#F1FF00&lp&#F5F600&lw"
+  - "&#F4EF00&lW&#F7DF00&le&#F9D000&lx&#FCC000&lM&#FFB000&li&#FCC000&ln&#F9D000&le&#F7DF00&l.&#F4EF00&lp&#F1FF00&lw"
+  - "&#F1FF00&lW&#F4EF00&le&#F7DF00&lx&#F9D000&lM&#FCC000&li&#FFB000&ln&#FCC000&le&#F9D000&l.&#F7DF00&lp&#F4EF00&lw"
+  - "&#F5F600&lW&#F1FF00&le&#F4EF00&lx&#F7DF00&lM&#F9D000&li&#FCC000&ln&#FFB000&le&#FCC000&l.&#F9D000&lp&#F7DF00&lw"
+  - "&#F8EC00&lW&#F5F600&le&#F1FF00&lx&#F4EF00&lM&#F7DF00&li&#F9D000&ln&#FCC000&le&#FFB000&l.&#FCC000&lp&#F9D000&lw"
+  - "&#FCE300&lW&#F8EC00&le&#F5F600&lx&#F1FF00&lM&#F4EF00&li&#F7DF00&ln&#F9D000&le&#FCC000&l.&#FFB000&lp&#FCC000&lw"
+  - "&#FFD900&lW&#FCE300&le&#F8EC00&lx&#F5F600&lM&#F1FF00&li&#F4EF00&ln&#F7DF00&le&#F9D000&l.&#FCC000&lp&#FFB000&lw"
+  - "&#FCE300&lW&#FFD900&le&#FCE300&lx&#F8EC00&lM&#F5F600&li&#F1FF00&ln&#F4EF00&le&#F7DF00&l.&#F9D000&lp&#FCC000&lw"
+  - "&#F8EC00&lW&#FCE300&le&#FFD900&lx&#FCE300&lM&#F8EC00&li&#F5F600&ln&#F1FF00&le&#F4EF00&l.&#F7DF00&lp&#F9D000&lw"
+  - "&#F5F600&lW&#F8EC00&le&#FCE300&lx&#FFD900&lM&#FCE300&li&#F8EC00&ln&#F5F600&le&#F1FF00&l.&#F4EF00&lp&#F7DF00&lw"
+  - "&#F1FF00&lW&#F5F600&le&#F8EC00&lx&#FCE300&lM&#FFD900&li&#FCE300&ln&#F8EC00&le&#F5F600&l.&#F1FF00&lp&#F4EF00&lw"
+  - "&#F4EF00&lW&#F1FF00&le&#F5F600&lx&#F8EC00&lM&#FCE300&li&#FFD900&ln&#FCE300&le&#F8EC00&l.&#F5F600&lp&#F1FF00&lw"
+  - "&#F7DF00&lW&#F4EF00&le&#F1FF00&lx&#F5F600&lM&#F8EC00&li&#FCE300&ln&#FFD900&le&#FCE300&l.&#F8EC00&lp&#F5F600&lw"
+  - "&#F9D000&lW&#F7DF00&le&#F4EF00&lx&#F1FF00&lM&#F5F600&li&#F8EC00&ln&#FCE300&le&#FFD900&l.&#FCE300&lp&#F8EC00&lw"
+  - "&#FCC000&lW&#F9D000&le&#F7DF00&lx&#F4EF00&lM&#F1FF00&li&#F5F600&ln&#F8EC00&le&#FCE300&l.&#FFD900&lp&#FCE300&lw"
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

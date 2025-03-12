@@ -1,0 +1,9 @@
+# plugin by crashteamik/CrashTeam
+# Made by LOVEEEEE ;)))))00
+
+messages:
+  stats-header: "&x&F&F&B&0&0&0&lС&x&F&C&C&0&0&0&lт&x&F&9&D&0&0&0&lа&x&F&7&D&F&0&0&lт&x&F&4&E&F&0&0&lи&x&F&1&F&F&0&0&lс&x&F&5&F&6&0&0&lт&x&F&8&E&C&0&0&lи&x&F&C&E&3&0&0&lк&x&F&F&D&9&0&0&lа &7» &fСтатистика за сегодня"
+  max-online: "&x&F&F&B&0&0&0&lС&x&F&C&C&0&0&0&lт&x&F&9&D&0&0&0&lа&x&F&7&D&F&0&0&lт&x&F&4&E&F&0&0&lи&x&F&1&F&F&0&0&lс&x&F&5&F&6&0&0&lт&x&F&8&E&C&0&0&lи&x&F&C&E&3&0&0&lк&x&F&F&D&9&0&0&lа &7» &fМаксимум онлайн"
+  players-today: "&x&F&F&B&0&0&0&lС&x&F&C&C&0&0&0&lт&x&F&9&D&0&0&0&lа&x&F&7&D&F&0&0&lт&x&F&4&E&F&0&0&lи&x&F&1&F&F&0&0&lс&x&F&5&F&6&0&0&lт&x&F&8&E&C&0&0&lи&x&F&C&E&3&0&0&lк&x&F&F&D&9&0&0&lа &7» &fИгроков онлайн сегодня"
+  stats-footer: "&x&F&F&B&0&0&0&lС&x&F&C&C&0&0&0&lт&x&F&9&D&0&0&0&lа&x&F&7&D&F&0&0&lт&x&F&4&E&F&0&0&lи&x&F&1&F&F&0&0&lс&x&F&5&F&6&0&0&lт&x&F&8&E&C&0&0&lи&x&F&C&E&3&0&0&lк&x&F&F&D&9&0&0&lа &7» &7Спасибо, что играете на нашем сервере!"
+  no-permission: "&x&F&F&B&0&0&0&lС&x&F&C&C&0&0&0&lт&x&F&9&D&0&0&0&lа&x&F&7&D&F&0&0&lт&x&F&4&E&F&0&0&lи&x&F&1&F&F&0&0&lс&x&F&5&F&6&0&0&lт&x&F&8&E&C&0&0&lи&x&F&C&E&3&0&0&lк&x&F&F&D&9&0&0&lа &7» &cУ вас нет прав для просмотра статистики."

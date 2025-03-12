@@ -1,0 +1,42 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  donate:
+    file: donate.yml
+  kits:
+    file: kits.yml
+  menu:
+    file: menu.yml
+  free:
+    file: free.yml
+  rewards:
+    file: rewards.yml
+  tituls:
+    file: tituls.yml
+  rtp:
+    file: rtp.yml
+  shop:
+    file: shop.yml
+  snar:
+    file: snar.yml
+  sphere:
+    file: sphere.yml
+  potion:
+    file: potion.yml
+  hub:
+    file: hub.yml
+  prefix:
+    file: prefix.yml
+  dadminprefix:
+    file: dadminprefix.yml
+  wexprefix:
+    file: wexprefix.yml
+  gladiatorprefix:
+    file: gladiatorprefix.yml
+  povelitelprefix:
+    file: povelitelprefix.yml

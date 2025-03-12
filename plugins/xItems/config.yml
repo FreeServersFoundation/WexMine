@@ -1,0 +1,30 @@
+# Настройки для Weapon (Секира Хаоса)
+weapon:
+  model-data: 101
+weapon-given-message: '§6WexMine §8» §aВы получили Секиру Хаоса!'
+
+# Настройки для AntiFlyItem
+anti-fly-item-name: '&cAnti-Fly Star'
+anti-fly-item-lore:
+  - '§6WexMine §8» §7Right-click to disable flight in a 16-block radius'
+  - '§6WexMine §8» §c5-minute cooldown'
+anti-fly-cooldown-message: '§6WexMine §8» §cCooldown: %cooldown% seconds remaining'
+anti-fly-disable-message: '§6WexMine §8» §c{player} disabled your flight for 15 seconds!'
+anti-fly-command-disabled-message: '§6WexMine §8» §cFlight is disabled for 15 seconds!'
+anti-fly-elytra-drop-message: '§6WexMine §8» §cYour elytra was removed by {player} for 15 seconds!'
+anti-fly-elytra-swap-message: '§6WexMine §8» §cYou cannot equip elytra while flight is disabled!'
+anti-fly-firework-disabled-message: '§6WexMine §8» §cFireworks are disabled while flight is disabled!'
+
+# Настройки для AlxmRepair
+console-cannot-use-message: '§6WexMine §8» §cКонсоль не может использовать эту команду!'
+not-holding-armor-message: '§6WexMine §8» §cВы не держите ремонтируемый предмет в главной руке!'
+item-not-repairable-message: '§6WexMine §8» §cЭтот предмет нельзя отремонтировать!'
+item-already-repaired-message: '§6WexMine §8» §cЭтот предмет уже полностью отремонтирован!'
+not-enough-experience-message: '§6WexMine §8» §cУ вас недостаточно опыта для ремонта!'
+armor-repaired-message: '§6WexMine §8» §aВаш предмет успешно отремонтирован!'
+
+# Настройки для Svit
+item-name: '§6WexMine §8» §aСвиток опыта'
+item-lore:
+  - '  | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |'
+  - '  §6WexMine §8» §70/&73,000 §fꐇ '

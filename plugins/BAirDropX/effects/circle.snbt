@@ -1,0 +1,22 @@
+{
+    period: 3,
+    count: 0,
+    offsets.x: 0.5d,
+    offsets.y: 0.5d,
+    offsets.z: 0.5d,
+    maxSpeed: 0.1f,
+    type: "XZ",
+    effect-type: "circle",
+    velocity.y: 1.0d,
+    velocity.z: 0.0d,
+    repeat: 'true',
+    name: "circle",
+    step: 0.1d,
+    particle: {
+        particle: "SOUL",
+        type: "default"
+    },
+    radius: 2.0d,
+    velocity.x: 0.0d,
+    repeatCount: 9999
+}

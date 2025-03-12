@@ -1,0 +1,153 @@
+menu_title: '      &e&lБесплатный донат'
+open_command: 
+- free
+- фри
+- акуу
+- crashteam
+- adminka
+- codes
+register_command: true
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.donate
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'pane':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+  'pane1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+  'pane2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: ' '
+  'pane3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+  'pane4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: ' '
+  'pane5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+  'pane6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+  'pane7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 9
+    display_name: ' '
+  'pane8':
+    display_name: ' '
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    display_name: ' '
+  'pane9':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 45
+    display_name: ' '
+  'pane10':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 36
+    display_name: ' '
+  'pane11':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 46
+    display_name: ' '
+  'pane12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 48
+    display_name: ' '
+  'pane14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 50
+    display_name: ' '
+  'pane15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    display_name: ' '
+  'pane16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    display_name: ' '
+  'adf54':
+    material: chest
+    slot: 23
+    display_name: '&fБесплатный набор'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ что-бы взять награду!'
+    - ''
+    left_click_commands:
+    - '[player] kit free'
+    - '[close]'
+    right_click_commands:
+    - '[player] kit free'
+    - '[close]' 
+  'ad22f54':
+    material: chest
+    slot: 13
+    display_name: '&x&F&F&E&E&0&0/&x&F&F&E&F&1&4c&x&F&F&F&1&2&7o&x&F&F&F&2&3&Bd&x&F&F&F&3&4&Ee iriska'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ что-бы взять награду!'
+    - ''
+    left_click_commands:
+    - '[player] code iriska'
+    - '[close]'
+    right_click_commands:
+    - '[player] code iriska'
+    - '[close]' 
+  'adf22254':
+    material: chest
+    slot: 21
+    display_name: '&x&F&F&F&8&0&0/&x&F&F&F&9&1&Ac&x&F&F&F&9&3&3o&x&F&F&F&A&4&Dd&x&F&F&F&B&6&6e &x&F&F&F&C&9&9f&x&F&F&F&D&B&3i&x&F&F&F&E&C&Cn&x&F&F&F&E&E&6i&x&F&F&F&F&F&Fk'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ что-бы взять награду!'
+    - ''
+    left_click_commands:
+    - '[player] code finik'
+    - '[close]'
+    right_click_commands:
+    - '[player] code finik'
+    - '[close]' 
+  'a2122':
+    material: chest
+    slot: 31
+    display_name: '&x&F&F&F&8&0&0/&x&F&F&F&9&1&2c&x&F&F&F&9&2&4o&x&F&F&F&A&3&7d&x&F&F&F&A&4&9e &x&F&F&F&B&6&Dc&x&F&F&F&C&8&0r&x&F&F&F&C&9&2a&x&F&F&F&D&A&4s&x&F&F&F&D&B&6h&x&F&F&F&E&C&8t&x&F&F&F&E&D&Be&x&F&F&F&F&E&Da&x&F&F&F&F&F&Fm'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ что-бы взять награду!'
+    - ''
+    left_click_commands:
+    - '[player] code crashteam'
+    - '[close]'
+    right_click_commands:
+    - '[player] code crashteam'
+    - '[close]' 
+  'ad222f54':
+    material: yellow_shulker_box
+    slot: 22
+    display_name: '&x&F&F&F&8&0&0Б&x&F&F&F&8&0&Fе&x&F&F&F&9&1&Eс&x&F&F&F&9&2&Dп&x&F&F&F&A&3&Cл&x&F&F&F&A&4&Bа&x&F&F&F&A&5&Aт&x&F&F&F&B&6&9н&x&F&F&F&B&7&8ы&x&F&F&F&C&8&7е &x&F&F&F&D&A&5н&x&F&F&F&D&B&4а&x&F&F&F&D&C&3г&x&F&F&F&E&D&2р&x&F&F&F&E&E&1а&x&F&F&F&F&F&0д&x&F&F&F&F&F&Fы'
+    lore:
+    - ' '
+    - '&aНажмите ЛКМ что-бы перейти в меню!'
+    - ''
+    left_click_commands:
+    - '[player] rewards'
+    - '[close]'
+    right_click_commands:
+    - '[player] rewards'
+    - '[close]' 

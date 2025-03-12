@@ -1,0 +1,266 @@
+Name: povelitel
+Cooldown: 259200
+Permission: greatkits.kits.povelitel
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Sharpness
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Fire
+        Aspect III"}],"text":""}'
+      enchants:
+        FIRE_ASPECT: 3
+        DAMAGE_ALL: 4
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protection
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thorns
+        II"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protection
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thorns
+        II"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protection
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thorns
+        II"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Protection
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Thorns
+        II"}],"text":""}'
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        THORNS: 2
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GOLDEN_APPLE
+    amount: 18
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENCHANTED_GOLDEN_APPLE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Efficiency
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Efficiency
+        IV"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        III"}],"text":""}'
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: CHORUS_FRUIT
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: OAK_LOG
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: GLASS
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Efficiency
+        IV"}],"text":""}'
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 2
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIAMOND_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Unbreaking
+        II"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Efficiency
+        IV"}],"text":""}'
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 2
+      ItemFlags:
+      - HIDE_ENCHANTS
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: COOKED_PORKCHOP
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: ENDER_PEARL
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"pink","text":"Шар
+        Повелителя"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Проклятье
+        утраты"}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+        во второй руке:"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"pink","text":"  +1.5
+        к силе"}],"text":""}'
+      - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"pink","text":"  +20%
+        к скорости"}],"text":""}'
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 1.5
+          name: ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]
+          slot: OFF_HAND
+          uuid: e7d65f6a-63ea-4c5f-89b3-937871607992
+          operation: 0
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.2
+          name: ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]
+          slot: OFF_HAND
+          uuid: d9b8f1fe-0705-486a-bddd-3b2bfd55fedd
+          operation: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      internal: H4sIAAAAAAAA/1VUya7jVBB1QyO9fiDxC+yziMfEWfTCsR3Hjsc4Hu5d4eF6iH3jJLbjQWLPTyCxYMnPwJ6/AIkVIv3UC9hUSVWnzjklleqVIF6Jb9yqr2v73mRljV6I92aEEfHtLmo7sSiTCl3INU2/Eq9PxBXduxK1H4iXDo1df0ftK0EQ716ID26ZX6JPlS9+PcSMIhiTTMYPExRKH+FHRR0kTWxb4SyXHT0qpyMdUZuwOg3XzM5QPh35mzr5g/qQPZcbF3gFr9SDLZNhuvaFVA/kImvX137vLDzdW12a1I1o6+EUOFrwy5jmd9TdjgUE5ONtFBSvd5chl+inWGv1dhjzNPAVlCYUjOY1Ys8C3y8H1FPnotG8dO5432Y4juXli0DRfs+F3qgsIYObcql1Ub6I14OEqh3FPK6CnGSyzTAuRyKxGejCtFb1lmeE/FxSOWeRKZeJTIiWbGa5XJwvdw6zsm6D095vcJw1OthdhZSzR6EXtw9nf43WycOTfZt9OBetsNfhYr3U4aOqD51o1EuZmstR2ASzd6/sZTacOaWt89Ig/VAoGFj36j7hDX3KdoGH9oMfYEdmOYu94oLExbSzt2x1WN22pmZKJ8lYHDoZB7dCc039Dnt2dG51QE0oyCes8mWarg1FKow5u3qgk5vHGo+ejSYUg7vSxLe8ErVi5/NjczAoS7yuNy1uLqsoutPIO3FYl+mB2YDGB5OxCNoV3Vm4TalQKnjLExwrLntnEUaX1jqsRr65z2DDY5uJ65OA7GmPSDOwQbn12QW1hYZwuM/3Tdbwtw1LlWdFlwJjq24AZLfcZeIouE7dYc4r95R5bUYCNtw692kqp3izurimuwtvh1s4abnO4X6VAUlOUY9Q2JhlOO2nxpA/vhBf+VHdo3e/oKHJVVEjo4CqE+ZYxKFQqlKTG6eENCRnNk7qbMwVZYrDQRWFMtlrD4jrFnp1pZbC6jmLLQVQEHuDMR8LS8pJQDsjOAmTIdUVlFQGKoCEikMbotqKpZCrl+0U0/AaK74FnrqfeRQQmqRDF1dAd3V8FhjjrJa68OZvjoK0B+GRSrDvwnBHRaFWQ1HNrXJLJhe//owjYViQ6bOXTG+99Zve07dHdtqp/F/tE/7JN7ztqz4PJ90LK33a/IeD66KAqwGjFfDi9DH2SZ051mj/yYf3MDEgDSzTgDbPpmJMz1gakkFbwQ6Ds1mZs18C2scQA8o8p7Wh7AoYGKOJvQnQMgUVH1vB8QyVY2HODgNPRQkm9fDmbU8+83YjXsiPBPE18YWaPl/O+7//+udL7Uf9t5+/++n3H/7843uC+BcHw1Z3zAQAAA==
+      skull-owner: FastChicken0722
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

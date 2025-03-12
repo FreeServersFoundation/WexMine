@@ -1,0 +1,61 @@
+hologram:
+  world: world
+  x: 44.573
+  y: 102
+  z: -26.573
+  line1:
+    - "§e§l❖ §6§lРакетка §e§l❖"                            # Заголовок голограммы
+  line2:
+    - "&e&m             "                                    # Пустая строка
+  line3:
+    - "§6Множитель: §a{multiplier}"           # Строка с мультипликатором
+  line4:
+    - "§6Статус: §a{status}"                     # Строка со статусом игры
+  line5:
+    - " "                                    # Пустая строка
+  line6:
+    - "§6Общий банк: §a{allmoney}$"            # Строка с общим банком
+  line7:
+    - " "                                    # Пустая строка
+  line8:
+    - "§6История множителей:"                 # Заголовок для истории множителей
+  line9:
+    - "§7- §f{0}"
+  line10:
+    - ""
+  line11:
+    - "&e"
+  line12:
+    - "§6/sbet bet §7(Сумма)§f - Поставить ставку"
+  line13:
+    - "§6/sbet stop§f - Забрать ставку"
+line-message-almoststart: "§fНачнётся через §a"
+line-message-almoststart2: " секунд"
+line-active: "§aПРОЦЕСЕ"
+line-crash: "§4§l❌ КРАШ ❌"
+line-noneallmoney: "§c0" 
+crash-proebal: "§cТы проиграл :("
+usage-all: "/sbet bet сумма| /sbet stop"
+usage-bet: "/sbet bet сумма"
+suma-xyuinya: "Неверная сумма ставки"
+game-active-stavka: "Нельзя сделать ставку во время игры!"
+nohavemoney: "У вас нехватает денег"
+stavka-max-message: "Вы не можете сделать ставку больше чем на "
+stavka-aproved: "Вы сделали ставку в размере "
+stavka-stop-nety: "Вы не ставили ставку!"
+stavka-lyt: "Вы обманули ракетку на "
+message:
+  - " "
+  - "  §6[РАКЕТКА]"
+  - " "
+  - "  §fРакетка §aскоро§f начнется:"
+  - "  §fпоторопись! через §a15 §fсекунд! §6/warp rocket "
+  - " "
+reward-message:
+  - " "
+  - "  §6[РАКЕТКА]"
+  - " "
+  - "  §fИгрок §a{player_name} §fвывел"
+  - "  §fс §aракетки §a{summa}§e монет"
+  - " "
+

@@ -1,0 +1,93 @@
+name: "     &8Купленные Вещи  |  %page%/%maxPage%"
+size: 54
+type: BUYING
+items:
+  slots:
+    type: NONE_SLOT
+    isPermanent: true
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+      - '  §#01e789А§#01e988у§#01eb87к§#01ee86ц§#00f084и§#00f283о§#00f482н §7(/ah)  '
+      - ''
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 35
+      - 36
+      - 44
+      - 45
+      - 46
+      - 47
+      - 51
+      - 52
+      - 53
+  next:
+    type: NEXT
+    isPermanent: true
+    slot: 50
+    item:
+      material: ACACIA_BUTTON
+      name: "§#01e789с§#01e888л§#01e988е§#01ea87д §#01eb87.§#01ec86с§#01ed86т§#00ee85р§#00ef85а§#00f084н§#00f184и§#00f283ц§#00f383а §#00f482⇢"
+  previous:
+    type: PREVIOUS
+    isPermanent: true
+    slot: 48
+    item:
+      material: ACACIA_BUTTON
+      name: "§§#01e789⇠ §#01e888П§#01e988р§#01ea87е§#01eb87д§#01ec86. §#01ed86с§#00ee85т§#00ef85р§#00f084а§#00f184н§#00f283и§#00f383ц§#00f482а"
+  back:
+    type: BACK
+    isPermanent: true
+    item:
+      material: STONE_BUTTON
+      name: " "
+      lore:
+      - "  §#01e789⇠ §#01e988О§#01eb87б§#01ed86р§#00ee85а§#00f084т§#00f283н§#00f482о  "
+      - ""
+    slot: 49   
+  items:
+    type: AUCTION_ITEM
+    isPermanent: true
+    slots:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43

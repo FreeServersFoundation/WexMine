@@ -1,0 +1,9 @@
+chlen-list: # Здесь вы можете редактировать, удалять и создавать свои члены
+  default: #Этот член будет использоваться, если нету аргуменгтов /chlen
+    material-head: RED_WOOL
+    material-trunk: PINK_WOOL
+    vector-multiply: 1.0 #Позволяет изменить вектор полёта члена. (Регулирует скорость и дальность)
+  niger: # Названия члена, /chlen niger
+    material-head: PINK_WOOL
+    material-trunk: BROWN_WOOL
+    vector-multiply: 1.0 #Позволяет изменить вектор полёта члена. (Регулирует скорость и дальность)

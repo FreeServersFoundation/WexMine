@@ -1,0 +1,65 @@
+# AfkPool Config File
+
+region-name: afk # WorldGuard region name here (def: afk) (cAsE sEnSiTiVe)
+crate-name: notrdmrg # Crate name here (cAsE sEnSiTiVe)
+
+# Minecraft tps is (by default) 20 ticks per second
+# so multiply the seconds of the time frame you want
+# by 20 to get the ticks of it.
+
+command1-interval: 6000 # Interval of money (or whatever you set) in ticks (def: 1200) which is 1 minute 
+command2-interval: 62000 # Interval of crates in ticks (def: 24000) which is 20 minutes
+command3-interval: 162000
+
+# Ok now we have that done lets do the true/false booleans
+
+command-1-enabled: true
+command-2-enabled: false
+command-3-enabled: false
+
+# You get the idea.
+
+# Now the commands the plugin is going to execute
+
+# By default command 1 is the money command
+# and command 2 is the crate command
+
+# But you can set this to whatever you want!
+
+# %p is the player
+# %m is the amount of random number
+# %c is the crates name
+
+command-1: p give %p 5
+command-2: cases give %p rub 1
+command-3: cases give %p free 1
+
+# Titles, these values are the values of the titles
+# %m is the amount of random number
+# %c is the crates name
+
+command1-title: "&fВы получили награду: &6%m$"
+command2-title: Вы получили 1 кейс с рублями
+command3-title: Вы получили 1 кейс с донатом
+entering-title: "&fВы &aнырнули &fв бассейн"
+exiting-title: "&fВы &cвынырнули &fс бассейн"
+
+# This value is the subtitle of the title that is given ( the little text under the title)
+
+subtitle: "&fВы получили награду"
+
+# Numbers!, these values are the values of the minimum and maximum numbers.
+# eg. the comment below is for 1 - 50
+ 
+# min: 1
+# max: 50
+
+min: 50
+max: 200
+
+# Numbers for the third command.
+
+min2: 50
+max2: 100
+
+# Made by Abdullah :)

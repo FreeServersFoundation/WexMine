@@ -1,0 +1,284 @@
+menu_title: '      &e&lДонатный-магазин'
+open_command: snar
+register_command: true
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.donate
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'pane':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+  'pane1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+  'pane2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: ' '
+  'pane3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+  'pane4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: ' '
+  'pane5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+  'pane6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+  'pane7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 9
+    display_name: ' '
+  'pane8':
+    display_name: ' '
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    display_name: ' '
+  'pane9':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 45
+    display_name: ' '
+  'pane10':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 36
+    display_name: ' '
+  'pane11':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 46
+    display_name: ' '
+  'pane12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 48
+    display_name: ' '
+  'pane14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 50
+    display_name: ' '
+  'pane15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    display_name: ' '
+  'pane16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    display_name: ' '
+  'adf54':
+    material: NETHERITE_SWORD
+    slot: 20
+    display_name: '&e&lМеч Ахиллеса'
+    lore:
+    - ' '
+    - '&eЗачарования'
+    - '&f- &aОтдача 1'
+    - '&f- &aОстрота 6'
+    - '&f- &aЗаговор Огня 4'
+    - '&f- &aПрочность 4'
+    - ''
+    - '&fЦена: &e179 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 179
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 179'
+    - '[console] kit axilesmech %player_name%'
+  '22adf54':
+    material: NETHERITE_HELMET
+    slot: 13
+    display_name: '&e&lШлем Ахиллеса'
+    lore:
+    - ' '
+    - '&eЗачарования'
+    - '&f- &aЗащита 6'
+    - '&f- &aВзрывоустойчивость 3'
+    - '&f- &aОгнеупорность 3'
+    - '&f- &aХодьба по воде 3'
+    - '&f- &aШипы 3'
+    - '&f- &aПрочность 4'
+    - ''
+    - '&fЦена: &e299 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 299
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 299'
+    - '[console] kit shlemaxilesa %player_name%'
+  '1222adf54':
+    material: NETHERITE_CHESTPLATE
+    slot: 22
+    display_name: '&e&lНагрудник Ахиллеса'
+    lore:
+    - ' '
+    - '&eЗачарования'
+    - '&f- &aЗащита 6'
+    - '&f- &aВзрывоустойчивость 3'
+    - '&f- &aОгнеупорность 3'
+    - '&f- &aХодьба по воде 3'
+    - '&f- &aШипы 3'
+    - '&f- &aПрочность 4'
+    - ''
+    - '&fЦена: &e399 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 399
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 399'
+    - '[console] kit nagrudaxilesa %player_name%'
+  '21222adf54':
+    material: NETHERITE_LEGGINGS
+    slot: 31
+    display_name: '&e&lШтаны Ахиллеса'
+    lore:
+    - ' '
+    - '&eЗачарования'
+    - '&f- &aЗащита 6'
+    - '&f- &aВзрывоустойчивость 3'
+    - '&f- &aОгнеупорность 3'
+    - '&f- &aХодьба по воде 3'
+    - '&f- &aШипы 3'
+    - '&f- &aПрочность 4'
+    - ''
+    - '&fЦена: &e399 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 399
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 399'
+    - '[console] kit shtanyaxilesa %player_name%'
+  '321222adf54':
+    material: NETHERITE_BOOTS
+    slot: 40
+    display_name: '&e&lБотинки Ахиллеса'
+    lore:
+    - ' '
+    - '&eЗачарования'
+    - '&f- &aЗащита 6'
+    - '&f- &aВзрывоустойчивость 3'
+    - '&f- &aОгнеупорность 3'
+    - '&f- &aХодьба по воде 3'
+    - '&f- &aШипы 3'
+    - '&f- &aПрочность 4'
+    - ''
+    - '&fЦена: &e399 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 399
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 399'
+    - '[console] kit botinkiaxilesa %player_name%'
+  'a2df54':
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 24
+    display_name: '&e&lЗачарованное Золотое Яблоко &cx3'
+    lore:
+    - ' '
+    - '&fЦена: &e100 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 100
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 100'
+    - '[console] give %player_name% enchanted_golden_apple 3'
+  '1a2df54':
+    material: ELYTRA
+    slot: 33
+    display_name: '&e&lЭлитры'
+    lore:
+    - ' '
+    - '&fЦена: &e59 Вексов'
+    hide_enchantments: true
+    hide_attributes: true
+    hide_unbreakable: true
+    hide_effects: true
+    left_click_requirement:
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%playerpoints_points%'
+          output: 59
+          deny_commands:
+          - '[message] &eВексы &7⟫ &cНедостаточно вексов для покупки'
+          - '[message] &6Риллики &7⟫ &fПополнить &eбаланс&f можно на сайте - &eWexMine.pw' 
+    left_click_commands:
+    - '[console] points take %player_name% 59'
+    - '[console] give %player_name% elytra 1'
+  

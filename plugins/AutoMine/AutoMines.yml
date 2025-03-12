@@ -1,0 +1,115 @@
+AutoMines:
+  mine:
+    firstPos:
+      x: 72.700
+      y: 96.78897
+      z: 56.700
+    secondPos:
+      x: 53.310
+      y: 87
+      z: 37.300
+    world: world
+   
+    spawnHologram: 'true'
+    hologramPos:
+      world: world
+      x: 62.742 
+      y: 100.24939
+      z: 47.001
+    lines:
+    - '&6[Авто-Шахта]'
+    - ''
+    - Добывай &6полезные&f ресурсы,
+    - которые помогут тебе в развитии!
+    - ''
+    - '&fТекущая шахта: &e%am_current_mine%'
+    - ''
+    - '&fСледущая шахта: &e%am_next_mine%'
+    - '&fОбновление: &6%am_time_mine%'
+    timeUpdate: 600
+    typeMine:
+      default:
+        name: Обычная
+        chance: 70
+        blockList:
+        - '30.0 : LAPIS_ORE'
+        - '50.0 : REDSTONE_ORE'
+        - '52.0 : IRON_ORE'
+        - '30.0 : COAL_ORE'
+        - '30.0 : GOLD_ORE'
+        - '99.0 : GRANITE'
+        - '100.0 : STONE'
+        update_message:
+        - ''
+        - '   &6[Авто-Шахта]'
+        - ''
+        - '   &fШахта &6успешно &fобновилась!'
+        - '   &fТекущая шахта: &7Обычная'
+        - ''
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>
+      rare:
+        name: Редкая
+        chance: 50
+        blockList:
+        - '30.0 : LAPIS_ORE'
+        - '40.0 : REDSTONE_ORE'
+        - '30.0 : IRON_ORE'
+        - '46.0 : COAL_ORE'
+        - '48.0 : GOLD_ORE'
+        - '71.0 : GRANITE'
+        - '70.0 : STONE'
+        update_message:
+        - ''
+        - '   &6[Авто-Шахта]'
+        - ''
+        - '   &fШахта &6успешно &fобновилась!'
+        - '   &fТекущая шахта: &eредкая'
+        - ''
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>
+      mifik:
+        name: Мифическая
+        chance: 40
+        blockList:
+        - '60.0 : LAPIS_ORE'
+        - '70.0 : REDSTONE_ORE'
+        - '45.0 : IRON_ORE'
+        - '40.0 : COAL_ORE'
+        - '35.0 : GOLD_ORE'
+        - '35.0 : EMERALD_ORE'
+        - '25.0 : DIAMOND_ORE'
+        - '60.0 : GRANITE'
+        - '80.0 : STONE'
+        update_message:
+        - ''
+        - '   &6[Авто-Шахта]'
+        - ''
+        - '   &fШахта &6успешно &fобновилась!'
+        - '   &fТекущая шахта: &dМифическая'
+        - ''
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>
+      legendary:
+        name: Легендарная
+        chance: 50
+        blockList:
+        - '60.0 : LAPIS_ORE'
+        - '70.0 : REDSTONE_ORE'
+        - '44.0 : IRON_ORE'
+        - '43.0 : COAL_ORE'
+        - '65.0 : GOLD_ORE'
+        - '35.0 : EMERALD_ORE'
+        - '65.0 : DIAMOND_ORE'
+        - '1.0 : ANCIENT_DEBRIS'
+        - '60.0 : GRANITE'
+        - '80.0 : STONE'
+        update_message:
+        - ''
+        - '   &6[Авто-Шахта]'
+        - ''
+        - '   &fШахта &6успешно &fобновилась!'
+        - '   &fТекущая шахта: &cЛегендарная'
+        - ''
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>

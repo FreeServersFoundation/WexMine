@@ -1,0 +1,371 @@
+    menu_title: '                    &e&lХалява'
+    register_command: true
+    open_command:
+    - reward
+    - rewards
+    size: 54
+    items:
+      'reward1':
+        material: hopper_minecart
+        slot: 10
+        amount: 1
+        priority: 1
+        display_name: ' &e&l«Уровень 1» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 5
+            hasperm:
+              type: has permission
+              permission: 'rewards.1'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded1':
+        material: tnt_minecart
+        priority: 2
+        amount: 1
+        slot: 10
+        display_name: ' &e&l«Уровень 1» &7(Прогресс:&e %statistic_minutes_played%&7/&e15&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 15 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e1 Кейс с донатом'
+        left_click_commands:
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.1'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 15
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward2':
+        material: hopper_minecart
+        slot: 11
+        amount: 2
+        priority: 1
+        display_name: ' &e&l«Уровень 2» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 30
+            hasperm:
+              type: has permission
+              permission: 'rewards.2'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded2':
+        material: tnt_minecart
+        priority: 2
+        amount: 2
+        slot: 11
+        display_name: ' &e&l«Уровень 2» &7(Прогресс:&e %statistic_minutes_played%&7/&e30&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 30 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e1 Кейс с привилегиями'
+        left_click_commands:
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.2'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 30
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward3':
+        material: hopper_minecart
+        slot: 12
+        amount: 3
+        priority: 1
+        display_name: ' &e&l«Уровень 3» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 60
+            hasperm:
+              type: has permission
+              permission: 'rewards.3'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded3':
+        material: tnt_minecart
+        priority: 2
+        amount: 3
+        slot: 12
+        display_name: ' &e&l«Уровень 3» &7(Прогресс:&e %statistic_minutes_played%&7/&e60&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 60 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите'
+        - '&7| &e1 Кейс с привилегиями'
+        left_click_commands:
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.3'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 60
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward4':
+        material: hopper_minecart
+        slot: 13
+        amount: 4
+        priority: 1
+        display_name: ' &e&l«Уровень 4» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 120
+            hasperm:
+              type: has permission
+              permission: 'rewards.4'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded4':
+        material: tnt_minecart    
+        priority: 2
+        amount: 4
+        slot: 13
+        display_name: ' &e&l«Уровень 4» &7(Прогресс:&e %statistic_minutes_played%&7/&e120&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 120 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e75 Вексов'
+        - '&7| &e1 Донат-кейс'
+        left_click_commands:
+        - '[console] p give %player_name% 75'
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.4'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 120
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward5':
+        material: hopper_minecart
+        slot: 14
+        amount: 5
+        priority: 1
+        display_name: ' &e&l«Уровень 5» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 240
+            hasperm:
+              type: has permission
+              permission: 'rewards.5'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded5':
+        material: tnt_minecart
+        priority: 2
+        amount: 5
+        slot: 14
+        display_name: ' &e&l«Уровень 5» &7(Прогресс:&e %statistic_minutes_played%&7/&e240&e минут&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 240 минут'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e100 Вексов'
+        - '&7| &e1 Кейс с привилегиями'
+        left_click_commands:
+        - '[console] points give %player_name% 100'
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.5'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_minutes_played%'
+              output: 240
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward6':
+        material: hopper_minecart
+        slot: 15
+        amount: 6
+        priority: 1
+        display_name: ' &e&l«Уровень 6» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 5
+            hasperm:
+              type: has permission
+              permission: 'rewards.6'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded6':
+        material: tnt_minecart
+        priority: 2
+        amount: 6
+        slot: 15
+        display_name: ' &e&l«Уровень 6» &7(Прогресс:&e %statistic_hours_played%&7/&e5&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 5 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e175 Вексов'
+        - '&7| &e1 Кейс с привилегиями'
+        left_click_commands:
+        - '[console] points give %player_name% 175'
+        - '[console] cases give %player_name% freedonate 1'
+        - '[console] lp user %player_name% permission set rewards.6'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 5
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'
+      'reward7':
+        material: hopper_minecart
+        slot: 16
+        amount: 7
+        priority: 1
+        display_name: ' &e&l«Уровень 7» '
+        lore:
+        - ''
+        - '&7Статус&8: &aВыполнен!'
+        - ''
+        view_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+            hasperm:
+              type: has permission
+              permission: 'rewards.7'
+        left_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+        right_click_commands:
+        - '[message] &eНаграды &7» &fВы уже забрали награду!'
+        - '[close]'
+      'rewarded7':
+        material: tnt_minecart
+        priority: 2
+        amount: 7
+        slot: 16
+        display_name: ' &e&l«Уровень 7» &7(Прогресс:&e %statistic_hours_played%&7/&e7&b ч&7) '
+        lore:
+        - ''
+        - '&f Задание: &7Наиграть 7 часов'
+        - '&7 на сервере'
+        - ''
+        - '&e » &fВы получите '
+        - '&7| &e250 Вексов'
+        - '&7| &e2 Кейс с привилегиями'
+        left_click_commands:
+        - '[console] points give %player_name% 250'
+        - '[console] cases give %player_name% freedonate 2'
+        - '[console] lp user %player_name% permission set rewards.7'
+        - '[close]'
+        left_click_requirement:
+          requirements:
+            perm:
+              type: '>='
+              input: '%statistic_hours_played%'
+              output: 7
+          deny_commands:
+          - '[message] &eНаграды &7» &fВы ещё не наиграли нужное количество времени!'
+          - '[close]'

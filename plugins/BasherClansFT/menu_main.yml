@@ -1,0 +1,132 @@
+name: '&8▶&m           ◀&6 &0{clan_name} &8▶&m           ◀'
+size: 45
+info_item:
+  name: '&7« &x&F&F&C&4&0&0И&x&F&F&C&5&0&0н&x&F&F&C&5&0&0ф&x&F&F&C&6&0&0о&x&F&F&C&7&0&0р&x&F&F&C&7&0&0м&x&F&F&C&8&0&0а&x&F&F&C&9&0&0ц&x&F&F&C&9&0&0и&x&F&F&C&A&0&0я &x&F&F&C&B&0&0о &x&F&F&C&C&0&0к&x&F&F&C&D&0&0л&x&F&F&C&E&0&0а&x&F&F&C&E&0&0н&x&F&F&C&F&0&0е &7»'
+  lore:
+    - ' &#FFC400╔ &fКлан: &e{clan_name}'
+    - ' &#FFC400║ &fУчастников: &c{members}/{max_members}'
+    - ' &#FFC400║ &fУровень: &d{level} &8(&9{exp} XP&8)'
+    - ' &#FFC400╚ &fБаланс: &6${balance}'
+    - '&r '
+    - ' &#FFC400╔ &fPVP-Режим: &c{pvp}'
+    - ' &#FFC400║ &fМакс. символов: &e{max_chars}'
+    - ' &#FFC400║ &fЛимит казны: &e{max_balance}'
+    - ' &#FFC400╚ &fЛимит хранилища: &e{max_storage}'
+    - ''
+  material: KNOWLEDGE_BOOK
+  amount: 1
+  slot: 22
+storage_item:
+  name: '&7« &x&F&F&C&4&0&0Х&x&F&F&C&5&0&0р&x&F&F&C&5&0&0а&x&F&F&C&6&0&0н&x&F&F&C&7&0&0и&x&F&F&C&7&0&0л&x&F&F&C&8&0&0и&x&F&F&C&9&0&0щ&x&F&F&C&9&0&0е &x&F&F&C&A&0&0р&x&F&F&C&B&0&0е&x&F&F&C&C&0&0с&x&F&F&C&C&0&0у&x&F&F&C&D&0&0р&x&F&F&C&E&0&0с&x&F&F&C&E&0&0о&x&F&F&C&F&0&0в &7»'
+  lore:
+    - '&#FFC400▸ &fЛимит хранилища: &#FFC400{max_storage}'
+    - '&r '
+    - '&#FFC400╔ &fПри помощи хранилища можно'
+    - '&#FFC400║ &fсоздавать общий клановый'
+    - '&#FFC400╚ &fсундук для хранения вещей.'
+    - ''
+  material: ENDER_CHEST
+  amount: 1
+  slot: 23
+top_item:
+  name: '&7« &x&F&F&C&4&0&0Т&x&F&F&C&5&0&0о&x&F&F&C&6&0&0п &x&F&F&C&9&0&0к&x&F&F&C&A&0&0л&x&F&F&C&B&0&0а&x&F&F&C&D&0&0н&x&F&F&C&E&0&0о&x&F&F&C&F&0&0в &7»'
+  lore:
+    - '&fВы на &#FFC400{position} месте &fв топе'
+    - '&r '
+    - '&c[⚔] &fТОП по Уровню &cКланов'
+    - '{pos_1}&a① [&r{clan_name}&a] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_2}&e② [&r{clan_name}&e] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_3}&6③ [&r{clan_name}&6] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_4}&c④ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_5}&c⑤ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_6}&c⑥ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_7}&c⑦ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_8}&c⑧ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_9}&c⑨ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '{pos_10}&c⑩ [&r{clan_name}&c] &fлидер: &c{owner}&f, &9{exp} XP'
+    - '&r '
+  material: KNOWLEDGE_BOOK
+  amount: 1
+  slot: 4
+upgrade_item:
+  name: '&7« &x&F&F&C&4&0&0У&x&F&F&C&5&0&0р&x&F&F&C&6&0&0о&x&F&F&C&7&0&0в&x&F&F&C&8&0&0е&x&F&F&C&9&0&0н&x&F&F&C&A&0&0ь &x&F&F&C&B&0&0к&x&F&F&C&C&0&0л&x&F&F&C&D&0&0а&x&F&F&C&E&0&0н&x&F&F&C&F&0&0а »&7'
+  lore:
+    - ''
+    - '&#FFC400▸ &fВаш уровень: &#FFC400{level} &8(&9{exp} XP&8)'
+  material: DIAMOND
+  amount: 1
+  slot: 20
+members_item:
+  name: '&7« &6&x&F&F&C&4&0&0С&x&F&F&C&5&0&0п&x&F&F&C&5&0&0и&x&F&F&C&6&0&0с&x&F&F&C&7&0&0о&x&F&F&C&7&0&0к &x&F&F&C&9&0&0у&x&F&F&C&A&0&0ч&x&F&F&C&A&0&0а&x&F&F&C&B&0&0с&x&F&F&C&C&0&0т&x&F&F&C&C&0&0н&x&F&F&C&D&0&0и&x&F&F&C&E&0&0к&x&F&F&C&E&0&0о&x&F&F&C&F&0&0в &7»'
+  lore:
+    - ''
+    - '&#FFC400▸ &fУчастников: &e{members}/{max_members}'
+    - '&r '
+    - '&#FFC400╔ &fПокажет всех участников'
+    - '&#FFC400║ &fклана и поможет настроить'
+    - '&#FFC400╚ &fих права и возможности'
+    - ''
+  material: TOTEM_OF_UNDYING
+  amount: 1
+  slot: 31
+armor_item:
+  name: '&7« &x&F&F&C&4&0&0Ц&x&F&F&C&5&0&0в&x&F&F&C&6&0&0е&x&F&F&C&8&0&0т &x&F&F&C&A&0&0б&x&F&F&C&B&0&0р&x&F&F&C&D&0&0о&x&F&F&C&E&0&0н&x&F&F&C&F&0&0и &7»'
+  lore:
+    - ''
+    - '&#FFC400╔ &fИгроки вашего клана'
+    - '&#FFC400║ &fБудут изображены'
+    - '&#FFC400║ &fЦветной бронёй'
+    - '&#FFC400╚ &fВместо обычной.'
+    - ''
+  amount: 1
+  slot: 24
+design_item:
+  name: '&7« &x&F&F&C&4&0&0Д&x&F&F&C&5&0&0и&x&F&F&C&6&0&0з&x&F&F&C&7&0&0а&x&F&F&C&8&0&0й&x&F&F&C&9&0&0н &x&F&F&C&B&0&0к&x&F&F&C&C&0&0л&x&F&F&C&D&0&0а&x&F&F&C&E&0&0н&x&F&F&C&F&0&0а &7»'
+  lore:
+    - ''
+    - '&#FFC400▸ &fДоступные цвета:'
+    - '{access_colors}'
+    - '&#FFC400▸ &cНЕ &fДоступные цвета:'
+    - '{no_access_colors}'
+    - ''
+  material: NAME_TAG
+  amount: 1
+  slot: 21
+decor:
+  1:
+    name: ''
+    lore:
+      - ''
+    material: GRAY_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+      - 1
+      - 3
+      - 5
+      - 7
+      - 9
+      - 17
+      - 27
+      - 35
+      - 37
+      - 43
+      - 39
+      - 41
+  2:
+    name: ''
+    lore:
+      - ''
+    material: ORANGE_STAINED_GLASS_PANE
+    amount: 1
+    slots:
+      - 0
+      - 2
+      - 6
+      - 8
+      - 18
+      - 26
+      - 36
+      - 38
+      - 40
+      - 42
+      - 44

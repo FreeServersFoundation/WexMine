@@ -1,0 +1,155 @@
+Punishments:
+  Simulation:
+    remove-violations-after: 120
+    checks:
+      - "Simulation"
+    commands:
+      - "15:15 [alert]"
+      - "60:60 kick %player% &cGrim &7» &bSimulation"
+  GroundSpoof:
+    remove-violations-after: 120
+    checks:
+      - "GroundSpoof"
+    commands:
+      - "10:10 [alert]"
+      - "30:30 kick %player% &cGrim &7» &bGroundSpoof"
+  Knockback:
+    remove-violations-after: 120
+    checks:
+      - "Knockback"
+    commands:
+      - "1:1 [alert]"
+      - "2:2 kick %player% &cGrim &7» &bVelocity"
+  Explosion:
+    remove-violations-after: 120
+    checks:
+      - "Explosion"
+    commands:
+      - "5:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bExplosion"
+  NoSlow:
+    remove-violations-after: 120
+    checks:
+      - "NoSlow"
+    commands:
+      - "1:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bNoSlow"
+  Post:
+    remove-violations-after: 120
+    checks:
+      - "Post"
+    commands:
+      - "5:5 [alert]"
+      - "30:30 kick %player% &cGrim &7» &bPost"
+  Sprint:
+    remove-violations-after: 120
+    checks:
+      - "Sprint"
+    commands:
+      - "5:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bSprint"
+  Elytra:
+    remove-violations-after: 120
+    checks:
+      - "Elytra"
+    commands:
+      - "5:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bElytra"
+  BadPackets:
+    remove-violations-after: 300
+    checks:
+      - "BadPackets"
+    commands:
+      - "10:10 [alert]"
+      - "50:50 kick %player% &cGrim &7» &bBadPackets"
+  Crash:
+    remove-violations-after: 300
+    checks:
+      - "Crash"
+    commands:
+      - "5:5 [alert]"
+      - "30:30 kick %player% &cGrim &7» &bCrash"
+  Place:
+    remove-violations-after: 300
+    checks:
+      - "Place"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bPlace"
+  EntityControl:
+    remove-violations-after: 300
+    checks:
+      - "EntityControl"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bEntityControl"
+  Baritone:
+    remove-violations-after: 600
+    checks:
+      - "Baritone"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bBaritone"
+  FastBreak:
+    remove-violations-after: 600
+    checks:
+      - "FastBreak"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bFastBreak"
+  TransactionOrder:
+    remove-violations-after: 600
+    checks:
+      - "TransactionOrder"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bTransactionOrder"
+  MultiActions:
+    remove-violations-after: 600
+    checks:
+      - "MultiActions"
+    commands:
+      - "5:5 [alert]"
+      - "15:15 kick %player% &cGrim &7» &bMultiActions"
+  Aim:
+    remove-violations-after: 600
+    checks:
+      - "AimModulo360"
+    commands:
+      - "1:1 [alert]"
+      - "1:1 kick %player% &cGrim &7» &bAim"
+  Interact:
+    remove-violations-after: 600
+    checks:
+      - "Interact"
+    commands:
+      - "1:1 [alert]"
+      - "2:2 kick %player% &cGrim &7» &bInteract"
+  KillAura:
+    remove-violations-after: 600
+    checks:
+      - "Killaura"
+    commands:
+      - "1:1 [alert]"
+      - "1:1 kick %player% &cGrim &7» &bKillAura"
+  Reach:
+    remove-violations-after: 600
+    checks:
+      - "Reach"
+    commands:
+      - "1:1 [alert]"
+      - "1:1 kick %player% &cGrim &7» &bReach"
+  Timer:
+    remove-violations-after: 600
+    checks:
+      - "Timer"
+    commands:
+      - "5:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bTimer"
+  NoFall:
+    remove-violations-after: 600
+    checks:
+      - "NoFall"
+    commands:
+      - "5:5 [alert]"
+      - "10:10 kick %player% &cGrim &7» &bNoFall"

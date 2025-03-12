@@ -1,0 +1,138 @@
+# Команды: http://by1337-plugins.space/navigator/command.html
+# Ивенты:
+#   load - когда аирдроп загружается
+#   unload - когда аирдроп выгружается
+#   start - когда аирдроп появляется
+#   open - когда аирдроп открывается
+#   end - когда аирдроп заканчивается
+#   tick - вызывается каждый тик аирдроп (по умолчанию каждую секунду)
+#   click - когда кликают по аирдропу
+#   click_open - когда кликают по открытому аирдропу
+#   click_close - когда кликают по закрытому аирдропу
+#   summoned - когда аирдроп призывают с помощью предмета
+#   activate - когда аирдроп активируют кликом по нему
+#
+# alert-5:
+#   icon: OBSERVER
+#   description: '&fПример слушателя со всеми возможными проверками'
+#   event: start
+#   requirement:
+#     check-1:
+#       type: math
+#       input: '{time-to-open} == 5'
+#     check-2:
+#       type: string
+#       input: 'str equals str' # может быть !equals, '==' и '!='
+#     check-3:
+#       type: string
+#       input: 'strstr contains str' # может быть !contains
+#   commands:
+#     - '[MESSAGE_ALL] все условия прошли!'
+#   deny-commands:
+#     - '[MESSAGE_ALL] один или несколько условий не прошли!'
+
+listeners:
+  start:
+    description: '&fОсновной слушатель на спавн аирдропа'
+    event: 'start'
+    commands:
+      - '[SET_REGION]'
+      - '[MESSAGE_ALL]  &6'
+      - '[MESSAGE_ALL]  §x§F§5§4§1§4§1∙                        {air_name}                            '
+      - '[MESSAGE_ALL]  §x§F§5§4§1§4§1∙    &fПоявился на координатах: §x§E§A§5§E§5§E[{x} {y} {z}]    '
+      - '[MESSAGE_ALL]  &6'
+      - '[HOLOGRAM] [CREATE] hologramClickWait holoClickWait'
+      - '[HOLOGRAM] [REMOVE] holoTimeStart -ifexist' 
+      - '[SCHEMATIC_PASTE] asteroid'
+      - '[BOSSBAR] [CREATE] 1'
+      - '[BOSSBAR] [EDIT] 1 [COLOR] RED [AND] [STYLE] SEGMENTED_10 [AND] [VALUE] 0.5'
+      - '[BOSSBAR] [RADIUS] 100'
+      - '[BOSSBAR] [ADD] [ALL]'
+      
+      
+  activate:
+    icon: OBSERVER
+    description: '&Слушает активацию аирдропа'
+    event: 'activate'
+    commands:
+      - '[HOLOGRAM] [CREATE] hologramTimeToOpen holoTimeToOpen'
+      - '[HOLOGRAM] [REMOVE] holoClickWait'
+
+  holoTimeToOpen-updater:
+    description: '&fОбновляет голограмму holoTimeToOpen'
+    event: 'tick'
+    requirement:
+      check:
+        type: 'math'
+        input: '{started} && {clicked} && !{opened}'
+    commands:
+      - '[HOLOGRAM] [UPDATE] holoTimeToOpen'
+
+  click_open:
+    description: '&fОткрывает инвентарь аирдропа игроку'
+    event: 'click_open'
+    commands:
+      - '[INV_MANAGER] [OPEN_INVENTORY]'
+
+  click_close:
+    description: '&fСообщение игроку о том что аирдроп закрыт'
+    event: 'click_close'
+    commands:
+      - '[MESSAGE] &f'
+
+  open:
+    description: '&fГенерирует лут в аирдропе'
+    event: 'open'
+    commands:
+      - '[INV_MANAGER] [GENERATE_LOOT]'
+      - '[HOLOGRAM] [REMOVE] holoTimeToOpen'
+      - '[HOLOGRAM] [CREATE] hologramTimeToEnd holoTimeToEnd'
+      - '[SPREADING] [ITEMS] 2 2'
+      - '[SPREADING] [PARTICLE] LARGESMOKE 5'
+
+  end:
+    description: '&fоткрывает инвентарь аирдропа игроку'
+    event: 'end'
+    commands:
+      - '[INV_MANAGER] [CLEAR_INVENTORY]'
+      - '[REMOVE_REGION]'
+      - '[EFFECT_STOP_ALL]'
+      - '[HOLOGRAM] [REMOVE] holoTimeToEnd -ifexist' # На всякий случай пытаемся удалить все голограммы
+      - '[HOLOGRAM] [REMOVE] holoTimeToOpen -ifexist'
+      - '[HOLOGRAM] [REMOVE] holoTimeToStart -ifexist'
+      - '[HOLOGRAM] [REMOVE] holoClickWait -ifexist'
+      - '[HOLOGRAM] [REMOVE] holoTimeStart -ifexist'
+      - '[SCHEMATIC_UNDO]'
+      - '[BOSSBAR] [DELETE] 1'
+
+  hologramTimeToEnd-updater:
+    description: '&fОбновляет голограмму holoTimeToOpen'
+    event: 'tick'
+    requirement:
+      check:
+        type: 'math'
+        input: '{started} && {opened}'
+    commands:
+      - '[HOLOGRAM] [UPDATE] holoTimeToEnd'
+
+  hologramTimeStart-updater:
+    description: '&fОбновляет голограмму holoTimeStart'
+    event: 'tick'
+    requirement:
+      check:
+        type: 'math'
+        input: '{summoned} && !{started}'
+    commands:
+      - '[HOLOGRAM] [UPDATE] holoTimeStart'
+
+  summoned:
+    description: '&fСлушает призыв аирдропа'
+    event: 'summoned'
+    commands:
+      - '[LOGG] summoned!'
+      - '[SET_MATERIAL] SOUL_CAMPFIRE'
+      - '[SET_REGION]'
+      - '[SET_TIME_TO_START] 30'
+      - '[HOLOGRAM] [CREATE] hologramTimeStart holoTimeStart'
+      - '[MESSAGE_ALL] Игрок %player_name% призвал аирдроп {air_name}!'
+      - '[MESSAGE_ALL] На координаты x:{x} y:{y} z:{z}'

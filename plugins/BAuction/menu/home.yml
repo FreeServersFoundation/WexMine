@@ -1,0 +1,200 @@
+menu_title: "&7Аукцион ({current_page}/{max_page})"
+size: 54
+type: CHEST
+provider: home
+id: home
+
+items-slots:
+  - 0-44
+
+
+if-shulker:
+  lore:
+    - '  &6⭔&r &fНажмите &#5AD9FBШифт + Пкм'
+    - '  &6⭔&fчтобы посмотреть содержимое шалкера'
+    - '&r '
+  shift_right_click_commands:
+    - '[OPEN_MENU] viewShulker'
+
+if-admin:
+  lore:
+    - '  &6⭔&r &fНажмите &#5AD9FBскм'
+    - '  &6⭔ &fчтобы &cудалить&f этот предмет'
+    - '&r '
+  middle_click_commands:
+    - '[REMOVE_SELL_ITEM]'
+# Когда продаваемый предмет один
+
+selling-item-one:
+  lore:
+    - '  &r '
+    - '  &6⭔&r &fПродавец: &#5AD9FB{seller_name}'
+    - '  &6⭔&r &fЦена: &#5AD9FB{price_format}'
+    - '  &6⭔ &fИстекает: &#5AD9FB{expires}'
+    - '&r '
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+
+# Когда игрок owner предмета
+take-item:
+  lore:
+    - '&r '
+    - '  &6⭔&r &fПродавец: &#5AD9FB{seller_name}'
+    - '  &6⭔&r &fЦена: &#5AD9FB{price_format}'
+    - '  &6⭔&r &fИстекает: &#5AD9FB{expires}'
+    - '  &6⭔ &fПродажа по штучно: &#5AD9FB{sale_by_the_piece_format}'
+    - '&r '
+    - '&#5AD9FB&r &fЧтобы снять с продажи нажмите &#5AD9FBлкм'
+  left_click_commands:
+    - '[TAKE_ITEM]'
+  shift_left_click_commands:
+    - '[TAKE_ITEM]'
+
+# Когда продаваемый предмет не один и его можно купить поштучно
+selling-item:
+  lore:
+    - '&r '
+    - '  &6⭔&r &fПродавец: &#5AD9FB{seller_name}'
+    - '  &6⭔&r &fЦена: &#5AD9FB{price_format}'
+    - '  &6⭔&r &fЦена за штуку &#5AD9FB{price_for_one_format}'
+    - '  &6⭔&f Истекает: &#5AD9FB{expires}'
+    - '&r '
+    - '  &6⭔&r &fЧтобы купить всё нажмите &#5AD9FBлкм'
+    - '  &6⭔&#5AD9FB&r &fДля покупки поштучно нажмите &#5AD9FBпкм'
+    - ''
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  right_click_commands:
+    - '[OPEN_MENU] buyCount'
+
+# Когда продаваемый предмет не один и его нельзя купить поштучно
+selling-item-only-full:
+  lore:
+    - '&r '
+    - '  &6⭔&r &fПродавец: &#5AD9FB{seller_name}'
+    - '  &6⭔&r &fЦена: &#5AD9FB{price_format}'
+    - '  &6⭔&fИстекает: &#5AD9FB{expires}'
+    - '&r '
+    - '  &6⭔&r &fПродавец &#ABF0FAограничил &fуказание'
+    - '  &6⭔&r &fколичества товара при покупке.'
+    - '&#5AD9FB&r &#ABF0FAКупить можно только полностью'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  right_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  shift_right_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+items:
+  selling-item:
+    material: ENDER_CHEST
+    slot: 45
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6[Активные товары на продаже]'
+      - '&r'
+      - '  &7Кликните, чтобы посмотреть'
+      - '  &7список ваших предметов,'
+      - '  &7находящихся на продаже'
+      - '&r'
+      - '&7 *&7Товаров на продаже &b{selling_item_count}'
+    click_commands:
+      - '[OPEN_MENU] itemsForSale'
+
+  not-sold-item:
+    material: CHEST
+    slot: 46
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6[Не проданные предметы]'
+      - '&r'
+      - '  &7Кликните, чтобы посмотреть'
+      - '  &7список ваших предметов,'
+      - '  &7которые не были проданы'
+      - '&1'
+      - '&7 *Не проданных предметов &b{not_sold_item_count}'
+    click_commands:
+      - '[OPEN_MENU] unsoldItems'
+  update-menu:
+    material: EMERALD
+    slot: 49
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6[Обновить аукцион]'
+      - '&r'
+      - '&r  &7Чтобы выставлять предметы на продажу,'
+      - '&r  &7нужно просто написать команду:'
+      - '&r  &6/ᴀʜ ꜱᴇʟʟ <цена>'
+      - '&r'
+      - '&r  &7Если Вы хотите выставить предметы'
+      - '&r  &7без поштучной возможности покупки:'
+      - '&r  &6/ᴀʜ ꜱᴇʟʟ <цена> ꜰᴜʟʟ'
+      - '&r'
+      - '&r  &7Чтобы найти нужный товар,'
+      - '&r  &7пропишите команду:'
+      - '&r  &6/ᴀʜ ꜱᴇᴀʀᴄʜ <название предмета>'
+      - '&r '
+    click_commands:
+      - '[REFRESH]'
+
+  previous-page:
+    material: ARROW
+    slot: 48
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6<- Предыдущая страница'
+      - ''
+    click_commands:
+      - '[PREVIOUS_PAGE]'
+
+  next-page:
+    material: ARROW
+    slot: 50
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6Следующая страница ->'
+      - ''
+    click_commands:
+      - '[NEXT_PAGE]'
+
+  sorting:
+    material: HOPPER
+    slot: 52
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6[Сортировка]'
+      - ''
+      - '{sorting}'
+      - ''
+    left_click_commands:
+      - '[SORTING_NEXT]'
+    right_click_commands:
+      - '[SORTING_PREVIOUS]'
+
+  categories:
+    material: CHEST_MINECART
+    slot: 53
+    amount: 1
+    display_name: "&b"
+    lore:
+      - '  &6[Категории предметов]'
+      - ''
+      - '{categories}'
+      - ''
+    left_click_commands:
+      - '[CATEGORIES_NEXT]'
+    right_click_commands:
+      - '[CATEGORIES_PREVIOUS]'

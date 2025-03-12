@@ -1,0 +1,169 @@
+name: '&8Вернуть вещь?'
+size: 27
+type: REMOVE_CONFIRM
+items:
+  remove:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 0 
+  remove1:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 1    
+  remove2:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 2 
+  remove3:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 9
+  remove4:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 10
+  remove5:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 11   
+  remove6:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 18
+  remove7:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 19
+  remove8:
+    type: REMOVE_ITEM
+    item:
+      material: GREEN_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &aВернуть  '
+        - ''
+    slot: 20     
+  deny:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 6
+  deny2:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 7
+  deny3:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 8
+  deny4:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 15
+  deny5:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 16
+  deny6:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 17
+  deny7:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 24
+  deny8:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 25
+  deny9:
+    type: BACK
+    item:
+      material: RED_STAINED_GLASS_PANE
+      name: ' '
+      lore:
+        - '  &cОтменить  '
+        - ''
+    slot: 26
+  show:
+    type: SHOW_ITEM
+    slot: 13  

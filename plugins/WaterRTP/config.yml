@@ -1,0 +1,73 @@
+settings:
+  default:
+    world: rtp # в какой мир будет телепортировать при использовании команды /rtp default
+    min: 100
+    max: 500
+  far:
+    world: rtp # в какой мир будет телепортировать при использовании команды /rtp far
+    min: 1000
+    max: 5000
+  near:
+    blocked-world:
+      - 'pvp'
+    min: 10 # в радиусе от 10 до 50 блоков игрока тепнет рядом с другим игроком
+    max: 50
+  mob:
+    blocked-world:
+      - 'nether'
+  biome-blacklist:
+    - 'DEEP_OCEAN'
+    - 'OCEAN'
+    - 'FROZEN_OCEAN'
+    - 'VOID'
+  block-blacklist:
+    - 'LAVA'
+    - 'STATIONARY_LAVA'
+    - 'WATER'
+    - 'STATIONARY_WATER'
+    - 'CACTUS'
+    - 'PORTAL'
+    - 'ENDER_PORTAL'
+    - 'ENDER_PORTAL_FRAME'
+    - 'LEAVES'
+    - 'LEAVES_2'
+    - 'FIRE'
+    - 'MAGMA'
+    - 'MAGMA_CREAM'
+  near-player-message: true # писать ли игроку, что с ним рядом телепортировался игрок (при использовании команды /rtp near)
+
+messages:
+  prefix: '&b&lРТП: &f'
+  no-permission: 'У вас нет прав.'
+  cooldown-not-passed: '&cКулдаун! %date%'
+  blocked-world: 'Данный мир заблокирован'
+  default:
+    successfully: 'Вас успешно телепортировало на рандомную локацию: &a%x%, %y%, %z% ;title: &aУспешно!'
+  near:
+    successfully: 'Вас успешно телепортировало на рандомную локацию: &a%x%, %y%, %z% ;title: &aУспешно!'
+    target: 'С вами близко телепортировался игрок &a%player%&f, будье аккуратнее!' # работает если near-player-message == true
+    online-null: 'Онлайна нет'
+  far:
+    successfully: 'Вас успешно телепортировало на рандомную локацию: &a%x%, %y%, %z% ;title: &aУспешно!'
+  mob:
+    no-permission: '&cНедостаточно прав!'
+    no-arguments: '&cВы не указали моба!'
+    successfully: 'Вы успешно телепортированы к мобу! ;title: &aУспешно!'
+    not-allowed: '&cДанный моб запрещен'
+    entity-null: 'Такого Entity не существует!'
+cooldowns:
+  default: 10 # В секундах
+  near: 20 # В секундах
+  far: 30 # В секундах
+  mob: 40 # В секундах
+  date-format: 'HH ч. mm м. ss с.' # Формат даты
+mobs-whitelist:
+  - ZOMBIE
+  - CREEPER
+rtp-online-min: 3
+void:
+  player: '/spawn'
+ #console: 'spawn %player_name%'
+# WaterRTP.near - /rtp near
+# WaterRTP.far - /rtp far
+# WaterRTP.mob - /rtp mob

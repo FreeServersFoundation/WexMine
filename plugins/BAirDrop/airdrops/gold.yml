@@ -1,0 +1,290 @@
+random-slot: false
+generator-settings: default
+spawn-chance: 50
+flatness-check: true
+min-online-players: 1
+inv-name: '&#FFFE00&lЗ&#FFF304&lО&#FEE708&lЛ&#FEDC0C&lО&#FDD111&lТ&#FDC515&lА&#FCBA19&lЯ
+  &#FCA421&lЛ&#FB9825&lИ&#FB8D29&lХ&#FA822D&lО&#FA7632&lР&#F96B36&lА&#F9603A&lД&#F8543E&lК&#F84942&lА'
+air-id: gold
+air-name: '&#FFFE00&lЗ&#FFF304&lО&#FEE708&lЛ&#FEDC0C&lО&#FDD111&lТ&#FDC515&lА&#FCBA19&lЯ
+  &#FCA421&lЛ&#FB9825&lИ&#FB8D29&lХ&#FA822D&lО&#FA7632&lР&#F96B36&lА&#F9603A&lД&#F8543E&lК&#F84942&lА'
+chest-inventory-size: 54
+air-spawn-world: pvp
+air-spawn-radius-min: -2000
+air-spawn-radius-max: 2000
+air-radius-protect: 15
+timeToStart: 240
+search-before-start: 1
+openingTime: 5
+start-countdown-after-click: false
+time-stop-event-must-go: false
+time-stop-event: 1
+chest-material-locked: YELLOW_GLAZED_TERRACOTTA
+chest-material-unlocked: YELLOW_GLAZED_TERRACOTTA
+signed-events:
+- alert-start-gold
+- alert-open-pvp_gold
+- addon12345
+- alert-stop-gold
+use-pre-generated-locations: false
+use-static-loc: true
+use-only-static-loc: true
+air-holo:
+- '{inv-name}'
+- ''
+- '&fДлительность ивента &65&f минут'
+- Окончание через &6{time-to-open}
+- ''
+air-holo-open:
+- ''
+air-holo-click-wait:
+- ''
+air-holo-to-start:
+- ''
+holo-offsets:
+  x: 0.5
+  y: 2.5
+  z: 0.5
+static-location:
+  x: 15.0
+  y: 34.0
+  z: -26.0
+  world: pvp
+state:
+  airDropLocation:
+    ==: org.bukkit.Location
+    world: pvp
+    x: 15.0
+    y: 34.0
+    z: -26.0
+    pitch: 0.0
+    yaw: 0.0
+  timeStop: 60
+  airDropStarted: false
+  effects: {}
+  wasOpened: false
+  timeToOpen: 300
+  version: 1
+  timeToStart: 13788
+  airDropLocked: true
+  activated: false
+inv:
+  inv19220:
+    '0':
+      '70':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TOTEM_OF_UNDYING
+    '1':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 9
+    '4':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_GOLDEN_APPLE
+    '8':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FIREWORK_ROCKET
+        amount: 41
+    '9':
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ELYTRA
+    '10':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DEPTH_STRIDER: 3
+            PROTECTION_FALL: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+    '12':
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+    '13':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FIREWORK_ROCKET
+        amount: 23
+    '14':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+    '15':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 3
+    '16':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 3
+    '18':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 5
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 3
+    '19':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TOTEM_OF_UNDYING
+    '22':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 23
+    '28':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+        amount: 12
+    '30':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            WATER_WORKER: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            OXYGEN: 3
+            DURABILITY: 3
+    '32':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TOTEM_OF_UNDYING
+    '33':
+      '101':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: CHORUS_FRUIT
+        amount: 16
+    '34':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TOTEM_OF_UNDYING
+    '35':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+            ARROW_DAMAGE: 5
+            ARROW_KNOCKBACK: 2
+            DURABILITY: 3
+    '36':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+        amount: 8
+    '38':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+        amount: 7
+    '42':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+        amount: 5
+    '44':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 12
+    '47':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 3
+    '48':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+    '49':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 17
+    '51':
+      '70':
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENCHANTED_GOLDEN_APPLE

@@ -1,0 +1,64 @@
+Name: dd
+Cooldown: 0
+Permission: nKits.kits.dd
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Skull
+        of The_BlueMini"}],"text":""}'
+      Damage: 3
+      internal: H4sIAAAAAAAA/1VUya6jVhClo470+qW/IlsWYAZjFh2J0YC5YGzAwCZiMvNozPQV+YAs8gHJsqX8QDb5pizCe8kiWR2p6tSpU6W69xWCXqHP1+JZlue+uWdl/AJ91Pwqhj6bafwjWz5jkNXZK/S6pdu4H7L48Ql6GeJ5ePbx4xWCoA8v0KdrltT+W+SbX/mjNIUWmfAtGPVDptk0WaXX0+oay4h0rIzHMyWp16IWbInZF/qQdDJwSC8c9bJTOXi2KcvYF8TqIvlILYEcGI3bB0C50l2r7rqoN8HhcLnrPM0Sl0Bk6HObNwbjGp2aIfr5qjmZjaFj85wvwwr3go/ubt5eBQzZTZOdUiVgoweL0g568m9Rn5gSbTpE4YlAUfajpbaNcrjPoltnb9VXkq6M+MAwWBlYJnJuRhafn/ra4MlM5fZtP0YsnpqGEJxSL7nV9qIHIBoxUl1ad7HWYXaVvpdjriVL9qmjVV6WiGjXE1OSe4O0vchiCdwq9cNMoeYiMfDAU35KScMd9RN1V2N8fSI0Y9Xv1tk/uoLRjEpgFqeF5ic9vOynbKaFDL/kxTmGczzyCLh04S7KlFMT9yeAdMQDLM+dM6lH2ArSDDnQUZxIvehUFIdKCGCOYa0hBEPYp6kVWuLhRhNlr5zqB8nK5qIkVksl0iTo2Ee3TIsYInAeSqi86MueY8vzAyWtjiCkp3y0TNwA5ydM6MEQTwf4epywwUBPCNUUsmbzzpw3jYigBpfGi3CfKDY1T0ukzUZMt74gw3QykfAsg8dMslGXtXHQ0OWuXs+pRHNOiWCIIpqzQGBGSDCIdswd/CLilO4hV6ZvDMJ3yiEsD6GHOESyo2EhVvQlZA69p4yRvOcvCp3N+u0xHAX5ywv0re1vJ/7hl3hqEplTUP+2K0P8kgYOk8l8kwAzRAGfrDoPSC23FsBNJ5ljslBSRq8qH55VFnLG7GVOXr2N6+bJAvI3tFAtLyY3tysXEwt3tSadZ0gXE0h3kR9cxiRyzS4B5rXB0dbdre8/OorlH+27Uc07z9q1QVVkKvPubd2u9ek6l11Y2VfPEXe+o5QeJyd6xqJhbZf/8lDPSdFoy4XLe45677V5ttBBMbP/xd74m970PqtcbXXbm1QX+j8a5ODfyNLFldSrjWdQ2aiKX8pYevNhjRqf5m51SUEuE9vsGFjTwr0JMzjKqHZTSrcCGMhdQjcLDFRe5lZapZsA1c208m4y7uYF4d6sCVQWrvGA2HDd9nN69yahG7I0V6NfIOg76Bs52r6bjz8Mv38/fBV/+vrXb3+8fPrzZwj6GxC7eQXFBAAA
+      skull-owner: The_BlueMini
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - null
+  - null
+  - null
+  - null

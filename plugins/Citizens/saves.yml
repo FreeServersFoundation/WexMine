@@ -1,0 +1,490 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 26
+npc:
+  '1':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lК§x§f§c§c§4§0§0§lо§x§f§8§d§8§0§0§lн§x§f§5§e§b§0§0§lт§x§f§1§f§f§0§0§lр§x§f§5§f§6§0§0§lа§x§f§8§e§c§0§0§lк§x§f§c§e§3§0§0§lт§x§f§f§d§9§0§0§lы
+    uuid: 25a49751-d954-42e2-8b4f-e1aee392beb4
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 179.7431
+        world: world
+        x: '42.5898'
+        y: '97.0'
+        z: '52.3'
+        yaw: '179.7431'
+        pitch: '-0.4333'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,hologramtrait,spawned,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: kits0nn
+      cached-skin-uuid: e961f5fa-261d-437f-8cf2-72a8b6459cdc
+      glowing: true
+    name: §x§f§f§b§0§0§0§lШ§x§f§a§c§a§0§0§lа§x§f§6§e§5§0§0§lх§x§f§1§f§f§0§0§lт§x§f§8§e§c§0§0§lё§x§f§f§d§9§0§0§lр
+    uuid: 9189d9a9-8945-4404-9f4a-71dfc8cc88c0
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -180.79395
+        world: world
+        x: '-47.489'
+        y: '-5143629.1644'
+        z: '53.6985'
+        yaw: '179.2061'
+        pitch: '1.8013'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: IWgV5KNM7rE0E325LPg9ixcEeZ0vxjyuE+o0ek6qzJ+cu5amosi6WhRA0ZJC8nAy3zLfdYaWAJt3Xc6qXZUZTeisFSsVCDqd0EN3xfl0eBbcxFUx0oJ1MbU/s8cLMmPDNsoEony277Kx7ii6JPWogBPEpLf6rGipKVIo3FRCEEYXzNkn4uokkzHXZD6/GRIKNSt3qmn5QpXh1y/3ouzFB47KdU5Mg8Pwvf3w1sgdVYCIylvuwjOVCdK5GzlpFrXJAuPN8BxIDDxUsB1ONFMgZny4OsMR5rVPPRsAt8hsnh7MlRFvTFwyve2YW/HyS/W0xqMfo7iPXmQNgd2leHtNjYkmHu47PRo6Cp8n6AtVPYw7pY4JXUXzhStq3UnbrbnPtmVdYp3AZQOB1rWW9nu044++gSNp65DcRTtM63xTRPwL5wpejjBCZiNVApX/wgTrjtOUsfwkl1LTBSY6OwT8i2HjQwFwxOAqhgZYFzQNFQaDGUzM2+XC7WaWwWhoPGjLS0zP72WNOZTZbd6c7LkOP7dWatIIDYuKNB3amww7Dm2lE2KKnJlHZnsN/V+SdWnNTTUcN7KLERYxNfZF8UlVvKB//sjSD/uoWPKZq053Rc17TQuKg8n5XdVRpZ+61zIVtRpyk1CiOxQa3QfZOzLE5CsHre6C5p2Ol2tS58A5JNY=
+        skinName: kits0nn
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0MDQ5MDAwNTIxNiwKICAicHJvZmlsZUlkIiA6ICJlOTYxZjVmYTI2MWQ0MzdmOGNmMjcyYThiNjQ1OWNkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJraXRzMG5uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5NDZkNWU3ODRlZjk1NTEwMmMzZjMxM2YwNDNkMGEyMGU4NmE5OTcyNzZlMTg4OTI1MDkyOGVlMWUwNWM4ODgiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '23':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lП§x§f§d§b§d§0§0§lу§x§f§a§c§a§0§0§lт§x§f§8§d§8§0§0§lе§x§f§6§e§5§0§0§lв§x§f§3§f§2§0§0§lо§x§f§1§f§f§0§0§lд§x§f§4§f§7§0§0§lи§x§f§7§f§0§0§0§lт§x§f§9§e§8§0§0§lе§x§f§c§e§1§0§0§lл§x§f§f§d§9§0§0§lь
+    uuid: 74289b04-cae3-47ed-9992-9bf3e9cef07a
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 359.88245
+        world: world
+        x: '0.53'
+        y: '100.0'
+        z: '-1.5545'
+        yaw: '-0.1176'
+        pitch: '5.0613'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '22':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lХ§x§f§a§c§a§0§0§lа§x§f§6§e§5§0§0§lл§x§f§1§f§f§0§0§lя§x§f§8§e§c§0§0§lв§x§f§f§d§9§0§0§lа
+    uuid: 451e0fef-bd35-49c3-9cb4-a671d990a363
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -181.49005
+        world: world
+        x: '0.5398'
+        y: '100.0'
+        z: '2.5523'
+        yaw: '178.5099'
+        pitch: '1.9986'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '21':
+    metadata:
+      glowing: true
+    name: §c§l§ksdsa
+    uuid: 38c3bc6d-8c86-43c1-8f52-60d84ea70a55
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -91.67175
+        world: world
+        x: '27.7'
+        y: '97.0'
+        z: '-18.4887'
+        yaw: '-91.6718'
+        pitch: '0.9177'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lЗ§x§f§8§d§8§0§0§lе§x§f§1§f§f§0§0§lл§x§f§8§e§c§0§0§lь§x§f§f§d§9§0§0§lя
+    uuid: 070913e5-c827-4116-8553-aa06e5c01ef4
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 269.26474
+        world: world
+        x: '30.7'
+        y: '97.0'
+        z: '-26.3308'
+        yaw: '-90.7353'
+        pitch: '-0.5235'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '18':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lА§x§f§a§c§a§0§0§lу§x§f§6§e§5§0§0§lк§x§f§1§f§f§0§0§lц§x§f§6§f§2§0§0§lи§x§f§a§e§6§0§0§lо§x§f§f§d§9§0§0§lн
+    uuid: 28ff1b5f-412e-4413-8977-1ef92663b680
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -88.84076
+        world: world
+        x: '36.7'
+        y: '97.0'
+        z: '-42.4645'
+        yaw: '-88.8408'
+        pitch: '0.7376'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '17':
+    metadata:
+      glowing: true
+    name: §c§l§ksdsa
+    uuid: 063cb4ad-e8a6-4aba-ba54-1e1d82a5f735
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -90.34372
+        world: world
+        x: '33.6189'
+        y: '97.0'
+        z: '37.5069'
+        yaw: '-90.3437'
+        pitch: '2.2689'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '16':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lС§x§f§a§c§a§0§0§lк§x§f§6§e§5§0§0§lу§x§f§1§f§f§0§0§lп§x§f§6§f§2§0§0§lщ§x§f§a§e§6§0§0§lи§x§f§f§d§9§0§0§lк
+    uuid: b9697648-2aa9-4384-8953-08c2c0cb5976
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -91.2341
+        world: world
+        x: '30.698'
+        y: '97.0'
+        z: '29.5027'
+        yaw: '-91.2341'
+        pitch: '1.3681'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,hologramtrait,commandtrait,spawned,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '15':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lШ§x§f§8§d§8§0§0§lа§x§f§1§f§f§0§0§lр§x§f§f§d§9§0§0§lы
+    uuid: 302a61f8-2afd-4801-98bb-450a4bfba33a
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 269.26114
+        world: world
+        x: '36.7'
+        y: '97.0'
+        z: '45.3917'
+        yaw: '-90.7389'
+        pitch: '-0.1632'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '14':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lК§x§f§8§d§8§0§0§lи§x§f§1§f§f§0§0§lт§x§f§f§d§9§0§0§lы
+    uuid: 9171e00c-f83e-4cc6-8273-c828f206db17
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -89.76384
+        world: world
+        x: '33.7'
+        y: '97.0'
+        z: '-34.5884'
+        yaw: '-89.7638'
+        pitch: '-0.1634'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,hologramtrait,spawned,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '13':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lТ§x§f§a§c§a§0§0§lи§x§f§6§e§5§0§0§lт§x§f§1§f§f§0§0§lу§x§f§8§e§c§0§0§lл§x§f§f§d§9§0§0§lы
+    uuid: 5278cac8-71d3-4419-ad86-accee3dc2fae
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -1.9483997
+        world: world
+        x: '42.4958'
+        y: '97.0'
+        z: '-49.3'
+        yaw: '-1.9484'
+        pitch: '0.4674'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '12':
+    metadata:
+      glowing: true
+    name: §x§f§f§b§0§0§0§lД§x§f§d§b§d§0§0§lо§x§f§a§c§a§0§0§lн§x§f§8§d§8§0§0§lа§x§f§6§e§5§0§0§lт§x§f§3§f§2§0§0§l-§x§f§1§f§f§0§0§lм§x§f§3§f§9§0§0§lа§x§f§6§f§2§0§0§lг§x§f§8§e§c§0§0§lа§x§f§a§e§6§0§0§lз§x§f§d§d§f§0§0§lи§x§f§f§d§9§0§0§lн
+    uuid: c6d0ab8e-85ba-46de-83cc-bbcb52f9ee35
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 270.7057
+        world: world
+        x: '27.7'
+        y: '97.0'
+        z: '21.3915'
+        yaw: '-89.2943'
+        pitch: '0.377'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,hologramtrait,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    name: slowed227
+    uuid: 1c1d05b9-e482-4699-bcbf-8c960afec48b
+    traits:
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: 89.84189
+        world: world_the_end
+        x: '-21120.686'
+        y: '59.0'
+        z: '-787.6642'
+        yaw: '89.8419'
+        pitch: '4.7912'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,scoreboardtrait,equipment,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '25':
+    name: §c§lРЫБАЧОК
+    uuid: 6c342c96-c571-4a5a-8999-a006b3fb9dad
+    traits:
+      location:
+        bodyYaw: 3.3015985
+        world: world
+        x: '-182.3126'
+        y: '-4802664.5591'
+        z: '143.3'
+        yaw: '3.3016'
+        pitch: '16.7888'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      type: PLAYER
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '26':
+    metadata:
+      glowing: true
+    name: §c§lПЕРЕЙТИ НА ПВП-АРЕНУ
+    uuid: 54417a45-4826-4e95-b42a-9a3f4079e3b0
+    traits:
+      spawned: true
+      location:
+        bodyYaw: -270.55273
+        world: world
+        x: '109.7293'
+        y: '98.0'
+        z: '0.5645'
+        yaw: '89.4473'
+        pitch: '0.4673'
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '0':
+            command: warp pvp
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      owner:
+        owner: crashteamik
+        uuid: 33cf46f7-a5ff-3d3c-aa13-7d04de49d72a
+    traitnames: inventory,mounttrait,skintrait,spawned,commandtrait,hologramtrait,equipment,scoreboardtrait,location,owner,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

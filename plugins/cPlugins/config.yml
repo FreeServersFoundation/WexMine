@@ -1,0 +1,14 @@
+plugin-enabled: "&aCPlugins успешно загружен! &cmade by love crashteamik (discord)"
+plugin-disabled: "&cCPlugins выключен! &cmade by love crashteamik (discord)"
+
+usage: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &fИспользование: &x&F&F&F&8&0&0/cplugins <unload/load/reload> <плагин>"
+unknown-command: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &cНеизвестная команда! Используйте /cplugins <unload/load/reload> <плагин>"
+
+plugin-not-found: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &cПлагин %plugin% не найден!"
+file-not-found: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &cФайл %plugin%.jar не найден в папке plugins!"
+
+plugin-unloaded: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &fПлагин &x&F&F&F&8&0&0%plugin%&f успешно &aвыгружен&f!"
+unload-error: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &cОшибка при выгрузке плагина %plugin%!"
+
+plugin-loaded: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &fПлагин &x&F&F&F&8&0&0%plugin%&f успешно &aзагружен&f и &aвключен&f!"
+load-error: "&x&F&F&9&B&0&0&lп&x&F&F&B&A&0&0&lл&x&F&F&D&9&0&0&lᴀ&x&F&F&F&8&0&0&lг&x&F&F&D&9&0&0&lи&x&F&F&B&A&0&0&lʜ&x&F&F&9&B&0&0&lы &7» &cОшибка при загрузке плагина %plugin%!"

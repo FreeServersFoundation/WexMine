@@ -1,0 +1,193 @@
+no_perms:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИзвините, но у Вас нет прав'
+only_for_players:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fЭто действие доступно только для игроков'
+number_format_error:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fОшибка числа'
+no_money:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fУ Вас недостаточно средств'
+clan_not_found:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fКлан не был найден'
+player_not_found:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок не был найден'
+home_not_found:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fДом с таким названием не был найден'
+not_valid_text:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fУказывайте символы английского алфавита и цифры'
+admin_command:
+  usage:
+    - '&r &r &r &r &r &6&lBasherClansFT'
+    - '&f/basherclansft reload'
+    - '&f/basherclansft addexp <clan_name> <amount>'
+    - '&f/basherclansft takeexp <clan_name> <amount>'
+    - '&f/basherclansft showbalance <clan_name>'
+    - '&f/basherclansft setbalance <clan_name> <balance>'
+  addexp_success:
+    - '&aВы успешно выдали клану {clan_name} {amount} exp'
+  setbalance_success:
+    - '&aВы успешно установили клану {clan_name} баланс: {balance}$'
+  showbalance_success:
+    - '&aБаланс клана {clan_name}: {balance}$'
+  takeexp_success:
+    - '&aВы успешно забрали у клана {clan_name} {amount} xp'
+menus:
+  no_resources:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fНе хватает ресурсов'
+  color_change:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИндикация союзников теперь {enable}'
+  need_clan_level:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fФункция доступна кланам с уровнем выше {level}'
+  storage_already_edit:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fКто то уже редактирует хранилище'
+  success_buy:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно совершили покупку'
+  no_perms:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИзвините, но у Вас нет прав для этого действия'
+no_clan_usage:
+  - '&x&F&F&C&4&0&0[&x&F&F&C&5&0&0⚔&x&F&F&C&5&0&0] &x&F&F&C&6&0&0П&x&F&F&C&7&0&0о&x&F&F&C&7&0&0м&x&F&F&C&8&0&0о&x&F&F&C&9&0&0щ&x&F&F&C&9&0&0ь &x&F&F&C&A&0&0п&x&F&F&C&B&0&0о &x&F&F&C&C&0&0К&x&F&F&C&D&0&0л&x&F&F&C&D&0&0а&x&F&F&C&E&0&0н&x&F&F&C&E&0&0а&x&F&F&C&F&0&0м:'
+  - ' &#FFC400/clan create &f- создать клан (&e$100000)'
+  - ' &#FFC400/clan top &f- ТОП кланов по уровню'
+clan_usage:
+  - '&r '
+  - '&x&F&F&C&4&0&0[&x&F&F&C&A&0&0⚔&x&F&F&C&F&0&0] &fПомощь по &3Кланам&f:'
+  - ' &#FFC400/clan menu &f- информация о клане'
+  - ' &#FFC400/clan top &f- ТОП кланов по уровню'
+  - ' &#FFC400/clan leave &f- покинуть клан'
+  - ' &#FFC400/clan money &f- посмотреть клановый баланс'
+  - ' &#FFC400/clan invest Сумма &f- вложить деньги'
+  - ' &#FFC400/clan withdraw Сумма &f- снять деньги'
+  - ' &#FFC400/clan pvp &f- переключение PVP-режима'
+  - ' &#FFC400/clan storage &f- хранилище клана'
+  - ' &#FFC400/clan home Название &f- телепортация в дом клана'
+  - ' &#FFC400/clan sethome Название &f- установить точку базы'
+  - ' &#FFC400/clan delhome Название &f- удалить точку базы'
+  - ' &#FFC400/clan invite &f- пригласить игрока в клан'
+  - ' &#FFC400/clan kick &f- кикнуть игрока из клана'
+  - ' &#FFC400/clan prefix Ник Название &f- изменить префикс'
+  - ' &#FFC400/clan rename Название &f- переименовать'
+  - ' &#FFC400/clan disband &f- расформировать клан'
+level_up:
+  - '&6Награда:'
+already_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы уже находитесь в клане'
+player_already_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок уже находится в клане'
+no_in_clan:
+  - '&x&F&F&C&4&0&0[&x&F&F&C&5&0&0⚔&x&F&F&C&5&0&0] &x&F&F&C&6&0&0П&x&F&F&C&7&0&0о&x&F&F&C&7&0&0м&x&F&F&C&8&0&0о&x&F&F&C&9&0&0щ&x&F&F&C&9&0&0ь &x&F&F&C&A&0&0п&x&F&F&C&B&0&0о &x&F&F&C&C&0&0К&x&F&F&C&D&0&0л&x&F&F&C&D&0&0а&x&F&F&C&E&0&0н&x&F&F&C&E&0&0а&x&F&F&C&F&0&0м:'
+  - ' &#FFC400/clan create &f- создать клан (&e$10000)'
+  - ' &#FFC400/clan top &f- ТОП кланов по уровню'
+already_created_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fЭтот клан уже существует'
+not_valid_clan_name:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fНедопустимое название клана'
+not_valid_length_clan_name:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fНедопустимая длина клана. Доступно {min_length}/{max_length} символов'
+not_access:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВам не разрешено это делать'
+not_do_yourself:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы не можете сделать это с собой'
+not_has_invite:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы не приглашены ни в какой клан'
+limit_players_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВ клане максимальное количество участников'
+limit_balance_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fЭто выходит за лимит максимального баланса клана'
+no_money_in_bank:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВ казне клана нет столько средств'
+no_homes_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВ клане нет домов'
+limit_homes_in_clan:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы достигли лимита по количеству домов в клане'
+no_send_invites:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы никому не отправляли приглашение в клан'
+need_clan_level:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fДля этого нужен уровень клана: {level}'
+storage_already_edit:
+  - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fХранилище уже редактируется'
+#JSON сообщения делаются на сайте minecraft tools в разделе "Генератор tellraw"
+#Сюда нужно вставлять значение после @a. (значение в скобках вместе со скобками)
+clan:
+  create_success:
+    - '&x&F&F&C&4&0&0[&x&F&F&C&A&0&0⚔&x&F&F&C&F&0&0] &x&F&F&C&4&0&0С&x&F&F&C&6&0&0у&x&F&F&C&8&0&0п&x&F&F&C&B&0&0е&x&F&F&C&D&0&0р&x&F&F&C&F&0&0! &fВы успешно создали клан: {clan_name_colored}'
+  top_success:
+    - '&r '
+    - '&c[⚔] &fТОП по Уровню &cКланов'
+    - '&r '
+    - '{pos_1}&a① [&r{clan_name}&a] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_2}&e② [&r{clan_name}&e] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_3}&6③ [&r{clan_name}&6] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_4}&c④ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_5}&c⑤ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_6}&c⑥ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_7}&c⑦ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_8}&c⑧ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_9}&c⑨ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '{pos_10}&c⑩ [&r{clan_name}&c] &fлидер: &#FFC400{owner}&f, &9{exp} XP'
+    - '&r '
+  invite_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы отправили приглашение в клан игроку &6{player}&f!'
+  invite_success_json: '' #/clan cancel
+  invite_success_target:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок &#FFC400{player} &fприглашает Вас в клан &e{clan_name}&f!'
+  invite_success_target_json: '["",{"text":" \u0020","clickEvent":{"action":"run_command","value":"/clan accept /clan deny"}},{"text":"[\u0412\u0441\u0442\u0443\u043f\u0438\u0442\u044c] \u0020 ","color":"green","clickEvent":{"action":"run_command","value":"/clan accept /clan deny"}},{"text":"[\u041e\u0442\u043a\u043b\u043e\u043d\u0438\u0442\u044c]","color":"red","clickEvent":{"action":"run_command","value":"/clan accept /clan deny"}}]' #/clan accept /clan deny
+  accept_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы присоединились к клану &e{clan_name}&f!'
+  accept_success_all:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок &#FFC400{player} &fприсоединился к клану!'
+  deny_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно отказались от приглашения в клан'
+  deny_success_inviter:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок &#FFC400{player} &fотказался от Вашего приглашения в клан'
+  leave_confirm:
+    - ''
+  leave_confirm_json: '{"text":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u043f\u043e\u043a\u0438\u043d\u0443\u0442\u044c \u043a\u043b\u0430\u043d?","color":"red","clickEvent":{"action":"run_command","value":"/clan leave yes"}}' #/clan leave yes/no
+  leave_confirm_no_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно отказались от выхода из клана'
+  leave_confirm_yes_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно покинули клан'
+  leave_confirm_yes_success_all:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок &#FFC400{player} &fпокинул клан'
+  money_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fБаланс клана: &#FFC400{money}&7/&#FFC400{max_money}'
+  invest_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно вложили в клан &#FFC400{money}$'
+  withdraw_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно вывели из клана &#FFC400{money}$'
+  pvp_success_disable:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fPvP в клане было выключено'
+  pvp_success_enable:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fPvP в клане было включено'
+  home_list:
+    - '&6Список домов:'
+    - '{list}'
+  home_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно телепортировались на дом клана'
+  sethome_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно создали дом клана'
+  delhome_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно удалили дом клана'
+  cancel_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно отменили все свои приглашения в клан'
+  kick_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно выгнали игрока &#FFC400{player} &fиз клана'
+  kick_success_all:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fИгрок &#FFC400{player} &fиз клана &#FFC400{target}'
+  kick_success_target:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВас выгнал из клана игрок &#FFC400{player}'
+  prefix_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fПрефикс для игрока &#FFC400{player} &fуспешно установлен'
+  rename_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно переименовали клан в &#FFC400{clan_name}'
+  rename_success_all:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fКлан был переименован в &#FFC400{clan_name}'
+  disband_confirm:
+    - ''
+  disband_confirm_json: '{"text":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043b\u0430\u043d?","color":"red","clickEvent":{"action":"run_command","value":"/clan disband yes"}}' #/clan disband yes/no
+  disband_confirm_yes_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно удалили клан'
+  disband_confirm_no_success:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fВы успешно отказались от удаления клана'
+  glow_enable:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fРежим подсветки в клане был включен'
+  glow_disable:
+    - '&x&F&F&9&F&3&3&lʙ&x&F&F&A&C&3&F&lɪ&x&F&F&B&A&4&B&lʙ&x&F&F&C&7&5&7&lɢ&x&F&F&D&4&6&3&lʀ&x&F&F&E&1&6&F&lɪ&x&F&F&E&F&7&B&lᴇ&x&F&F&F&C&8&7&lꜰ &7» &fРежим подсветки в клане был выключен'

@@ -1,0 +1,531 @@
+# 
+# Плагин был разработан командой разработчиков студии "MoonStudio" и является их гордостью.
+# По любым вопросам просьба клиентам незамедлительно обращаться в сообщения сообщества.
+# Vk: vk.com/moonstudio
+CASE-SENSITIVE-NAMES: false
+HOLO-HEIGHT-Y: 2.0
+DEFAULT_HOLOGRAM:
+- '&x&F&F&F&8&0&0&lКейс'
+- '&x&F&F&B&0&0&0&l&nW&x&F&C&C&0&0&0&l&ne&x&F&9&D&0&0&0&l&nx&x&F&7&D&F&0&0&l&nM&x&F&4&E&F&0&0&l&ni&x&F&1&F&F&0&0&l&nn&x&F&5&F&6&0&0&l&ne&x&F&8&E&C&0&0&l&n.&x&F&C&E&3&0&0&l&np&x&F&F&D&9&0&0&l&nw'
+HISTORY:
+  ENABLED: true
+  EMPTY_ITEM_ID_DEFAULT: STAINED_GLASS_PANE:15
+  FORMAT:
+    NAME: '&e&l{player}'
+    LORE:
+    - ''
+    - ' Дата: &e&l{date}'
+    - ' Время: &e&l{time}'
+    - ' Выигрыш: {prize}'
+    - ''
+GUI:
+  ROWS: 6
+  TITLE: '&eКейсы'
+  CASES_ITEMS:
+    freedonate:
+      ID: CHEST
+      SLOT: 30
+      NAME: '&e&lБесплатный донат-кейс'
+      LORE:
+      - ''
+      - '&fКоличество кейсов: &e%cases_freedonate%'
+      - ''
+      - ' &fОткрыв этот кейс, вы &eгарантированно&f получите'
+      - ' &fодну из &eпривилегий&f на сервере. У нас '
+      - ' &fНет подкрутки, только &eчестный рандом.'
+      - ''
+      - ' &c&lВнимание!&f Шансы в кейсах увеличены.'
+      - ' &fУ вас есть &eвозможность&f получить крутую'
+      - ' &fпривилегию за сущие копейки!'
+      - ''
+      - ' &fПривилегии, которые выпадают:'
+      - ' &f» &x&0&E&0&0&F&F🔥 &x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ'
+      - ' &f» &x&F&1&F&F&0&0🔥 &x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ'
+      - ' &f» &x&8&4&F&F&1&B🔥 &x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ'
+      - ' &f» &x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx'
+      - ''
+      - Покупка » &e&lWexMine.pw
+      - ''
+    donate:
+      ID: CHEST
+      SLOT: 32
+      NAME: '&e&lДонат-кейс'
+      LORE:
+      - ''
+      - '&fКоличество кейсов: &e%cases_donate%'
+      - ''
+      - ' &fОткрыв этот кейс, вы &eгарантированно&f получите'
+      - ' &fодну из &eпривилегий&f на сервере. У нас '
+      - ' &fНет подкрутки, только &eчестный рандом.'
+      - ''
+      - ' &c&lВнимание!&f Шансы в кейсах увеличены.'
+      - ' &fУ вас есть &eвозможность&f получить крутую'
+      - ' &fпривилегию за сущие копейки!'
+      - ''
+      - ' &fПривилегии, которые выпадают:'
+      - ' &f» &x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx'
+      - ' &f» &x&F&F&1&B&1&B🔥 &x&F&F&2&2&2&2&lɪ&x&F&F&2&9&2&9&lᴍ&x&F&F&3&0&3&0&lᴘ&x&F&F&3&7&3&7&lᴇ&x&F&F&3&F&3&F&lʀ&x&F&F&4&6&4&6&lᴀ&x&F&F&4&D&4&D&lᴛ&x&F&F&5&4&5&4&lᴏ&x&F&F&5&B&5&B&lʀ'
+      - ' &f» &x&8&C&9&8&F&D🔥 &x&8&C&9&8&F&D&lɢ&x&9&2&9&E&F&D&lʟ&x&9&9&A&3&F&E&lᴀ&x&9&F&A&9&F&E&lᴅ&x&A&5&A&F&F&E&lɪ&x&A&B&B&4&F&E&lᴀ&x&B&2&B&A&F&F&lᴛ&x&B&8&B&F&F&F&lᴏ&x&B&E&C&5&F&F&lʀ'
+      - ' &f» &x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ'
+      - ''
+      - Покупка » &e&lWexMine.pw
+      - ''
+    megadonate:
+      ID: CHEST
+      SLOT: 31
+      NAME: '&c&lМега Донат-кейс'
+      LORE:
+      - ''
+      - '&fКоличество кейсов: &e%cases_megadonate%'
+      - ''
+      - ' &fОткрыв этот кейс, вы &eгарантированно&f получите'
+      - ' &fодну из &eпривилегий&f на сервере. У нас '
+      - ' &fНет подкрутки, только &eчестный рандом.'
+      - ''
+      - ' &c&lВнимание!&f Шансы в кейсах увеличены.'
+      - ' &fУ вас есть &eвозможность&f получить крутую'
+      - ' &fпривилегию за сущие копейки!'
+      - ''
+      - ' &fПривилегии, которые выпадают:'
+      - ' &f» &x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ'
+      - ' &f» &x&F&D&F&F&5&4🔥 &x&F&D&F&F&5&4&lᴡ&x&F&E&F&F&8&D&lᴇ&x&F&E&F&F&C&6&lx'
+      - ' &f» &x&F&F&5&5&2&7🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ'
+      - ''
+      - Покупка » &e&lWexMine.pw
+      - ''
+  DEFAULT_ITEMS:
+    info:
+      SLOT: 4
+      ID: PAPER
+      NAME: '&e&lИнформация'
+      LORE:
+      - ''
+      - Покупка &eкейсов&f на сайте &e&lWexMine.pw
+      - Чтобы открыть кейс, нажмите по его предмету
+      - ''
+      AMOUNT: 1
+    glass1:
+      SLOT: 0
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass2:
+      SLOT: 1
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass3:
+      SLOT: 2
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass4:
+      SLOT: 3
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass5:
+      SLOT: 5
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass6:
+      SLOT: 6
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass7:
+      SLOT: 7
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass8:
+      SLOT: 8
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass9:
+      SLOT: 9
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass10:
+      SLOT: 12
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass11:
+      SLOT: 13
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass12:
+      SLOT: 14
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass13:
+      SLOT: 17
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass14:
+      SLOT: 18
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass15:
+      SLOT: 26
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass16:
+      SLOT: 27
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass17:
+      SLOT: 35
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass18:
+      SLOT: 36
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass19:
+      SLOT: 44
+      ID: YELLOW_STAINED_GLASS_PANE
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+MESSAGES:
+  NO_PERMISSIONS: '&6&lКейсы&f: У вас недостаточно прав!'
+  HELP:
+  - '&6&lКейсы.&f Помощь |'
+  - ''
+  - Выдать кейсы игроку - &a&l/cases give [ник] [название_кейса] [количество]
+  - Установить кейсы игроку - &a&l/cases set [ник] [название_кейса] [количество]
+  - Отнять кейсы у игрока - &a&l/cases delete [ник] [название_кейса] [количество]
+  - Установить кейс - &a&l/cases setcase [направление, x или z]
+  - Удалить последний установленный кейс - &a&l/cases delcase
+  - ''
+  NOT_NUMERIC: '&6&lКейсы&f: Вы неправильно ввели число'
+  COMMAND_GIVE_USE: '&6&lКейсы&f: Вы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_SET_USE: '&6&lКейсы&f: Вы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_DELETE_USE: '&6&lКейсы&f: Вы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_SETCASE_USE: '&6&lКейсы&f: Вы неправильно ввели команду, посмотрите ее использование
+    - &a&l/cases'
+  COMMAND_GIVE_SUCCESS: '&6&lКейсы&f: Вы выдали игроку &a&l{player}&f &c&l{amount}
+    {case}&f кейсов'
+  COMMAND_SET_SUCCESS: '&6&lКейсы&f: Вы установили игроку &a&l{player}&f &c&l{amount}
+    {case}&f кейсов'
+  COMMAND_DELETE_SUCCESS: '&6&lКейсы&f: Вы отняли у игрока &a&l{player}&f &c&l{amount}
+    {case}&f кейсов'
+  COMMAND_SETCASE_SUCCESS: '&6&lКейсы&f: Вы успешно установили кейс по направлению
+    вращения &c&l{direction}'
+  COMMAND_DELCASE_SUCCESS: '&6&lКейсы&f: Вы успешно удалили локацию последнего кейса'
+  COMMAND_DELCASE_NOT_FOUND: '&6&lКейсы&f: На данный момент не установлен ещё ни один
+    кейс'
+  CASE_NOT_LOADED: '&6&lКейсы&f: Непредвиденная ошибка'
+  CASE_IN_OPEN: '&6&lКейсы&f: Кейс уже открывается, пожалуйста, подождите'
+  NO_CASES: '&6&lКейсы&f: У вас нету &a&l{case}&f кейсов'
+  COMMAND_SETCASE_SUCESS: '&6&lКейсы&f: Вы успешно установили кейс по направлению
+    вращения &c&l{direction}'
+  CASE_IS_OPEN: '&6&lКейсы&f: Кейс уже открывает кто-то другой'
+  CASE_GET:
+  - На ваш акк было куплено {0} кейсов типа {1}
+CASES:
+  donate:
+    OPEN_MESSAGES:
+    - ''
+    - '  &fИгрок &e{player} &fоткрывает кейс - &e/warp case'
+    - '  &fПокупка &eкейсов&f происходит на сайте! &eWexMine.pw&f'
+    - ''
+    LEVEL_GROUPS:
+      ENABLE: false
+      LEVELS:
+        default: 0
+        vip: 1
+        lite: 2
+        creative: 3
+        admin: 4
+        lord: 5
+        elite: 6
+        dragon: 7
+        titan: 8
+        troll: 9
+        youtube: 10
+        ownerfake: 11
+        glava: 12
+        creator: 13
+        helper: 14
+        moder: 15
+        ownerplus: 16
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.4
+      USE_FROSTLORD: true
+      ROTATE_TIME: 3
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 8
+    ITEMS:
+      lite:
+        TYPE: GROUP
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlZTNhZWFkZDY4YjI0N2ZkZmUzZWE3YmMwMDhkMTJmZDk3YWMxNWVkMTViZjc0Njg1NDNhMDY2ODAifX19
+        TITLE: '&x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add phoenix
+        CHANCE: 60
+      creative:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxYjE2MTc3MGYwMjAyMzdiNGFhMWU5MjhjNTQ4MGM4YjM2Y2JmZTNhNmFhYjllMjJlNTU3YzFkOTEwIn19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&F&1&B&1&B🔥 &x&F&F&2&2&2&2&lɪ&x&F&F&2&9&2&9&lᴍ&x&F&F&3&0&3&0&lᴘ&x&F&F&3&7&3&7&lᴇ&x&F&F&3&F&3&F&lʀ&x&F&F&4&6&4&6&lᴀ&x&F&F&4&D&4&D&lᴛ&x&F&F&5&4&5&4&lᴏ&x&F&F&5&B&5&B&lʀ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&F&1&B&1&B🔥 &x&F&F&2&2&2&2&lɪ&x&F&F&2&9&2&9&lᴍ&x&F&F&3&0&3&0&lᴘ&x&F&F&3&7&3&7&lᴇ&x&F&F&3&F&3&F&lʀ&x&F&F&4&6&4&6&lᴀ&x&F&F&4&D&4&D&lᴛ&x&F&F&5&4&5&4&lᴏ&x&F&F&5&B&5&B&lʀ
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add imperator
+        CHANCE: 40
+      admin:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIzMzQ4YTYxY2ZmYzc5ZWI0MmQ4NDlkMzc4MjI5NDMyYWE4MWQxOTg1NmIyNWZlYWFjNzUzODQ4NzEzN2E1In19fQ==
+        TYPE: GROUP
+        TITLE: '&x&8&C&9&8&F&D🔥 &x&8&C&9&8&F&D&lɢ&x&9&2&9&E&F&D&lʟ&x&9&9&A&3&F&E&lᴀ&x&9&F&A&9&F&E&lᴅ&x&A&5&A&F&F&E&lɪ&x&A&B&B&4&F&E&lᴀ&x&B&2&B&A&F&F&lᴛ&x&B&8&B&F&F&F&lᴏ&x&B&E&C&5&F&F&lʀ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&8&C&9&8&F&D🔥 &x&8&C&9&8&F&D&lɢ&x&9&2&9&E&F&D&lʟ&x&9&9&A&3&F&E&lᴀ&x&9&F&A&9&F&E&lᴅ&x&A&5&A&F&F&E&lɪ&x&A&B&B&4&F&E&lᴀ&x&B&2&B&A&F&F&lᴛ&x&B&8&B&F&F&F&lᴏ&x&B&E&C&5&F&F&lʀ
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add gladiator
+        CHANCE: 30
+      lord:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNkNWU0M2RlNWQ0MTc3YzRiYWYyZjQ0MTYxNTU0NDczYTNiMGJlNTQzMDk5OGI1ZmNkODI2YWY5NDNhZmUzIn19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&8&C&9&8&F&D🔥 &x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add povelitel
+        CHANCE: 15
+  megadonate:
+    OPEN_MESSAGES:
+    - ''
+    - '  &fИгрок &e{player} &fоткрывает кейс - &e/warp case'
+    - '  &fПокупка &eкейсов&f происходит на сайте! &eWexMine.pw&f'
+    - ''
+    LEVEL_GROUPS:
+      ENABLE: false
+      LEVELS:
+        default: 0
+        vip: 1
+        lite: 2
+        creative: 3
+        admin: 4
+        lord: 5
+        elite: 6
+        dragon: 7
+        titan: 8
+        troll: 9
+        youtube: 10
+        ownerfake: 11
+        glava: 12
+        creator: 13
+        helper: 14
+        moder: 15
+        ownerplus: 16
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.4
+      USE_FROSTLORD: true
+      ROTATE_TIME: 3
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 8
+    ITEMS:
+      lite:
+        TYPE: GROUP
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlZTNhZWFkZDY4YjI0N2ZkZmUzZWE3YmMwMDhkMTJmZDk3YWMxNWVkMTViZjc0Njg1NDNhMDY2ODAifX19
+        TITLE: '&x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&3&1&B&F&F🔥 &x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add povelitel
+        CHANCE: 40
+      creative:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxYjE2MTc3MGYwMjAyMzdiNGFhMWU5MjhjNTQ4MGM4YjM2Y2JmZTNhNmFhYjllMjJlNTU3YzFkOTEwIn19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&D&F&F&5&4🔥 &x&F&D&F&F&5&4&lᴡ&x&F&E&F&F&8&D&lᴇ&x&F&E&F&F&C&6&lx'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&D&F&F&5&4🔥 &x&F&D&F&F&5&4&lᴡ&x&F&E&F&F&8&D&lᴇ&x&F&E&F&F&C&6&lx
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add wex
+        CHANCE: 20
+      admin:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIzMzQ4YTYxY2ZmYzc5ZWI0MmQ4NDlkMzc4MjI5NDMyYWE4MWQxOTg1NmIyNWZlYWFjNzUzODQ4NzEzN2E1In19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&F&5&5&2&7🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&F&5&5&2&7🔥 &x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ
+          &fв донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add dadmin
+        CHANCE: 5
+  freedonate:
+    OPEN_MESSAGES:
+    - ''
+    - '  &fИгрок &e{player} &fоткрывает кейс - &e/warp case'
+    - '  &fПокупка &eкейсов&f происходит на сайте! &eWexMine.pw&f'
+    - ''
+    LEVEL_GROUPS:
+      ENABLE: false
+      LEVELS:
+        default: 0
+        vip: 1
+        lite: 2
+        creative: 3
+        admin: 4
+        lord: 5
+        elite: 6
+        dragon: 7
+        titan: 8
+        troll: 9
+        youtube: 10
+        ownerfake: 11
+        glava: 12
+        creator: 13
+        helper: 14
+        moder: 15
+        ownerplus: 16
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.4
+      USE_FROSTLORD: true
+      ROTATE_TIME: 3
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 8
+    ITEMS:
+      lite:
+        TYPE: GROUP
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlZTNhZWFkZDY4YjI0N2ZkZmUzZWE3YmMwMDhkMTJmZDk3YWMxNWVkMTViZjc0Njg1NDNhMDY2ODAifX19
+        TITLE: '&x&0&E&0&0&F&F🔥 &x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&0&E&0&0&F&F🔥 &x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ
+          &fв бесплатном донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add hero
+        CHANCE: 60
+      creative:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxYjE2MTc3MGYwMjAyMzdiNGFhMWU5MjhjNTQ4MGM4YjM2Y2JmZTNhNmFhYjllMjJlNTU3YzFkOTEwIn19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&1&F&F&0&0🔥 &x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&1&F&F&0&0🔥 &x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ
+          &fв бесплатном донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add prince
+        CHANCE: 50
+      admin:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIzMzQ4YTYxY2ZmYzc5ZWI0MmQ4NDlkMzc4MjI5NDMyYWE4MWQxOTg1NmIyNWZlYWFjNzUzODQ4NzEzN2E1In19fQ==
+        TYPE: GROUP
+        TITLE: '&x&8&4&F&F&1&B🔥 &x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&8&4&F&F&1&B🔥 &x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ
+          &fв бесплатном донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add legenda
+        CHANCE: 45
+      lord:
+        ID: PLAYER_HEAD;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNkNWU0M2RlNWQ0MTc3YzRiYWYyZjQ0MTYxNTU0NDczYTNiMGJlNTQzMDk5OGI1ZmNkODI2YWY5NDNhZmUzIn19fQ==
+        TYPE: GROUP
+        TITLE: '&x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx'
+        COMMANDS:
+        - bc;&r
+        - bc;&f  Игрок &e{player} &fвыиграл &x&F&F&1&B&6&E🔥 &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx
+          &fв бесплатном донат кейсе
+        - bc;&f  &fПокупка &eкейса происходит на сайте &7/ &eWexMine.pw
+        - bc;&r
+        - console;lp user {player} parent add phoenix
+        CHANCE: 30
+BACKEND: sqlite
+MYSQL:
+  HOST: localhost
+  USER: root
+  PASSWORD: ''
+  DATABASE: moon
+  PORT: 3306
+CASES_LOCATIONS:
+- world;6;99;-11;x
+- world;10;99;-11;x
+- world;14;99;-11;x
+- world;14;99;13;x
+- world;10;99;13;x
+- world;6;99;13;x
+- world;3;99;10;x

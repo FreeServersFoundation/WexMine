@@ -1,0 +1,104 @@
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# jar
+
+/server.jar
+/plugins/*.jar
+/plugins/PlaceholderAPI/expansions/*.jar
+/plugins/BAirDropX/addons/
+
+# logs
+/logs/
+
+# other files
+/cache/
+/libraries/
+/crash-reports/
+/.console_history
+/eula.txt
+/server.properties
+
+# other json
+/banned-ips.json
+/banned-players.json
+/ops.json
+/usercache.json
+/whitelist.json
+
+# secret files
+/paper.yml
+/world/playerdata/
+/world/advancements/
+/world/stats/
+/pvp/playerdata
+/plugins/ajLeaderboards/cache.mv.db
+/plugins/ajLeaderboards/past-resets/
+/plugins/BasherClansFT/clans.db
+/plugins/BAuction/data/
+/plugins/BAuction/pluginLogs/latest.log.lck
+/plugins/BetterRTP/data/
+/plugins/Chatty/storage.json
+/plugins/Essentials/userdata/
+/plugins/Essentials/*.bin
+/plugins/LiteBans/*.db
+/plugins/LuckPerms/*.db
+/plugins/MoonCases/data.db
+/plugins/PlayerPoints/playerpoints.db
+/plugins/RoseGarden/tmp/
+/plugins/SoSeller/database.db
+/plugins/spark/tmp-client/
+/plugins/WorldEdit/sessions/
+/plugins/WorldEdit/.archive-unpack/
+/plugins/zAuctionHouseV3/database.db
+/plugins/zAuctionHouseV3/blacklistplayers.json
+/plugins/zAuctionHouseV3/langs/
+/plugins/zMenu/players.json
+/plugins/zMenu/players-inventory.json
+/plugins/BetterRTP/log.*
+/plugins/xSecurity/
+/plugins/NewLogs/
+/plugins/WokaGranter/storage.yml
+/plugins/WexSpawn
+/plugins/UniversalCode/
+/plugins/BAuction/pluginLogs/
+/plugins/Chatty/logs/
+/plugins/zAuctionHouseV3/logs/
+/plugins/LiteBans/.version
+/plugins/TAB/*.log
+/plugins/spark/activity.json
+/plugins/SkyDonatePlugin/
+/plugins/PluginMetrics/
+/plugins/nKits/Cooldowns
+/plugins/GreatKits/Cooldowns/
+/plugins/MultiWorld/
+/plugins/bStats/
+/plugins/AntiCmds/data.txt
+
+# worlds
+/rtp/
+/world_the_end/
+/world_nether/
+
+# temp files
+/plugins/LiteBans/lib/
+/plugins/LiteBans/h2-1.4.197.jar
+/plugins/LuckPerms/libs/
+/plugins/LuckPerms/translations/
+/plugins/ajLeaderboards/libs/

@@ -1,0 +1,42 @@
+region:
+  name: "afk"
+settings:
+  time: 1800
+  money: 15
+  command: "p give %player %money"
+  world: "world"
+  placeholders:
+    enable: true
+    sizePlayer: true
+    lastPlayer: true
+    sizeMoney: true
+    sp:
+      format: "%size"
+    sm:
+      format: "%size"
+    lp:
+      format: "%player"
+      non: "Не найден"
+messages:
+  say: |-
+    &r&e&l╔
+    &r&e&l║  &fИгрок &e%player &fполучил &e%money Вексов!
+    &r&e&l║  &fХочешь так-же? Пиши &e/warp afk
+    &r&e&l╚
+
+######################################################################
+# ©LIGHTLEAK
+#                           «LIGHTLEAK»
+#                             © 2024
+#                      Только безопасные сливы
+#
+# • Ресурс был скачан: https://lightleak.pro/members/50521/
+# • Ресурс: https://lightleak.pro/resources/1131/
+# • Website: https://lightleak.pro/
+# • Discord: https://discord.gg/pWhyMhXsuS
+#
+#
+#
+#
+#                                                          ©LIGHTLEAK
+######################################################################

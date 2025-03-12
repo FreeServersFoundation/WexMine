@@ -1,0 +1,27 @@
+air-name: §x§F§5§4§1§4§1А§x§F§3§4§5§4§5с§x§F§2§4§9§4§9т§x§F§0§4§D§4§Dе§x§E§F§5§2§5§2р§x§E§D§5§6§5§6о§x§E§C§5§A§5§Aи§x§E§A§5§E§5§Eд
+id: asteroid
+world: world
+time-to-start: 1200
+time-to-open: 360
+time-to-end: 120
+use-static-loc: false
+static-loc:
+  x: 0
+  y: 0
+  z: 0
+triggered-time-to-open: false
+independent-time-to-end: false
+material-when-closed: MAGMA_BLOCK
+material-when-opened: MAGMA_BLOCK
+required-number-of-players-online: 1
+enable: true
+signed-listeners:
+- default:activate
+- default:open
+- default:end
+- default:start
+- default:holoTimeToOpen-updater
+- default:click_open
+- default:click_close
+- default:summoned
+use-default-timer: true

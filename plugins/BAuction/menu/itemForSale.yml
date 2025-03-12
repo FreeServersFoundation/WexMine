@@ -1,0 +1,51 @@
+menu_title: "&7Товары на продаже ({current_page}/{max_page})"
+size: 54
+type: CHEST
+
+provider: itemsForSale
+id: itemsForSale
+
+items-slots:
+  - 0-44
+
+
+item:
+  lore:
+    - '&r '
+    - '  &6⭔&r &fПродавец: &#5AD9FB{seller_name}'
+    - '  &6⭔&r &fЦена: &#5AD9FB{price_format}'
+    - '  &6⭔&r &fИстекает: &#5AD9FB{expires}'
+    - '  &6⭔&r &fПродажа по штучно: &#5AD9FB{sale_by_the_piece_format}'
+    - '&r '
+    - '  &6⭔&r &fЧтобы снять с продажи нажмите &#5AD9FBлкм'
+  click_commands:
+    - '[TAKE_ITEM]'
+
+items:
+  back:
+    material: NETHER_STAR
+    slot: 49
+    display_name: "&1"
+    lore:
+      - '  &6[Вернуться в главное меню]'
+      - ''
+    click_commands:
+      - '[BACK_OR_CLOSE]'
+  previous_page:
+    material: ARROW
+    slot: 47
+    display_name: "&7"
+    lore:
+      - '  &6<- Предыдущая страница'
+      - ''
+    click_commands:
+      - '[PREVIOUS_PAGE]'
+  next_page:
+    material: ARROW
+    slot: 51
+    display_name: "&1"
+    lore:
+      - '  &6Следующая страница ->'
+      - ''
+    click_commands:
+      - '[NEXT_PAGE]'

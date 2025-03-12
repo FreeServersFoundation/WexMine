@@ -1,0 +1,165 @@
+title: "&8• Скупщик"
+size: 54
+
+# Документация к гуи - https://sausagedev.gitbook.io/sausagedev/nastroika/soseller-1.9/konfiguraciya/gui
+
+icons:
+  load_items:
+    function: load_autosell
+    name: "&1"
+    lore:
+      - "  &#f89d57{item_type_display}"
+      - ""
+      - "  &fЦена за шт&7: &a%soseller_priceboost_{item_type}% ⛁"
+      - "  &fВаш уровень буста: &6x{boost}"
+      - ""
+      - "  &fНажмите, чтобы &aвключить "
+      - "  &eавто-продажу &fпредмета"
+      - ""
+      - "  &fПродаётся при авто-скупке&7: {can_autosell}"
+      - ""
+      - "  &7&o(у вас должна быть куплена авто-продажа и включена)"
+    items:
+      - DIAMOND
+      - EMERALD
+      - IRON_INGOT
+      - GOLD_INGOT
+      - COAL
+      - LAPIS_LAZULI
+      - NETHERITE_SCRAP
+      - REDSTONE
+      - NETHERITE_INGOT
+      - GUNPOWDER
+      - LEATHER
+      - SLIME_BALL
+      - BONE
+      - BLAZE_ROD
+      - ENDER_PEARL
+      - RABBIT_HIDE
+      - CACTUS
+      - MAGMA_CREAM
+      - RABBIT_FOOT
+      - PHANTOM_MEMBRANE
+      - GOLDEN_CARROT
+      - STRING
+      - SUGAR_CANE
+      - KELP
+      - BAMBOO
+      - WHEAT
+      - GOLDEN_APPLE
+      - APPLE
+      - SALMON
+      - TROPICAL_FISH
+      - COD
+      - PUFFERFISH
+      - MELON_SLICE
+      - ROTTEN_FLESH
+      - SPIDER_EYE
+      - CARROT
+      - POTATO
+      - BEETROOT
+      - SWEET_BERRIES
+      - OBSIDIAN
+      - COBBLESTONE
+      - STONE_BRICKS
+      - STONE
+      - TOTEM_OF_UNDYING
+      - GLASS
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+
+  buy_boost:
+    function: buy_boost
+    material: GOLD_INGOT
+    slots:
+      - 50
+    name: "&e"
+    lore:
+      - "  &6Купить буст!"
+      - ""
+      - "  &fТекущий множитель: &6x{boost}"
+      - ""
+      - "  &fНажмите, что-бы купить"
+      - "  &fбуст к продажи предметов"
+      - ""
+      - "  &fЦена&7: &e{price} &e⛁"
+      - ""
+    flags:
+      - HIDE_ENCHANTS
+    enchants:
+      DURABILITY: 1
+
+  main:
+    function: move_to-main # Открывает меню gui/main.yml
+    material: EMERALD
+    slots:
+      - 48
+    name: "&6"
+    lore:
+      - "  &6Меню продажи предметов"
+      - " &f"
+      - "  &6Нажмите&f, чтобы вернуться"
+    flags:
+      - HIDE_ENCHANTS
+    enchants:
+      DURABILITY: 1
+
+  barrier2:
+    material: ORANGE_STAINED_GLASS_PANE
+    slots:
+      - 45
+      - 53
+      - 49
+      - 47
+      - 51
+    name: "&6"
+  barrier:
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+      - 46
+      - 52
+    name: " "

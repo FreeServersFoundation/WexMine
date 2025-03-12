@@ -1,0 +1,31 @@
+schematics:
+  pidaras: #Name
+    file: 'pidaras.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: 0
+    offsets-z: 0
+  gold: #Name
+    file: 'gold.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: 0
+    offsets-z: 0
+  house: #Name
+    file: 'house.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: -50
+    offsets-z: -8
+  tykva: #Name
+    file: 'tykva.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: 0
+    offsets-z: 0
+  end: #Name
+    file: 'end.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: 0
+    offsets-z: 0

@@ -1,0 +1,11 @@
+messages:
+  no-head: "Вы не можете ставить головы игроков!"
+
+effects:
+  particle: "EXPLOSION_LARGE"  # Эффект частиц
+  count: 10                      # Количество частиц
+
+sounds:
+  sound: "ENTITY_GENERIC_EXPLODE"  # Звук
+  volume: 1.0                       # Громкость
+  pitch: 1.0                        # Высота звука

@@ -1,0 +1,7 @@
+# plugin by crashteamik/crashteam
+# Made by LOVE ;)))))))))))))))
+
+permission: "&8[&6&lОБЪЯВЛЕНИЕ&8] &fУ тебя нет прав!"
+all: "&8[&6&lОБЪЯВЛЕНИЕ&8] &f%message% &8(&7пишет %player%&8)"
+cooldown: 60
+cooldown_message: "&c>< &fПодожди &c%time% &fсек"

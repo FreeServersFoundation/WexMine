@@ -1,0 +1,20 @@
+location: world:84.054:99.436:-19.795
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6[АФК БАССЕЙН]'
+    height: 0.3
+  - content: ''
+    height: 0.3
+  - content: '&fКаждые &65 &fминут игрок &e%player_name%'
+    height: 0.3
+  - content: '&fкоторый будет в озере получит &630P'
+    height: 0.6
+  - content: '&fНе забывайте забрать &fнаграды &a/ғʀᴇᴇ'
+    height: 0.6
+  actions: {}

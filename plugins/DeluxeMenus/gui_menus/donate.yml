@@ -1,0 +1,285 @@
+menu_title: '              &e&lДонаты'
+open_command: donate
+register_command: true
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.donate
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+items:
+  'pane':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 0
+    display_name: ' '
+  'pane1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 1
+    display_name: ' '
+  'pane2':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 3
+    display_name: ' '
+  'pane3':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 4
+    display_name: ' '
+  'pane4':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 5
+    display_name: ' '
+  'pane5':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 7
+    display_name: ' '
+  'pane6':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 8
+    display_name: ' '
+  'pane7':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 9
+    display_name: ' '
+  'pane8':
+    display_name: ' '
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 17
+    display_name: ' '
+  'pane9':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 45
+    display_name: ' '
+  'pane10':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 36
+    display_name: ' '
+  'pane11':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 46
+    display_name: ' '
+  'pane12':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 48
+    display_name: ' '
+  'pane13':
+    material: TRIPWIRE_HOOK
+    slot: 49
+    display_name: '&x&F&F&F&8&0&0&lД&x&F&F&F&9&1&A&lо&x&F&F&F&9&3&3&lн&x&F&F&F&A&4&D&lа&x&F&F&F&B&6&6&lт &x&F&F&F&C&9&9&lк&x&F&F&F&D&B&3&lе&x&F&F&F&E&C&C&lй&x&F&F&F&E&E&6&lс&x&F&F&F&F&F&F&lы'
+    lore:
+    - "&fВсе &eкейсы&f на сайте! &ewexmine.pw&f"
+    - "&fВсе &eцены&f на сайте! &ewexmine.pw&f"
+  'pane14':
+    material: YELLOW_STAINED_GLASS_PANE
+    slot: 50
+    display_name: ' '
+  'pane15':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    display_name: ' '
+  'pane16':
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    display_name: ' '
+  'adf54':
+    material: BLUE_SHULKER_BOX
+    slot: 12
+    display_name: '&x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ &7/ &fЦена:&x&2&C&2&6&F&F 9р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&2&C&2&6&F&FКоманды&f:'
+    - '&x&2&C&2&6&F&F&l‖ &fНадеть на голову предмет - &x&2&C&2&6&F&F/hat'
+    - '&x&2&C&2&6&F&F&l‖ &fОткрыть виртуальный-верстак - &x&2&C&2&6&F&F/wb'
+    - '&x&2&C&2&6&F&F&l‖ &fУникальный кит - &x&2&C&2&6&F&F/kits'
+    - ''
+    - '&x&2&C&2&6&F&FВозможности&f:'
+    - '&7&l‖ &fТочек дома: &72'
+    - ''
+    - ' &x&2&C&2&6&F&F▶&f Покупка доната - &x&2&C&2&6&F&FWexMine.pw'
+  'adf254':
+    material: YELLOW_SHULKER_BOX
+    slot: 13
+    display_name: '&x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ &7/ &fЦена:&x&F&3&F&E&1&5 29р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&3&F&E&1&5Команды&f:'
+    - '&x&F&3&F&E&1&5&l‖ &fИгнорировать игрока (ЧС) - &x&F&3&F&E&1&5/ignore'
+    - '&x&F&3&F&E&1&5&l‖ &fВосстановить голод - &x&F&3&F&E&1&5/feed'
+    - '&x&F&3&F&E&1&5&l‖ &fПотушить себя - &x&F&3&F&E&1&5/ext'
+    - '&x&F&3&F&E&1&5&l‖ &fНадеть на голову предмет - &x&F&3&F&E&1&5/hat'
+    - '&x&F&3&F&E&1&5&l‖ &fУникальный кит - &x&F&3&F&E&1&5/kits'
+    - ''
+    - '&x&F&3&F&E&1&5Возможности&f:'
+    - '&7&l‖ &fТочек дома: &74'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&F&3&F&E&1&5▶&f Покупка доната - &x&F&3&F&E&1&5WexMine.pw'
+  'adf2254':
+    material: LIME_SHULKER_BOX
+    slot: 14
+    display_name: '&x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ &7/ &fЦена:&x&8&D&F&F&2&6 49р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&8&D&F&F&2&6Команды&f:'
+    - '&x&8&D&F&F&2&6&l‖ &fПосмотреть чужой инвентарь - &x&8&D&F&F&2&6/invsee'
+    - '&x&8&D&F&F&2&6&l‖ &fУзнать рецепт предмета - &x&8&D&F&F&2&6/recipe'
+    - '&x&8&D&F&F&2&6&l‖ &fНадеть на голову предмет - &x&8&D&F&F&2&6/hat'
+    - '&x&8&D&F&F&2&6&l‖ &fПотушить себя - &x&8&D&F&F&2&6/ext'
+    - '&x&8&D&F&F&2&6&l‖ &fИгнорировать игрока (ЧС) - &x&F&3&F&E&1&5/ignore'
+    - '&x&8&D&F&F&2&6&l‖ &fУникальный кит - &x&8&D&F&F&2&6/kits'
+    - ''
+    - '&x&8&D&F&F&2&6Возможности&f:'
+    - '&7&l‖ &fТочек дома: &76'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&8&D&F&F&2&6▶&f Покупка доната - &x&8&D&F&F&2&6WexMine.pw'
+  'adf22254':
+    material: PINK_SHULKER_BOX
+    slot: 21
+    display_name: '&x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx &7/ &fЦена:&x&F&F&2&4&7&6 59р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&F&2&4&7&6Команды&f:'
+    - '&x&F&F&2&4&7&6&l‖ &fВосстановить голод - &x&F&F&2&4&7&6/feed'
+    - '&x&F&F&2&4&7&6&l‖ &fВылечить себя - &x&F&F&2&4&7&6/heal'
+    - '&x&F&F&2&4&7&6&l‖ &fОткрыть ткацкий-станок - &x&F&F&2&4&7&6/loom'
+    - '&x&F&F&2&4&7&6&l‖ &fУзнать реальный ник игрока - &x&F&F&2&4&7&6/realname'
+    - '&x&F&F&2&4&7&6&l‖ &fНадеть на голову предмет - &x&F&F&2&4&7&6/hat'
+    - '&x&F&F&2&4&7&6&l‖ &fУникальный кит - &x&F&F&2&4&7&6/kits'
+    - ''
+    - '&x&F&F&2&4&7&6Возможности&f:'
+    - '&7&l‖ &fТочек дома: &78'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&F&F&2&4&7&6▶&f Покупка доната - &x&F&F&2&4&7&6WexMine.pw'
+  'a2122':
+    material: RED_SHULKER_BOX
+    slot: 22
+    display_name: '&x&F&F&2&2&2&2&lɪ&x&F&F&2&9&2&9&lᴍ&x&F&F&3&0&3&0&lᴘ&x&F&F&3&7&3&7&lᴇ&x&F&F&3&F&3&F&lʀ&x&F&F&4&6&4&6&lᴀ&x&F&F&4&D&4&D&lᴛ&x&F&F&5&4&5&4&lᴏ&x&F&F&5&B&5&B&lʀ &7/ &fЦена:&x&F&F&2&2&2&2 79р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&F&2&2&2&2Команды&f:'
+    - '&x&F&F&2&2&2&2&l‖ &fВылечить себя - &x&F&F&2&2&2&2/heal'
+    - '&x&F&F&2&2&2&2&l‖ &fОткрыть ткацкий-станок - &x&F&F&2&2&2&2/loom'
+    - '&x&F&F&2&2&2&2&l‖ &fУзнать реальный ник игрока - &x&F&F&2&2&2&2/realname'
+    - '&x&F&F&2&2&2&2&l‖ &fВрубить флай - &x&F&F&2&2&2&2/fly'
+    - '&x&F&F&2&2&2&2&l‖ &fВидеть игроков по близости - &x&F&F&2&2&2&2/near'
+    - '&x&F&F&2&2&2&2&l‖ &fТелепортация рядом с игроками - &x&F&F&2&2&2&2/rtp near'
+    - '&x&F&F&2&2&2&2&l‖ &fОтключить сообщения - &x&F&F&2&2&2&2/msgtoggle'
+    - '&x&F&F&2&2&2&2&l‖ &fОтключить телепортации - &x&F&F&2&2&2&2/tptoggle'
+    - '&x&F&F&2&2&2&2&l‖ &fУникальный кит - &x&F&F&2&2&2&2/kits'
+    - ''
+    - '&x&F&F&2&2&2&2Возможности&f:'
+    - '&7&l‖ &fТочек дома: &710'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&F&F&2&2&2&2▶&f Покупка доната - &x&F&F&2&2&2&2WexMine.pw'
+  'a21122':
+    material: LIGHT_BLUE_SHULKER_BOX
+    slot: 23
+    display_name: '&x&8&C&9&8&F&D&lɢ&x&9&2&9&E&F&D&lʟ&x&9&9&A&3&F&E&lᴀ&x&9&F&A&9&F&E&lᴅ&x&A&5&A&F&F&E&lɪ&x&A&B&B&4&F&E&lᴀ&x&B&2&B&A&F&F&lᴛ&x&B&8&B&F&F&F&lᴏ&x&B&E&C&5&F&F&lʀ &7/ &fЦена:&x&8&C&9&8&F&D 129р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&8&C&9&8&F&DКоманды&f:'
+    - '&x&8&C&9&8&F&D&l‖ &fКикнуть игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&8&C&9&8&F&D/kick'
+    - '&x&8&C&9&8&F&D&l‖ &fВосстановить голод - &x&8&C&9&8&F&D/feed'
+    - '&x&8&C&9&8&F&D&l‖ &fПоставить варп - &x&8&C&9&8&F&D/setwarp'
+    - '&x&8&C&9&8&F&D&l‖ &fВрубить флай - &x&8&C&9&8&F&D/fly'
+    - '&x&8&C&9&8&F&D&l‖ &fВидеть игроков по близости - &x&8&C&9&8&F&D/near'
+    - '&x&8&C&9&8&F&D&l‖ &fТелепортация рядом с игроками - &x&8&C&9&8&F&D/rtp near'
+    - '&x&8&C&9&8&F&D&l‖ &fУзнать реальный ник игрока - &x&8&C&9&8&F&D/realname'
+    - '&x&8&C&9&8&F&D&l‖ &fОтключить сообщения - &x&8&C&9&8&F&D/msgtoggle'
+    - '&x&8&C&9&8&F&D&l‖ &fОтключить телепортации - &x&8&C&9&8&F&D/tptoggle'
+    - '&x&8&C&9&8&F&D&l‖ &fУникальный кит - &x&8&C&9&8&F&D/kits'
+    - ''
+    - '&x&8&C&9&8&F&DВозможности&f:'
+    - '&7&l‖ &fТочек дома: &712'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&8&C&9&8&F&D▶&f Покупка доната - &x&8&C&9&8&F&DWexMine.pw'
+  'a2221122':
+    material: MAGENTA_SHULKER_BOX
+    slot: 30
+    display_name: '&x&F&0&2&2&F&F&lᴘ&x&E&D&2&9&F&F&lᴏ&x&E&B&3&0&F&F&lᴠ&x&E&8&3&7&F&F&lᴇ&x&E&5&3&F&F&F&lʟ&x&E&2&4&6&F&F&lɪ&x&D&F&4&D&F&F&lᴛ&x&D&D&5&4&F&F&lᴇ&x&D&A&5&B&F&F&lʟ &7/ &fЦена:&x&F&0&2&2&F&F 259р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&0&2&2&F&FКоманды&f:'
+    - '&x&F&0&2&2&F&F&l‖ &fЗамутить игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&0&2&2&F&F/mute'
+    - '&x&F&0&2&2&F&F&l‖ &fКикнуть игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&0&2&2&F&F/kick'
+    - '&x&F&0&2&2&F&F&l‖ &fВосстановить голод - &x&F&0&2&2&F&F/feed'
+    - '&x&F&0&2&2&F&F&l‖ &fПоставить варп - &x&F&0&2&2&F&F/setwarp'
+    - '&x&F&0&2&2&F&F&l‖ &fВрубить флай - &x&F&0&2&2&F&F/fly'
+    - '&x&F&0&2&2&F&F&l‖ &fВидеть игроков по близости - &x&F&F&2&2&2&2/near'
+    - '&x&F&0&2&2&F&F&l‖ &fТелепортация рядом с игроками - &x&F&0&2&2&F&F/rtp near'
+    - '&x&F&0&2&2&F&F&l‖ &fУзнать реальный ник игрока - &x&F&0&2&2&F&F/realname'
+    - '&x&F&0&2&2&F&F&l‖ &fОтключить сообщения - &x&F&0&2&2&F&F/msgtoggle'
+    - '&x&F&0&2&2&F&F&l‖ &fОтключить телепортации - &x&F&0&2&2&F&F/tptoggle'
+    - '&x&F&0&2&2&F&F&l‖ &fВключить режим бессмертия - &x&F&0&2&2&F&F/god'
+    - '&x&F&0&2&2&F&F&l‖ &fЗапросить телепортацию к себе - &x&F&0&2&2&F&F/tpahere'
+    - '&x&F&0&2&2&F&F&l‖ &fМенять погоду - &x&F&0&2&2&F&F/weather'
+    - '&x&F&0&2&2&F&F&l‖ &fУникальный кит - &x&F&0&2&2&F&F/kits'
+    - ''
+    - '&x&F&0&2&2&F&FВозможности&f:'
+    - '&7&l‖ &fТочек дома: &7999'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&F&0&2&2&F&F▶&f Покупка доната - &x&F&0&2&2&F&FWexMine.pw'
+  '11a2221122':
+    material: WHITE_SHULKER_BOX
+    slot: 31
+    display_name: '&x&F&D&F&F&5&4&lᴡ&x&F&E&F&F&8&D&lᴇ&x&F&E&F&F&C&6&lx &7/ &fЦена:&x&F&D&F&F&5&4 399р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&D&F&F&5&4Команды&f:'
+    - '&x&F&D&F&F&5&4&l‖ &fЗамутить игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&D&F&F&5&4/mute'
+    - '&x&F&D&F&F&5&4&l‖ &fКикнуть игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&D&F&F&5&4/kick'
+    - '&x&F&D&F&F&5&4&l‖ &fПоставить варп - &x&F&D&F&F&5&4/setwarp'
+    - '&x&F&D&F&F&5&4&l‖ &fВрубить флай - &x&F&D&F&F&5&4/fly'
+    - '&x&F&D&F&F&5&4&l‖ &fВыдать донат &7(&x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ &fx4, &x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ &fx3, &x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ &fx2, &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx &fx1&7) &f- &x&F&D&F&F&5&4/grant'
+    - '&x&F&D&F&F&5&4&l‖ &fПосмотреть за что бан - &x&F&D&F&F&5&4/checkban'
+    - '&x&F&D&F&F&5&4&l‖ &fВидеть игроков по близости - &x&F&D&F&F&5&4/near'
+    - '&x&F&D&F&F&5&4&l‖ &fТелепортация рядом с игроками - &x&F&D&F&F&5&4/rtp near'
+    - '&x&F&D&F&F&5&4&l‖ &fПосмотреть за что мут - &x&F&D&F&F&5&4/checkmute'
+    - '&x&F&D&F&F&5&4&l‖ &fУзнать реальный ник игрока - &x&F&D&F&F&5&4/realname'
+    - '&x&F&D&F&F&5&4&l‖ &fОтключить телепортации - &x&F&D&F&F&5&4/tptoggle'
+    - '&x&F&D&F&F&5&4&l‖ &fВключить режим бессмертия - &x&F&D&F&F&5&4/god'
+    - '&x&F&D&F&F&5&4&l‖ &fЗапросить телепортацию к себе - &x&F&D&F&F&5&4/tpahere'
+    - '&x&F&D&F&F&5&4&l‖ &fМенять погоду - &x&F&D&F&F&5&4/weather'
+    - '&x&F&D&F&F&5&4&l‖ &fУникальный кит - &x&F&D&F&F&5&4/kits'
+    - ''
+    - '&x&F&D&F&F&5&4Возможности&f:'
+    - '&7&l‖ &fТочек дома: &7999'
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - ''
+    - ' &x&F&D&F&F&5&4▶&f Покупка доната - &x&F&D&F&F&5&4WexMine.pw'
+  '22a2221122':
+    material: ORANGE_SHULKER_BOX
+    slot: 32
+    display_name: '&x&F&F&5&5&2&7&lᴅ&x&F&F&6&1&3&4&l.&x&F&F&6&D&4&0&lᴀ&x&F&F&7&9&4&D&lᴅ&x&F&F&8&4&5&9&lᴍ&x&F&F&9&0&6&5&lɪ&x&F&F&9&C&7&2&lɴ &7/ &fЦена:&x&F&F&5&5&2&7 599р.&7 » &f%player_name%'
+    lore:
+    - ' '
+    - '&x&F&F&5&5&2&7Команды&f:'
+    - '&x&F&F&5&5&2&7&l‖ &fЗамутить игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&F&5&5&2&7/mute'
+    - '&x&F&F&5&5&2&7&l‖ &fКикнуть игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&F&5&5&2&7/kick'
+    - '&x&F&F&5&5&2&7&l‖ &fПоставить варп - &x&F&F&5&5&2&7/setwarp'
+    - '&x&F&F&5&5&2&7&l‖ &fВрубить флай - &x&F&F&5&5&2&7/fly'
+    - '&x&F&F&5&5&2&7&l‖ &fВидеть игроков по близости - &x&F&F&5&5&2&7/near'
+    - '&x&F&F&5&5&2&7&l‖ &fТелепортация рядом с игроками - &x&F&F&5&5&2&7/rtp near'
+    - '&x&F&F&5&5&2&7&l‖ &fВыдать донат &7(&x&2&C&2&6&F&F&lʜ&x&4&A&4&D&F&F&lᴇ&x&6&7&7&3&F&F&lʀ&x&8&5&9&A&F&F&lᴏ &fx4, &x&F&3&F&E&1&5&lᴘ&x&F&5&F&D&2&A&lʀ&x&F&7&F&C&3&F&lɪ&x&F&9&F&B&5&4&lɴ&x&F&B&F&A&6&9&lᴄ&x&F&D&F&9&7&E&lᴇ &fx3, &x&8&D&F&F&2&6&lʟ&x&9&6&F&F&3&1&lᴇ&x&9&E&F&F&3&C&lɢ&x&A&7&F&F&4&7&lᴇ&x&B&0&F&F&5&1&lɴ&x&B&9&F&F&5&C&lᴅ&x&C&1&F&F&6&7&lᴀ &fx2, &x&F&F&2&4&7&6&lᴘ&x&F&F&2&D&7&E&lʜ&x&F&F&3&6&8&6&lᴏ&x&F&F&3&F&8&E&lᴇ&x&F&F&4&7&9&6&lɴ&x&F&F&5&0&9&E&lɪ&x&F&F&5&9&A&6&lx &fx1, &x&F&F&2&2&2&2&lɪ&x&F&F&2&9&2&9&lᴍ&x&F&F&3&0&3&0&lᴘ&x&F&F&3&7&3&7&lᴇ&x&F&F&3&F&3&F&lʀ&x&F&F&4&6&4&6&lᴀ&x&F&F&4&D&4&D&lᴛ&x&F&F&5&4&5&4&lᴏ&x&F&F&5&B&5&B&lʀ &fx1&7) &f- &x&F&F&5&5&2&7/grant'
+    - '&x&F&F&5&5&2&7&l‖ &fПосмотреть за что бан - &x&F&F&5&5&2&7/checkban'
+    - '&x&F&F&5&5&2&7&l‖ &fПосмотреть за что мут - &x&F&F&5&5&2&7/checkmute'
+    - '&x&F&F&5&5&2&7&l‖ &fТелепортироватся к игроку &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&F&5&5&2&7/tp'
+    - '&x&F&F&5&5&2&7&l‖ &fУзнать название предмета - &x&F&F&5&5&2&7/itemname'
+    - '&x&F&F&5&5&2&7&l‖ &fУвидеть список банов - &x&F&F&5&5&2&7/banlist'
+    - '&x&F&F&5&5&2&7&l‖ &fТелепортировать к себе игрока &c(СТРОГО ПО ПРАВИЛАМ)&f - &x&F&F&5&5&2&7/tphere'
+    - '&x&F&F&5&5&2&7&l‖ &fВключить режим невидимости - &x&F&F&5&5&2&7/vanish'
+    - '&x&F&F&5&5&2&7&l‖ &fУникальный кит - &x&F&F&5&5&2&7/kits'
+    - ''
+    - '&x&F&F&5&5&2&7Возможности&f:'
+    - '&7&l‖ &fТочек дома: &7999'
+    - ''
+    - '&c&l&nПРАВА ПРОШЛЫХ ПРЕВИЛЕГИЙ'
+    - '&c&l&nВЫ МОЖЕТЕ ВЫЗЫВАТЬ НА ПРОВЕРКУ НА ЧИТЫ'
+    - ''
+    - ' &x&F&F&5&5&2&7▶&f Покупка доната - &x&F&F&5&5&2&7WexMine.pw'

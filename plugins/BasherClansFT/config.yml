@@ -1,0 +1,471 @@
+##################################################################
+#                         BasherClansFT                          #
+##################################################################
+#
+# Author: Aleks_Basher
+# VK: https://vk.com/wizard59
+# 
+# Commands:
+#   /basherclansft - админские команды
+#   /bclansft - команды клана (/clan /clans)
+# Permissions:
+#   basherclansft.admin - доступ к /basherclansft
+#   basherclansft.player - доступ к /bclansft
+# Placeholders:
+#   %basherclansft_clan_name% - название клана
+#   %basherclansft_clan_name_colored% - цветное название клана
+#   %basherclansft_clan_namef% - название клана с пробелом
+#   %basherclansft_clan_name_coloredf% - цветное название клана с пробелом
+#   %basherclansft_balance% - баланс клана
+#   %basherclansft_kills% - убийства клана
+#   %basherclansft_level% - уровень клана
+#   %basherclansft_exp% - уровень клана
+#
+# Обязательные плагины: PlaceholderAPI, Vault, ProtocolLib
+#
+#SHOWBALANCE, ADDBALANCE, TAKEBALANCE, INVITE, KICK, PVP, RENAME, SETHOME, HOME, DELHOME, STORAGE, PERMS, PREFIX
+default_perms:
+  - 'SHOWBALANCE'
+  - 'ADDBALANCE'
+money_placeholder: '%playerpoints_points%'
+take_money_commands:
+  - 'points take {player} {amount}'
+placeholders:
+  no_clan: '&6-'
+clan:
+  create_price: 100000 #цена создания клана из Vault
+  name_allowed_chars: 'abcdefghijklmnopqrstuvwxyz1234567890-_' #разрешенные символы в названии клана(все писать в нижнем регистре)
+  name_min_length: 2 #минимальная длина названия клана при создании
+  name_max_length: 8 #максимальная длина названия клана при создании
+default_pvp_enable: false #стартовый режим PvP
+start_clan_balance: 0 #стартовый баланс клана
+start_clan_exp: 0 #стартовое exp клана
+armor_color_change_level: 3 #уровень, который нужен клана для смены цвета брони
+default_armor_color: '0;255;0' #r;g;b  (должен совпадать с одним из цветов в меню)
+default_member_prefix: '&eУчастник'
+default_owner_prefix: '&eЛидер'
+player_name_allowed_chars: 'abcdefghijklmnopqrstuvwxyz1234567890_'
+prefix_allowed_chars: 'abcdefghijklmnopqrstuvwxyz1234567890-_&'
+sounds:
+  level_up:
+    sound: 'BLOCK_ANVIL_BREAK'
+    volume: 1.0
+    pitch: 1.0
+  no_money:
+    sound: 'BLOCK_ANVIL_BREAK'
+    volume: 1.0
+    pitch: 1.0
+upgrades:
+  break:
+    - 'EMERALD_BLOCK;3'
+  place:
+    - 'EMERALD_BLOCK;3'
+  kill_mob: 4
+  kill_player: 10
+#уровни(нужно писать на каждый уровень)
+levels:
+  1:
+    exp: 0 #нужное кол-во exp для этого уровня (в первом уровне оставь 0)
+    max_members: 3 #максимально участников
+    max_bank: 100000 #максимальный банк
+    max_homes: 0 #максимально домов
+    #типы: BLACK, DARK_GREEN, DARK_RED, GOLD, DARK_GRAY, GREEN, RED, YELLOW, DARK_BLUE, DARK_AQUA, DARK_PURPLE, GRAY, BLUE, AQUA, LIGHT_PURPLE, WHITE, HEX
+    #Писать каждый раз
+    colors:
+      - 'WHITE'
+    max_storage: 2 #максимально слотов в хранилище
+    max_chars: 0 #максимально символов для переименования клана
+    buy_price: 1000 #цена в донат валюте
+    rewards:
+      - '&e- &fКазна клана: &e100,000'
+      - '&e- &fМаксимум участников: &e2'
+  2:
+    exp: 1500
+    max_members: 4
+    max_bank: 250000
+    max_homes: 0
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+    max_storage: 2
+    max_chars: 0
+    buy_price: 2190
+    rewards:
+      - '&e+ &fКазна клана: &e250,000'
+      - '&e+ &fНовый цветовой код: &7Цвет (&7)'
+      - '&e+ &fМаксимум участников: &e4'
+  3:
+    exp: 4000
+    max_members: 5
+    max_bank: 500000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+    max_storage: 3
+    max_chars: 0
+    buy_price: 2790
+    rewards:
+      - '&e+ &fКазна клана: &e500,000'
+      - '&e+ &fОдна точка &9базы'
+      - '&e+ &6x1 &fслот в &6хранилище'
+      - '&e+ &fМаксимум участников: &e5'
+  4:
+    exp: 7500
+    max_members: 6
+    max_bank: 1000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+    max_storage: 3
+    max_chars: 0
+    buy_price: 3490
+    rewards:
+      - '&e+ &fКазна клана: &e1,000,000'
+      - '&e+ &fНовый цветовой код: &1Цвет (&1)'
+      - '&e+ &fМаксимум участников: &e6'
+  5:
+    exp: 12500
+    max_members: 7
+    max_bank: 2500000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+    max_storage: 4
+    max_chars: 0
+    buy_price: 3990
+    rewards:
+      - '&e+ &fКазна клана: &e2,500,000'
+      - '&e+ &fНовый цветовой код: &9Цвет (&9)'
+      - '&e+ &fЕще &6x1 &fслот в &6хранилище'
+      - '&e+ &fМаксимум участников: &e7'
+  6:
+    exp: 25000
+    max_members: 8
+    max_bank: 5000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+    max_storage: 4
+    max_chars: 5
+    buy_price: 5390
+    rewards:
+      - '&e+ &fКазна клана: &e5,000,000'
+      - '&e+ &fНовый цветовой код: &3Цвет (&3)'
+      - '&e+ &fМакс. &a5 &fзнаков в названии'
+      - '&e+ &fМаксимум участников: &e8'
+  7:
+    exp: 40000
+    max_members: 9
+    max_bank: 7500000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+    max_storage: 5
+    max_chars: 5
+    buy_price: 6490
+    rewards:
+      - '&e+ &fКазна клана: &e7,500,000'
+      - '&e+ &fЕще &6x1 &fслот в &6хранилище'
+      - '&e+ &fМаксимум участников: &e9'
+  8:
+    exp: 60000
+    max_members: 10
+    max_bank: 10000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+    max_storage: 5
+    max_chars: 5
+    buy_price: 7590
+    rewards:
+      - '&e+ &fКазна клана: &e10,000,000'
+      - '&e+ &fНовый цветовой код: &bЦвет (&b)'
+      - '&e+ &fМаксимум участников: &e10'
+  9:
+    exp: 85000
+    max_members: 15
+    max_bank: 20000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+    max_storage: 6
+    max_chars: 5
+    buy_price: 7590
+    rewards:
+      - '&e+ &fКазна клана: &e20,000,000'
+      - '&e+ &fНовый цветовой код: &2Цвет (&2)'
+      - '&e+ &fЕще &6x1 &fслот в &6хранилище'
+      - '&e+ &fМаксимум участников: &e15'
+  10:
+    exp: 115000
+    max_members: 20
+    max_bank: 30000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+    max_storage: 9
+    max_chars: 5
+    buy_price: 8690
+    rewards:
+      - '&e+ &fКазна клана: &e30,000,000'
+      - '&e+ &fНовый цветовой код: &aЦвет (&a)'
+      - '&e+ &fЕще &6x3 &fслота в &6хранилище'
+      - '&e+ &fМаксимум участников: &e20'
+  11:
+    exp: 150000
+    max_members: 25
+    max_bank: 40000000
+    max_homes: 1
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+    max_storage: 9
+    max_chars: 6
+    buy_price: 9900
+    rewards:
+      - '&e+ &fКазна клана: &e40,000,000'
+      - '&e+ &fНовый цветовой код: &6Цвет (&6)'
+      - '&e+ &fМакс. &a6 &fзнаков в названии'
+      - '&e+ &fМаксимум участников: &e25'
+  12:
+    exp: 190000
+    max_members: 30
+    max_bank: 50000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+    max_storage: 11
+    max_chars: 6
+    buy_price: 12900
+    rewards:
+      - '&e+ &fКазна клана: &e50,000,000'
+      - '&e+ &fЕще одна точка &9базы'
+      - '&e+ &fЕще &6x2 &fслота в &6хранилище'
+      - '&e+ &fМаксимум участников: &e30'
+  13:
+    exp: 240000
+    max_members: 35
+    max_bank: 75000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+    max_storage: 13
+    max_chars: 7
+    buy_price: 14900
+    rewards:
+      - '&e+ &fКазна клана: &e75,000,000'
+      - '&e+ &fНовый цветовой код: &eЦвет (&e)'
+      - '&e+ &fЕще &6x2 &fслота в &6хранилище'
+      - '&e+ &fМакс. &a7 &fзнаков в названии'
+      - '&e+ &fМаксимум участников: &e35'
+  14:
+    exp: 375000
+    max_members: 40
+    max_bank: 100000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+    max_storage: 13
+    max_chars: 8
+    buy_price: 16900
+    rewards:
+      - '&e+ &fКазна клана: &e100,000,000'
+      - '&e+ &fМакс. &a8 &fзнаков в названии'
+      - '&e+ &fМаксимум участников: &e40'
+  15:
+    exp: 450000
+    max_members: 45
+    max_bank: 250000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+      - 'DARK_PURPLE'
+    max_storage: 13
+    max_chars: 8
+    buy_price: 18900
+    rewards:
+      - '&e+ &fКазна клана: &e250,000,000'
+      - '&e+ &fНовый цветовой код: &5Цвет (&5)'
+      - '&e+ &fМаксимум участников: &e45'
+  16:
+    exp: 600000
+    max_members: 50
+    max_bank: 500000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+      - 'DARK_PURPLE'
+      - 'LIGHT_PURPLE'
+    max_storage: 13
+    max_chars: 9
+    buy_price: 21990
+    rewards:
+      - '&e+ &fКазна клана: &e500,000,000'
+      - '&e+ &fНовый цветовой код: &dЦвет (&d)'
+      - '&e+ &fМакс. &a9 &fзнаков в названии'
+      - '&e+ &fМаксимум участников: &e50'
+  17:
+    exp: 850000
+    max_members: 50
+    max_bank: 750000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+      - 'DARK_PURPLE'
+      - 'LIGHT_PURPLE'
+      - 'RED'
+    max_storage: 13
+    max_chars: 10
+    buy_price: 24990
+    rewards:
+      - '&e+ &fКазна клана: &e750,000,000'
+      - '&e+ &fНовый цветовой код: &cЦвет (&c)'
+      - '&e+ &fМакс. &a10 &fзнаков в названии'
+  18:
+    exp: 1000000
+    max_members: 50
+    max_bank: 1000000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+      - 'DARK_PURPLE'
+      - 'LIGHT_PURPLE'
+      - 'RED'
+      - 'DARK_RED'
+    max_storage: 16
+    max_chars: 11
+    buy_price: 27990
+    rewards:
+      - '&e+ &fКазна клана: &e1,000,000,000'
+      - '&e+ &fНовый цветовой код: &4Цвет (&4)'
+      - '&e+ &fЕще &6x3 &fслота в &6хранилище'
+      - '&e+ &fМакс. &a11 &fзнаков в названии'
+  19:
+    exp: 1500000
+    max_members: 50
+    max_bank: 3500000000
+    max_homes: 2
+    colors:
+      - 'WHITE'
+      - 'GRAY'
+      - 'DARK_BLUE'
+      - 'BLUE'
+      - 'DARK_AQUA'
+      - 'AQUA'
+      - 'DARK_GREEN'
+      - 'GREEN'
+      - 'GOLD'
+      - 'YELLOW'
+      - 'DARK_PURPLE'
+      - 'LIGHT_PURPLE'
+      - 'RED'
+      - 'DARK_RED'
+      - 'HEX'
+    max_storage: 21
+    max_chars: 12
+    buy_price: 29970
+    rewards:
+      - '&e+ &fКазна клана: &e3,500,000,000'
+      - '&e+ &fДоступны любые &cR&6G&eB &fцвета'
+      - '&e+ &fЕще &6x5 &fслотов в &6хранилище'
+      - '&e+ &fМакс. &a12 &fзнаков в названии'

@@ -1,0 +1,7 @@
+
+name: 'asteroid'
+schematics-file: 'asteroid.schem' # файл схематики должен находится в 'plugins\WorldEdit\schematics' или 'plugins\FastAsyncWorldEdit\schematics' или 'plugins\BAirDropX\schematics'
+ignore-air-blocks: true
+offsets-x: 7
+offsets-y: 18
+offsets-z: 6

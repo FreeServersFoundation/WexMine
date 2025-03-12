@@ -1,0 +1,43 @@
+location: world:95.499:102.270:26.509
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&x&F&F&E&E&0&0&lТ&x&F&F&E&E&0&C&lО&x&F&F&E&E&1&8&lП&x&F&F&E&E&2&3&lЫ
+      &x&F&F&E&F&3&B&lП&x&F&F&E&F&4&7&lО &x&F&F&E&F&5&E&lК&x&F&F&E&F&6&A&lИ&x&F&F&F&0&7&6&lЛ&x&F&F&F&0&8&1&lЛ&x&F&F&F&0&8&D&lА&x&F&F&F&0&9&9&lМ'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&01&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_1_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_1_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&02&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_2_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_2_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&03&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_3_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_3_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&04&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_4_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_4_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&05&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_5_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_5_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&06&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_6_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_6_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&07&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_7_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_7_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&08&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_8_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_8_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&09&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_9_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_9_alltime_value%&f'
+    height: 0.3
+  - content: '&x&F&F&E&E&0&010&f. &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_10_alltime_name%&f
+      - &x&F&F&E&E&0&0%ajlb_lb_statistic_player_kills_10_alltime_value%&f'
+    height: 0.3
+  actions: {}

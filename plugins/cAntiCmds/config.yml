@@ -1,0 +1,31 @@
+# plugin by crashteamik/CrashTeam
+# Made by LOVE ;))))))))
+
+blocked-commands:
+  - "plugins"
+  - "pl"
+  - "bukkit:plugins"
+  - "bukkit:pl"
+  - "help"
+  - "?"
+  - "pl 1"
+  - "plugins 1"
+  - "plugins ."
+  - "pl ."
+  - "bukkit:help"
+  - "bukkit:?"
+  - "minecraft:?"
+  - "minecraft:help"
+  - "version"
+  - "ver"
+  - "icanhasbukkit"
+  - "bukkit:ver"
+  - "bukkit:version"
+  - "about"
+  - "bukkit:about"
+  - "me"
+  - "minecraft:me"
+  - "say"
+  - "minecraft:say"
+
+message: "&x&F&F&B&0&0&0&lЗ&x&F&A&C&A&0&0&lа&x&F&6&E&5&0&0&lщ&x&F&1&F&F&0&0&lи&x&F&8&E&C&0&0&lт&x&F&F&D&9&0&0&lа &7» &fДанная &x&F&6&E&5&0&0команда&f запрещена!"

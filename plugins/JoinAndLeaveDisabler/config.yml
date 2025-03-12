@@ -1,0 +1,29 @@
+## --------------------------------------------|
+## Join And Leave Disabler                     |
+##                                             |
+## Disable default Join and Leave messages!    |
+##                                             |
+## Version v.1.0.2                             |
+##                                             |
+## Coded by WillzaTeam                         |
+##                                             |
+## --------------------------------------------|  
+
+## Default Player Join Message!
+
+join-message: true
+
+## Default Player Leave Message!
+
+leave-message: true
+
+## Hide Default Server join and leave messages
+## Note: true = The Default Join Message is disabled.
+## Note: false = The Default Join Message is enabled.
+
+## Plugin Reload message
+
+reload: '&7Plugin config has been &6reloaded'
+
+## Command: joinandleavereload
+## Permissions: joinandleave.reload
